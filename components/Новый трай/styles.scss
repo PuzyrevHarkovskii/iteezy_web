@@ -118,9 +118,13 @@
 
 body {
 
-//   цв
+    
 }
 
+html {
+
+    background-color: #1d1d1d; 
+}
 /**
  * Until @at-root (Sass 3.3), we have to call this outside h1
  * Actually @keyframes bubbling would work too.

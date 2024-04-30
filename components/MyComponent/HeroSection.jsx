@@ -17,8 +17,8 @@ const HeaderSection = () => {
         bgPos="center"
         bgSize="cover"
         // Тень от картинки
-        // boxShadow="0 0 10px rgba(0, 0, 0, 0.9)"
-        // borderRadius="md"
+        boxShadow="0 0 15px rgba(0, 0, 0, 0.9)"
+        borderRadius="md"
       >
         <Flex
           align="center"
