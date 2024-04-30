@@ -29,8 +29,9 @@ const HeaderSection = () => {
         >
           <Stack textAlign="center" alignItems="center" spacing={6}>
             <Heading
-              fontSize={["sm", "sm", "3xl"]}
-                mt ={500}
+              fontSize={["3md", "sm", "3xl"]}
+                mt={300}
+                mr={30}
             >
               <Name/>
             </Heading>
