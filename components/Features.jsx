@@ -85,7 +85,7 @@ const Features = () => {
               color: 'white',
             }}
           >
-            Features
+            Будущее начинается уже сегодня
           </chakra.p>
           <chakra.p
             mt={4}
@@ -99,8 +99,7 @@ const Features = () => {
               color: 'white',
             }}
           >
-            Get insights to dig down into what&apos;s powering your growth the
-            most.
+            Выбирая увлечение сегодня - закладываем фундамент для будущей профессии!
           </chakra.p>
         </Box>
         <SimpleGrid
@@ -112,14 +111,14 @@ const Features = () => {
           }}
           spacingX={{
             base: 16,
-            lg: 24,
+            lg: 15,
           }}
           spacingY={20}
           mt={6}
         >
           <Feature
             color="red"
-            title="Personal Emails"
+            title="Научись новому"
             icon={
               <path
                 fillRule="evenodd"
@@ -128,10 +127,47 @@ const Features = () => {
               />
             }
           >
-            Hand crafted dashboards for everything from Recurring Revenue to
-            Customer Churn.
+            С каждым уроком повышается уровень сложности, благодаря структуре программ ребенок легко усвоит даже сложный материал
           </Feature>
-
+          <Feature
+            color="red"
+            title="Найди свою профессию"
+            icon={
+              <path
+                fillRule="evenodd"
+                d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
+                clipRule="evenodd"
+              />
+            }
+          >
+            Ребенок получит необходимые знания и практические навыки, которые сможет применить в области информационных технологий, digital и IT-предпринимательства
+          </Feature>
+          <Feature
+            color="red"
+            title="Знания на всю жизнь"
+            icon={
+              <path
+                fillRule="evenodd"
+                d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
+                clipRule="evenodd"
+              />
+            }
+          >
+            Все наши программы на 80% состоят из практических заданий, которые ребята с удовольствием делают каждый урок
+          </Feature>
+          <Feature
+            color="red"
+            title="Возможность попробовать разные направления"
+            icon={
+              <path
+                fillRule="evenodd"
+                d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
+                clipRule="evenodd"
+              />
+            }
+          >
+            Длительные программы обучения, короткие интенсивные программы, мастер-классы и обширная база знаний
+          </Feature>
           {/* Add other features here */}
 
         </SimpleGrid>

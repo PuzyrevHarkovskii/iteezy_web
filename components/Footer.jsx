@@ -16,16 +16,15 @@ const Footer = () => {
       >
         <Flex justify="center">
           <Image
-            src="http://placehold.jp/2a2a2c/ffffff/200x100.png?text=Company%20Logo&css=%7B%22font-size%20%22%3A%22%2016px%22%7D"
-            alt="Company Logo"
-            rounded="lg"
+           src="/images/full_logo.png"
+            alt="Iteezy logo"
             width={{
-              base: "150px",
-              lg: "200px",
+              base: "5em",
+              lg: "5em",
             }}
             height={{
-              base: "75px",
-              lg: "100px",
+              base: "5em",
+              lg: "5em",
             }}
             my={{
               base: 2,
@@ -41,7 +40,7 @@ const Footer = () => {
             base: "12px",
             md: "16px",
           }}
-          color="gray.800"
+          color="gray.400"
           _dark={{
             color: "white",
           }}
@@ -67,7 +66,7 @@ const Footer = () => {
             base: "12px",
             md: "16px",
           }}
-          color="gray.800"
+          color="gray.400"
           _dark={{
             color: "white",
           }}
@@ -93,7 +92,7 @@ const Footer = () => {
         mx="auto"
         color="gray.600"
         _dark={{
-          color: "#F9FAFB",
+          color: "gray.600",
         }}
         h="3.5px"
       />
@@ -101,7 +100,7 @@ const Footer = () => {
         <HStack justify="center">
           <Link>
             <Icon
-              color="gray.800"
+              color="white"
               _dark={{
                 color: "white",
               }}
@@ -112,7 +111,7 @@ const Footer = () => {
           </Link>
           <Link>
             <Icon
-              color="gray.800"
+              color="white"
               _dark={{
                 color: "white",
               }}
@@ -146,11 +145,13 @@ const Footer = () => {
         <Text
           textAlign="center"
           fontSize="smaller"
+          color="gray.400"
           _dark={{
             color: "white",
           }}
         >
-          &copy;Copyright. All rights reserved.
+          &copy;Iteezy. Витебский просп., 101, корп. 4, Санкт-Петербург.
+
         </Text>
       </VStack>
     </Box>
