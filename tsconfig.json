@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/custom/TitleSection.jsx", "app/page.tsx", "app/layout.jsx", "components/MyComponent/HeroSection.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/custom/TitleSection.jsx", "app/page.tsx", "app/layout.jsx", "components/MyComponent/HeroSection.jsx", "components/ui/infinite-moving-cards.jsx"],
   "exclude": ["node_modules"]
 }
