@@ -26,7 +26,7 @@ const Header = () => {
             sm: 4,
           }}
           py={2}
-          shadow="0px 1px 1px rgba(0, 0, 0, 0.2)"
+          shadow="0px 1px 0px rgba(0, 0, 0, 0.2)"
         >
           <Flex alignItems="center" justifyContent="space-between" mx="auto">
             <Flex>
@@ -52,13 +52,13 @@ const Header = () => {
                 spacing={1}
                 mr={1}
                 color="brand.500"
-                display={{
+                
+              >
+                <Button leftIcon={<MdCall />} variant="ghost" display={{
                   base: "none",
                   md: "inline-flex",
-                }}
-              >
-                <Button leftIcon={<MdCall />} variant="ghost">+7 (911) 403-00-90</Button>
-                <Button variant="outline" borderColor="brand.500">Свяжитесь с нами WhatsApp</Button>
+                }} >+7 (911) 403-00-90</Button>
+                <Button variant="outline" borderColor="brand.500"  size={{ base: "sm", md: "md" }} >Свяжитесь с нами WhatsApp</Button>
               </HStack>
               <Box
                 display={{
