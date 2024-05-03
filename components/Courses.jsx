@@ -76,8 +76,8 @@ const Courses = () => {
           <chakra.p
             mt={2}
             fontSize={{
-              base: "3xl",
-              sm: "4xl",
+              base: "5xl",
+              sm: "6xl",
             }}
             lineHeight="8"
             fontWeight="extrabold"

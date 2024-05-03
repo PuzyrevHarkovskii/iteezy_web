@@ -12,7 +12,8 @@ import Courses from '@/components/Courses'
 import "./globals.css";
 import { CardContainer } from '@/components/ui/3d-card';
 import { ThreeDCardDemo } from '@/components/CardDemo'
- 
+import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
+import {Testimonials} from '@/components/Testimonials'
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
     <Features/>
     <SomeInfo/>
     <Courses/>
+    <Testimonials/>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1310ee24fa0e4717f56a401a049c366818ae5442e279ee96ee2a602ef6a80227&amp;source=constructor" width="100%" height="320"></iframe>
     <Footer/>
     
