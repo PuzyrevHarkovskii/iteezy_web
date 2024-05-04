@@ -81,9 +81,9 @@ const Footer = () => {
             <Link textTransform="uppercase">Support</Link>
           </Flex>
           <Flex justify="start" direction="column">
-            <Link textTransform="uppercase">About Us</Link>
-            <Link textTransform="uppercase">Contact Us</Link>
-            <Link textTransform="uppercase">Resources</Link>
+            <Link textTransform="uppercase">О нас</Link>
+            <Link textTransform="uppercase">Связаться с нами</Link>
+            <Link textTransform="uppercase">Курсы</Link>
           </Flex>
         </HStack>
       </Stack>
@@ -107,37 +107,6 @@ const Footer = () => {
               h="20px"
               w="20px"
              
-            />
-          </Link>
-          <Link>
-            <Icon
-              color="white"
-              _dark={{
-                color: "white",
-              }}
-              h="20px"
-              w="20px"
-              
-            />
-          </Link>
-          <Link>
-            <Icon
-              _dark={{
-                color: "white",
-              }}
-              h="20px"
-              w="20px"
-              
-            />
-          </Link>
-          <Link>
-            <Icon
-              _dark={{
-                color: "white",
-              }}
-              h="20px"
-              w="20px"
-              
             />
           </Link>
         </HStack>

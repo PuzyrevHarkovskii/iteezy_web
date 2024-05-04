@@ -42,7 +42,7 @@ const Header = () => {
               </Link>
               <Flex alignItems="center">
               <Image h="auto" w="2.5em" src="/images/header_logo3.png" />
-              <chakra.h1 fontSize="xl" fontWeight="bold" ml="2" mt="2">
+              <chakra.h1 fontSize="xl" fontWeight="bold" ml="2" mt="3">
                 ITEEZY
               </chakra.h1>
               </Flex>
