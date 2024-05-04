@@ -76,11 +76,6 @@ const Footer = () => {
           }}
         >
           <Flex justify="start" direction="column">
-            <Link textTransform="uppercase">Show Case</Link>
-            <Link textTransform="uppercase">Widget Kit</Link>
-            <Link textTransform="uppercase">Support</Link>
-          </Flex>
-          <Flex justify="start" direction="column">
             <Link textTransform="uppercase">О нас</Link>
             <Link textTransform="uppercase">Связаться с нами</Link>
             <Link textTransform="uppercase">Курсы</Link>
