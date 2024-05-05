@@ -11,7 +11,6 @@ import SomeInfo from '@/components/SomeInfo'
 import Courses from '@/components/Courses'
 import "./globals.css";
 import { CardContainer } from '@/components/ui/cards/3d-card';
-import { ThreeDCardDemo } from '@/components/CardDemo'
 import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
 import {Testimonials} from '@/components/Testimonials'
 import Questions from '@/components/FAQ';
