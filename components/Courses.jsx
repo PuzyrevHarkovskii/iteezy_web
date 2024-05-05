@@ -1,6 +1,11 @@
 import { Box, Flex, chakra, SimpleGrid } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
-import { ThreeDCardDemo } from "./CardDemo";
+import { ThreeDCardDemo } from "./cards/CardDemo";
+import { SecondCard } from "./cards/SecondCard";
+import { ThirdCard } from "./cards/ThirdCard";
+import { FourthCard } from "./cards/FourthCard";
+import { FifthCard } from "./cards/FifthCard";
+import { SixthCard } from "./cards/SixthCard";
 
 const Feature = (props) => {
   return (
@@ -91,7 +96,11 @@ const Courses = () => {
         </Box>
         
          <ThreeDCardDemo/>
-        
+        <SecondCard/>
+        <ThirdCard/>
+        <FourthCard/>
+        <FifthCard/>
+        <SixthCard/>
       </Box>
     </Flex>
   );
