@@ -6,7 +6,7 @@ import { ThirdCard } from "./cards/ThirdCard";
 import { FourthCard } from "./cards/FourthCard";
 import { FifthCard } from "./cards/FifthCard";
 import { SixthCard } from "./cards/SixthCard";
-
+import {FirstButton} from '@/components/cards/card buttons/FirstButton'
 const Feature = (props) => {
   return (
     <Box>
@@ -96,6 +96,7 @@ const Courses = () => {
         </Box>
         
          <ThreeDCardDemo/>
+         <FirstButton/>
         <SecondCard/>
         <ThirdCard/>
         <FourthCard/>

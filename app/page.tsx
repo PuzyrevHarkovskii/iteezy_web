@@ -10,16 +10,16 @@ import Footer from '@/components/Footer'
 import SomeInfo from '@/components/SomeInfo'
 import Courses from '@/components/Courses'
 import "./globals.css";
-import { CardContainer } from '@/components/ui/cards/3d-card';
-import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
 import {Testimonials} from '@/components/Testimonials'
 import Questions from '@/components/FAQ';
+import { FirstButton } from '@/components/cards/card buttons/FirstButton';
 
 
 
 export default function Home() {
   return (
     <>
+    <FirstButton/>
     <FloatingNavDemo/> 
     <ChakraProvider>
     <Header/>
