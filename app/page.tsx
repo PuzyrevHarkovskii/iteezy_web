@@ -16,11 +16,11 @@ import {Testimonials} from '@/components/Testimonials'
 import Questions from '@/components/FAQ';
 
 
+
 export default function Home() {
   return (
     <>
     <FloatingNavDemo/> 
-    
     <ChakraProvider>
     <Header/>
     <HeroSection/>

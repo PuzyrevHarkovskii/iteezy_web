@@ -47,16 +47,17 @@ export function ThreeDCardDemo() {
             Записаться
           </CardItem>
           <CardItem
+            onClick={() => setOpen(true)}
             translateZ={20}
             as="button"
             className="px-4 py-2 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
             Подробнее
-            <FirstButton/>
+            
           </CardItem>
-          
+          <FirstButton/>
         </div>
-        
+       
       </CardBody>
       
     </CardContainer>
