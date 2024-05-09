@@ -10,9 +10,9 @@ import Footer from '@/components/Footer'
 import SomeInfo from '@/components/SomeInfo'
 import Courses from '@/components/Courses'
 import "./globals.css";
-import Testimonials from '@/components/Testimonials';
+
 import Questions from '@/components/FAQ';
-import { FirstButton } from '@/components/cards/card buttons/FirstButton';
+
 import PriceList from '@/components/Prices'
 
 
