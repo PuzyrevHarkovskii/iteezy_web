@@ -38,7 +38,10 @@ export function ThreeDCardDemo() {
             alt="thumbnail"
           />
         </CardItem>
-       
+        <div className="flex justify-between items-center mt-3">
+          
+          
+        </div>
         
       </CardBody>
       

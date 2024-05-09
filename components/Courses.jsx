@@ -7,6 +7,7 @@ import { FourthCard } from "./cards/FourthCard";
 import { FifthCard } from "./cards/FifthCard";
 import { SixthCard } from "./cards/SixthCard";
 import {FirstButton} from '@/components/cards/card buttons/FirstButton'
+
 const Feature = (props) => {
   return (
     <Box>
@@ -64,8 +65,9 @@ const Courses = () => {
     >
       <Box
         rounded="35px"
-        px={8}
-        py={20}
+        // Ширина бокса
+        px={35}
+        py={25}
         mx="auto"
         bg="#093AA9"
         _dark={{
@@ -80,6 +82,7 @@ const Courses = () => {
         >
           <chakra.p
             mt={2}
+            mb={6}
             fontSize={{
               base: "5xl",
               sm: "6xl",

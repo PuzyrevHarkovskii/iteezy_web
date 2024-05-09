@@ -10,12 +10,12 @@ import {
 export const FirstButton = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="grid place-content-center">
+    <div className="grid place-content-center pb-0 pb-0" >
       <button
         onClick={() => setOpen(true)}
-        className="rounded bg-indigo-500 px-4 py-2 text-white transition-colors hover:bg-indigo-600"
+        className="rounded bg-indigo-500 px-14 py-5 text-white transition-colors hover:bg-indigo-600" 
       >
-        Подробнее
+        Подробнее о курсе
       </button>
 
       <DragCloseDrawer open={open} setOpen={setOpen}>

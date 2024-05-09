@@ -19,7 +19,6 @@ import { FirstButton } from '@/components/cards/card buttons/FirstButton';
 export default function Home() {
   return (
     <>
-    <FirstButton/>
     <FloatingNavDemo/> 
     <ChakraProvider>
     <Header/>

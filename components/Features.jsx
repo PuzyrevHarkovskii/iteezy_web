@@ -58,7 +58,7 @@ const Features = () => {
     >
       <Box
         rounded="35px"
-        px={8}
+        px={10}
         py={20}
         mx="auto"
         bg="#093AA9"
