@@ -5,7 +5,7 @@ const Feature = (props) => {
     <Box>
       <Box
         boxSize={12}
-        mb={4}
+        mb={1}
         bg="transparent"
         fill="none"
         viewBox="0 0 24 24"
@@ -15,7 +15,7 @@ const Feature = (props) => {
         {props.icon}
       </Box>
       <chakra.h3
-        mb={3}
+        mb={1}
         fontSize="lg"
         lineHeight="shorter"
         fontWeight="bold"
@@ -28,9 +28,6 @@ const Feature = (props) => {
       <chakra.p
         lineHeight="tall"
         color="gray.600"
-        _dark={{
-          color: "gray.400",
-        }}
       >
         {props.children}
       </chakra.p>
@@ -56,13 +53,13 @@ const SomeInfo = () => {
           md: 2,
           lg: 3,
         }}
-        spacing={20}
+        spacing={10}
         px={{
           base: 4,
           lg: 16,
           xl: 24,
         }}
-        py={20}
+        py={10}
         mx="auto"
         bg="white"
         _dark={{

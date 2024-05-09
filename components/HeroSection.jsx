@@ -12,7 +12,7 @@ const HeroSection = () => {
         IT-курсы для детей
 
         </h3>
-        <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+        <p className="text-base md:text-lg text-black my-4 md:my-6 font-semibold">
         Курсы для новичков и продвинутых любителей компьютерных технологий на базе ProGame.
         </p>
         <button className="bg-black text-white font-medium py-2 px-4 rounded-lg transition-all hover:bg-slate-600 active:scale-95">

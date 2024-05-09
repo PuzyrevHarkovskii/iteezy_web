@@ -7,6 +7,11 @@ import { FourthCard } from "./cards/FourthCard";
 import { FifthCard } from "./cards/FifthCard";
 import { SixthCard } from "./cards/SixthCard";
 import {FirstButton} from '@/components/cards/card buttons/FirstButton'
+import {SecondButton} from '@/components/cards/card buttons/SecondButton'
+import {ThirdButton} from '@/components/cards/card buttons/ThirdButton'
+import {FourthButton} from '@/components/cards/card buttons/FourthButton'
+import {FifthButton} from '@/components/cards/card buttons/FifthButton'
+import {SixthButton} from '@/components/cards/card buttons/SixthButton'
 
 const Feature = (props) => {
   return (
@@ -34,9 +39,6 @@ const Feature = (props) => {
         mb={2}
         fontWeight="semibold"
         lineHeight="shorter"
-        _light={{
-          color: 'white',
-        }}
       >
         {props.title}
       </chakra.h3>
@@ -54,9 +56,6 @@ const Courses = () => {
   return (
     <Flex
       bg="#FFFFFF"
-      _dark={{
-        bg: "#3e3e3e",
-      }}
       p={15}
       w="full"
       justifyContent="center"
@@ -81,13 +80,14 @@ const Courses = () => {
           }}
         >
           <chakra.p
-            mt={2}
+            mt={6}
             mb={6}
             fontSize={{
-              base: "5xl",
-              sm: "6xl",
+              base: "4xl",
+              sm: "5xl",
             }}
-            lineHeight="8"
+            lineHeight="10"
+            textAlign={"center"}
             fontWeight="extrabold"
             letterSpacing="tight"
             _light={{
@@ -97,14 +97,18 @@ const Courses = () => {
             Наши программы
           </chakra.p>
         </Box>
-        
          <ThreeDCardDemo/>
          <FirstButton/>
         <SecondCard/>
+          <SecondButton/>
         <ThirdCard/>
+          <ThirdButton/>
         <FourthCard/>
+          <FourthButton/>
         <FifthCard/>
+          <FifthButton/>
         <SixthCard/>
+          <SixthButton/>
       </Box>
     </Flex>
   );

@@ -16,6 +16,7 @@ const Feature = (props) => {
       >
         <Icon
           boxSize={5}
+          
           viewBox="0 0 20 20"
           fill="currentColor"
           aria-hidden="true"
@@ -25,6 +26,7 @@ const Feature = (props) => {
       </Flex>
       <chakra.h3
         mb={2}
+        fontSize="lg"
         fontWeight="semibold"
         lineHeight="shorter"
         _light={{
@@ -34,7 +36,7 @@ const Feature = (props) => {
         {props.title}
       </chakra.h3>
       <chakra.p
-        fontSize="sm"
+        fontSize="lg"
         color='white'
       >
         {props.children}
@@ -72,10 +74,10 @@ const Features = () => {
           <chakra.p
             mt={2}
             fontSize={{
-              base: "5xl",
+              base: "4xl",
               sm: "6xl",
             }}
-            lineHeight="10"
+            lineHeight="8"
             fontWeight="extrabold"
             letterSpacing="normal"
             _light={{
@@ -83,17 +85,6 @@ const Features = () => {
             }}
           >
             Будущее начинается уже сегодня
-          </chakra.p>
-          <chakra.p
-            mt={4}
-            maxW="4xl"
-            fontSize="2xl"
-            mx={{
-              lg: "auto",
-            }}
-            color='white'
-          >
-            Выбирая увлечение сегодня - закладываем фундамент для будущей профессии
           </chakra.p>
         </Box>
         <SimpleGrid

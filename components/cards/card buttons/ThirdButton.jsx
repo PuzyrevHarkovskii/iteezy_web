@@ -7,7 +7,7 @@ import {
   motion,
 } from "framer-motion";
 
-export const FirstButton = () => {
+export const ThirdButton = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="grid place-content-center pb-0" >
