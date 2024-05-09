@@ -19,13 +19,13 @@ export function ThreeDCardDemo() {
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
         
-          BIT 5-6 лет (Little Coders)
+          BIT 5-6 лет
         </CardItem>
         
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-lg max-w-sm mt-2 dark:text-neutral-300"
         >
           Little Coders — это стартовая площадка для учащихся в возрасте от 5 до 6 лет. Он предназначен для начинающих учеников, не знакомых с программированием, которые еще не готовы к самостоятельному темпу обучения.
         </CardItem>

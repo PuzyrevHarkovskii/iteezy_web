@@ -62,9 +62,6 @@ const Features = () => {
         py={20}
         mx="auto"
         bg="#093AA9"
-        _dark={{
-          bg: 'white',
-        }}
         
       >
         <Box
@@ -75,12 +72,12 @@ const Features = () => {
           <chakra.p
             mt={2}
             fontSize={{
-              base: "3xl",
-              sm: "4xl",
+              base: "5xl",
+              sm: "6xl",
             }}
-            lineHeight="8"
+            lineHeight="10"
             fontWeight="extrabold"
-            letterSpacing="tight"
+            letterSpacing="normal"
             _light={{
               color: 'white',
             }}
@@ -89,15 +86,12 @@ const Features = () => {
           </chakra.p>
           <chakra.p
             mt={4}
-            maxW="2xl"
-            fontSize="xl"
+            maxW="4xl"
+            fontSize="2xl"
             mx={{
               lg: "auto",
             }}
             color='white'
-            _dark={{
-              color: 'white',
-            }}
           >
             Выбирая увлечение сегодня - закладываем фундамент для будущей профессии
           </chakra.p>
