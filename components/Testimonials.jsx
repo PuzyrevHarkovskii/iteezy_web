@@ -1,49 +1,73 @@
-"use client";
 
-import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import React from "react";
+import {
+  MDBCarousel,
+  MDBCarouselInner,
+  MDBCarouselItem,
+  MDBCol,
+  MDBRow,
+} from "mdb-react-ui-kit";
 
-export function Testimonials() {
+export default function Testimonials() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
+    <MDBRow className="py-5 text-center">
+      <MDBCol md="12">
+        <MDBCarousel showControls dark>
+          <MDBCarouselInner>
+            <MDBCarouselItem className="active">
+              <p className="lead font-italic mx-4 mx-md-5">
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Fugit, error amet numquam iure provident voluptate esse quasi,
+                voluptas nostrum quisquam!"
+              </p>
+              <div className="mt-5 mb-4">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                  className="rounded-circle img-fluid shadow-1-strong"
+                  alt="smaple image"
+                  width="100"
+                  height="100"
+                />
+              </div>
+              <p className="text-muted mb-0">- Anna Morian</p>
+            </MDBCarouselItem>
+            <MDBCarouselItem>
+              <p className="lead font-italic mx-4 mx-md-5">
+                "Neque cupiditate assumenda in maiores repudiandae mollitia
+                adipisci maiores repudiandae mollitia consectetur adipisicing
+                architecto elit sed adipiscing elit."
+              </p>
+              <div className="mt-5 mb-4">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                  className="rounded-circle img-fluid shadow-1-strong"
+                  alt="smaple image"
+                  width="100"
+                  height="100"
+                />
+              </div>
+              <p className="text-muted mb-0">- Teresa May</p>
+            </MDBCarouselItem>
+            <MDBCarouselItem>
+              <p className="lead font-italic mx-4 mx-md-5">
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur est laborum neque
+                cupiditate assumenda in maiores."
+              </p>
+              <div className="mt-5 mb-4">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  className="rounded-circle img-fluid shadow-1-strong"
+                  alt="smaple image"
+                  width="100"
+                  height="100"
+                />
+              </div>
+              <p className="text-muted mb-0">- Kate Allise</p>
+            </MDBCarouselItem>
+          </MDBCarouselInner>
+        </MDBCarousel>
+      </MDBCol>
+    </MDBRow>
   );
 }
-
-const testimonials = [
-  {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
-    
-  },
-  {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
-];

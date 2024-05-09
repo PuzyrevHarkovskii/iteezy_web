@@ -6,7 +6,7 @@ const Feature = (props) => {
     <Box>
       <chakra.h3
         mb={2}
-        fontSize="lg"
+        fontSize="xl"
         fontWeight="semibold"
         lineHeight="shorter"
         _light={{
@@ -41,7 +41,7 @@ const Features = () => {
       <Box
         rounded="35px"
         px={10}
-        py={20}
+        py={10}
         mx="auto"
         bg="#093AA9"
         
@@ -52,10 +52,10 @@ const Features = () => {
           }}
         >
           <chakra.p
-            mt={2}
+            mt={0}
             fontSize={{
-              base: "4xl",
-              sm: "6xl",
+              base: "3xl",
+              sm: "4xl",
             }}
             lineHeight="8"
             fontWeight="extrabold"
@@ -72,14 +72,14 @@ const Features = () => {
             base: 1,
             sm: 2,
             md: 3,
-            lg: 3,
+            lg: 2,
           }}
           spacingX={{
             base: 16,
             lg: 15,
           }}
           spacingY={20}
-          mt={6}
+          mt={10}
         >
           <Feature
             title="Научись новому"

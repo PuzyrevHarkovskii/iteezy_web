@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-  Flex,
+  Flex,Heading, 
   useColorModeValue,
   Text,
   Container,
@@ -20,7 +20,9 @@ export default function Questions() {
       align={'center'}
       justify={'center'}
       bg={useColorModeValue('WhiteAlpha.200', 'gray.800')}>
+        
       <Container padding="8">
+       <Heading mb={6} textAlign="center">Часто задаваемые вопросы</Heading>
         <Accordion allowMultiple width="100%" maxW="2lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
@@ -28,7 +30,7 @@ export default function Questions() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="xl" alignItems="center">Как часто проходят классные занятия?</Text>
+              <Text fontSize="xl" textAlign="center">Как часто проходят классные занятия?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
