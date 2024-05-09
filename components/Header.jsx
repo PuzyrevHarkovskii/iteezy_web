@@ -58,7 +58,7 @@ const Header = () => {
                   base: "none",
                   md: "inline-flex",
                 }} >+7 (911) 403-00-90</Button>
-                <Button variant="outline" borderColor="brand.500"  size={{ base: "sm", md: "md" }} >Свяжитесь с нами WhatsApp</Button>
+                <Button variant="outline" borderColor="brand.500"  size={{ base: "sm", md: "md" }} >WhatsApp</Button>
               </HStack>
               <Box
                 display={{

@@ -16,7 +16,7 @@ import { ChevronDownIcon } from '@chakra-ui/icons'
 export default function Questions() {
   return (
     <Flex
-      minH={'40vh'}
+      minH={'10vh'}
       align={'center'}
       justify={'center'}
       bg={useColorModeValue('WhiteAlpha.200', 'gray.800')}>

@@ -10,7 +10,7 @@ import {
 export const SecondButton = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="grid place-content-center pb-0" >
+    <div className="grid place-content-center  pb-6" >
       <button
         onClick={() => setOpen(true)}
         className="rounded-xl bg-indigo-500 px-14 py-2 text-white transition-colors hover:bg-indigo-600" 
