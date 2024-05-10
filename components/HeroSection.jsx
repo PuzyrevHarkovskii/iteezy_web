@@ -15,7 +15,7 @@ const HeroSection = () => {
         <p className="text-base md:text-lg text-black my-4 md:my-6 font-semibold">
         Курсы для новичков и продвинутых любителей компьютерных технологий на базе ProGame.
         </p>
-        <button className="bg-black text-white font-medium py-2 px-4 rounded-lg transition-all hover:bg-slate-600 active:scale-95">
+        <button className="bg-black text-white font-medium py-4 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95">
           Записаться на пробный урок
         </button>
       </div>

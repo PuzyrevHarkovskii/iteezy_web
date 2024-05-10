@@ -93,7 +93,7 @@ const SomeInfo = () => {
         </Feature>
 
         <Feature
-          title="Возможность попробовать разные направления"
+          title="Разные направления"
           icon={
             <path
               strokeLinecap="round"

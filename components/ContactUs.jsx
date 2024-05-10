@@ -5,14 +5,14 @@ const ContactUs = () => {
   return (
     <div className="p-5 mx-3/4 w-50">
       <p className="text-4xl font-semibold mb-4 text-center">Запишитесь на занятие</p>
-      <div className="grid gap-4 grid-cols-2 lg:grid-cols-2 mx-10">
+      <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 mx-10">
         <Card
           title="WhatsApp"
           subtitle="Напишите в WhatsApp"
           href="#"
           Icon={FiUser}
         />
-        <Card title="Email" subtitle="Напишите на почту" href="#" Icon={FiMail} />
+        <Card title="Вконтакте" subtitle="Наша группа" href="#" Icon={FiMail} />
         <Card title="+7 (911) 403-00-90" subtitle="Позвоните нам" href="#" Icon={FiPhone} />
         <Card
           title="Telegram"

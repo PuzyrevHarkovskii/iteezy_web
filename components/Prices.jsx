@@ -34,7 +34,7 @@ const PriceList = () => {
     <Flex
     
       //bg="#edf1ff"
-      p={10}
+      p={5}
       w="full"
       justifyContent="center"
       alignItems="center"
