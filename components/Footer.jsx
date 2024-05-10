@@ -2,9 +2,11 @@ import { Box, Stack, Icon, Flex, Image, HStack, VStack, Link, Text, Divider } fr
 
 const Footer = () => {
   return (
+    
     <Box
       bg="#080624"
     >
+    
       <Stack
         direction={{
           base: "column",
@@ -34,7 +36,7 @@ const Footer = () => {
         </Flex>
         <HStack
           alignItems="start"
-          flex={1}
+          flex={2}
           justify="space-around"
           fontSize={{
             base: "12px",

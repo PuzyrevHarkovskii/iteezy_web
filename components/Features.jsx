@@ -5,7 +5,7 @@ const Feature = (props) => {
   return (
     <Box>
       <chakra.h3
-        mb={2}
+        mb={8}
         fontSize="xl"
         fontWeight="semibold"
         lineHeight="shorter"

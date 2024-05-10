@@ -9,6 +9,7 @@ import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 import SomeInfo from '@/components/SomeInfo'
 import Courses from '@/components/Courses'
+import ContactUs from '@/components/ContactUs'
 import "./globals.css";
 
 import Questions from '@/components/FAQ';
@@ -30,7 +31,10 @@ export default function Home() {
     <Questions/>
     
     <PriceList/>
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1310ee24fa0e4717f56a401a049c366818ae5442e279ee96ee2a602ef6a80227&amp;source=constructor" width="100%" height="320" ></iframe>
+    <ContactUs/>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1310ee24fa0e4717f56a401a049c366818ae5442e279ee96ee2a602ef6a80227&amp;source=constructor"  width="80%" height="320"></iframe>
+</div>
     <Footer/>
     
     </ChakraProvider>

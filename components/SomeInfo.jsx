@@ -4,8 +4,7 @@ const Feature = (props) => {
   return (
     <Box>
       <Box
-        boxSize={12}
-        mb={1}
+   
         bg="transparent"
         fill="none"
         viewBox="0 0 24 24"

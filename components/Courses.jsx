@@ -65,7 +65,7 @@ const Courses = () => {
       <Box
         rounded="35px"
         // Ширина бокса
-        px={35}
+        px={50}
         py={25}
         mx="auto"
         bg="#093AA9"
@@ -97,6 +97,7 @@ const Courses = () => {
             Наши программы
           </chakra.p>
         </Box>
+        
          <ThreeDCardDemo/>
          <FirstButton/>
         <SecondCard/>
