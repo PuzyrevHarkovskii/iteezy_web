@@ -52,12 +52,12 @@ const Footer = () => {
           }}
         >
           <Flex justify="start" direction="column">
-            <Link textTransform="uppercase">Pre-Sale FAQS</Link>
-            <Link textTransform="uppercase">Submit a ticket</Link>
+            <Link textTransform="uppercase">О НАС</Link>
+            {/* <Link textTransform="uppercase">Submit a ticket</Link> */}
           </Flex>
           <Flex justify="start" direction="column">
-            <Link textTransform="uppercase">Services</Link>
-            <Link textTransform="uppercase">Theme Tweak</Link>
+            <Link textTransform="uppercase">Связаться с нами</Link>
+            {/* <Link textTransform="uppercase">Theme Tweak</Link> */}
           </Flex>
         </HStack>
         <HStack
@@ -78,9 +78,9 @@ const Footer = () => {
           }}
         >
           <Flex justify="start" direction="column">
-            <Link textTransform="uppercase">О нас</Link>
-            <Link textTransform="uppercase">Связаться с нами</Link>
             <Link textTransform="uppercase">Курсы</Link>
+            {/* <Link textTransform="uppercase">Связаться с нами</Link>
+            <Link textTransform="uppercase">Курсы</Link> */}
           </Flex>
         </HStack>
       </Stack>

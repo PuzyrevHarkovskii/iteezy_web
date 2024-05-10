@@ -1,22 +1,22 @@
 import React from "react";
-import { FiCreditCard, FiMail, FiUser, FiUsers } from "react-icons/fi";
+import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 
 const ContactUs = () => {
   return (
-    <div className="p-5 mx-3/4">
+    <div className="p-5 mx-3/4 w-50">
       <p className="text-4xl font-semibold mb-4 text-center">Запишитесь на занятие</p>
       <div className="grid gap-4 grid-cols-2 lg:grid-cols-2 mx-10">
         <Card
-          title="Account"
-          subtitle="Manage profile"
+          title="WhatsApp"
+          subtitle="Напишите в WhatsApp"
           href="#"
           Icon={FiUser}
         />
-        <Card title="Email" subtitle="Manage email" href="#" Icon={FiMail} />
-        <Card title="Team" subtitle="Manage team" href="#" Icon={FiUsers} />
+        <Card title="Email" subtitle="Напишите на почту" href="#" Icon={FiMail} />
+        <Card title="+7 (911) 403-00-90" subtitle="Позвоните нам" href="#" Icon={FiPhone} />
         <Card
-          title="Billing"
-          subtitle="Manage cards"
+          title="Telegram"
+          subtitle="Напишите в Telegram"
           href="#"
           Icon={FiCreditCard}
         />

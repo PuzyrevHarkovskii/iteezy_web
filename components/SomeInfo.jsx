@@ -14,12 +14,12 @@ const Feature = (props) => {
         {props.icon}
       </Box>
       <chakra.h3
-        mb={1}
-        fontSize="lg"
+        mb={2}
+        fontSize="xl"
         lineHeight="shorter"
         fontWeight="bold"
         _light={{
-          color: "gray.900",
+          color: "blue.600",
         }}
       >
         {props.title}
@@ -66,7 +66,7 @@ const SomeInfo = () => {
         }}
       >
         <Feature
-          title="Unify your payments stack"
+          title="Творческий потенциал"
           icon={
             <path
               strokeLinecap="round"
@@ -76,13 +76,11 @@ const SomeInfo = () => {
             />
           }
         >
-          Manage all your online and offline sales in one place with a single
-          integration, simplifying reporting and reconciliation. Terminal works
-          seamlessly with Payments, Connect, and Billing.
+          Даем максимально полное представление о программировании и целостное IT-развитие ребенка.
         </Feature>
 
         <Feature
-          title="Own your in-store experience"
+          title="Обучение через практику"
           icon={
             <path
               fillRule="evenodd"
@@ -91,13 +89,11 @@ const SomeInfo = () => {
             />
           }
         >
-          Provide a seamless customer experience across channels, like reserving
-          online and picking up in store. Our SDKs make it easy to integrate
-          into your own mobile and web applications to accept in-store payments.
+          Обучение построено по принципу «обучение через практику», все программы на 80% состоят из практических заданий с использованием техники.
         </Feature>
 
         <Feature
-          title="Grow your platform’s revenue"
+          title="Возможность попробовать разные направления"
           icon={
             <path
               strokeLinecap="round"
@@ -107,9 +103,7 @@ const SomeInfo = () => {
             />
           }
         >
-          Add in-person payments to your platform or marketplace. Using Terminal
-          with Connect, you can onboard users for online and in-person payments,
-          and unify their payouts across channels.
+          Даем детям возможность погрузиться в изучение различных языков программирования на каждом новом этапе программ.
         </Feature>
       </SimpleGrid>
     </Flex>
