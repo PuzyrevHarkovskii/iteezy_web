@@ -22,85 +22,25 @@ export const SecondButton = () => {
       <DragCloseDrawer open={open} setOpen={setOpen}>
         <div className="mx-auto max-w-2xl space-y-4 text-neutral-400">
           <h2 className="text-4xl font-bold text-neutral-200">
-            Drag the handle at the top of this modal downwards 100px to close it
+            Подробнее о курсе
           </h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-            laboriosam quos deleniti veniam est culpa quis nihil enim suscipit
-            nulla aliquid iure optio quaerat deserunt, molestias quasi facere
-            aut quidem reprehenderit maiores.
-          </p>
-          <p>
-            Laudantium corrupti neque rerum labore tempore sapiente. Quos, nobis
-            dolores. Esse fuga, cupiditate rerum soluta magni numquam nemo
-            aliquid voluptate similique deserunt!
-          </p>
-          <p>
-            Rerum inventore provident laboriosam quo facilis nisi voluptatem
-            quam maxime pariatur. Velit reiciendis quasi sit magni numquam quos
-            itaque ratione, fugit adipisci atque est, tenetur officiis explicabo
-            id molestiae aperiam? Expedita quidem inventore magni? Doloremque
-            architecto mollitia, dicta, fugit minima velit explicabo sapiente
-            beatae fugiat accusamus voluptatum, error voluptatem ab asperiores
-            quo modi possimus.
-          </p>
-          <p>
-            Sit laborum molestias ex quisquam molestiae cum fugiat praesentium!
-            Consequatur excepturi quod nemo harum laudantium accusantium nisi
-            odio?
-          </p>
-          <p>
-            Deleniti, animi maiores officiis quos eaque neque voluptas omnis
-            quia error a dolores, pariatur ad obcaecati, vitae nisi perspiciatis
-            fugiat sapiente accusantium. Magnam, a nihil soluta eos vero illo ab
-            sequi, dolores culpa, quia hic?
-          </p>
-          <p>
-            Eos in saepe dignissimos tempore. Laudantium cumque eius, et
-            distinctio illum magnam molestiae doloribus. Fugiat voluptatum
-            necessitatibus vero eligendi quae, similique non debitis qui veniam
-            praesentium rerum labore libero architecto tempore nesciunt est
-            atque animi voluptatibus. Aliquam repellendus provident tempora
-            sequi officia sint voluptates eaque minima suscipit, cum maiores
-            quos possimus. Vero ex porro asperiores voluptas voluptatibus?
-          </p>
-          <p>
-            Debitis eos aut ullam odit fuga. Numquam deleniti libero quas sunt?
-            Exercitationem earum odio aliquam necessitatibus est accusamus
-            consequuntur nisi natus dolore libero voluptatibus odit doloribus
-            laudantium iure, dicta placeat molestias porro quasi amet? Sint,
-            reiciendis tenetur distinctio eaque delectus, maiores, nihil
-            voluptas dolorem necessitatibus consequatur aliquid?
-          </p>
-          <p>
-            Sunt ex, cum culpa vel odio dicta expedita omnis amet debitis
-            inventore necessitatibus quaerat est molestias delectus. Dolorem,
-            eius? Quae, itaque ipsa incidunt nobis repellendus, sunt dolorum
-            aliquam ad culpa repudiandae impedit omnis, expedita illum voluptas
-            delectus similique ducimus saepe pariatur. Molestias similique quam
-            dolore provident doloremque maiores autem ab blanditiis voluptatum
-            dignissimos culpa sed nesciunt laboriosam, in dicta consectetur.
-          </p>
-          <p>
-            Voluptates ea, aspernatur possimus, iusto temporibus non laudantium
-            neque molestias rem tempore eligendi earum nisi dolorum asperiores
-            at rerum!
-          </p>
-          <p>
-            Eaque totam error quia, ut eius perspiciatis unde velit temporibus
-            mollitia. Aperiam ad tempora aliquam est molestias commodi
-            cupiditate quos impedit nostrum accusantium quo fugit eveniet
-            temporibus quam cumque autem porro, id ut debitis itaque et nemo
-            exercitationem voluptatibus? Aspernatur corrupti quas iusto dolores
-            nemo pariatur debitis quae dolorem! Nemo, eius? Dolorem quam nemo
-            magnam ratione deserunt aperiam. Voluptatum ipsa, molestias
-            aspernatur quas distinctio numquam qui laboriosam id ab totam
-            commodi laborum tempora error natus vitae eligendi reiciendis
-            maiores ex illo? Tempore at animi earum vitae enim sunt,
-            dignissimos, mollitia corrupti officia obcaecati error iure vero
-            repudiandae nihil magni molestias quibusdam dolorem aperiam modi.
-            Harum, fugit.
-          </p>
+          <h1>Школа Progame: программирование для детей</h1>
+        <p>В мире, где технологии становятся неотъемлемой частью нашей повседневной жизни, важно, чтобы дети уже с самого раннего возраста получали базовые навыки в области программирования и цифровых технологий. Школа Progame предлагает уникальные курсы программирования для детей в возрасте 6 и 7 лет, где малыши не только изучают основы программирования, но и создают свои собственные проекты с помощью инновационных инструментов и платформ.</p>
+        
+        <h2>Первые шаги в мире программирования в ScratchJr</h2>
+        <p>На курсах в школе Progame дети погружаются в увлекательный мир программирования с помощью ScratchJr - интуитивно понятной платформы, разработанной специально для детей. С помощью ScratchJr они создают своих персонажей, делают первые простые мультфильмы и анимации, развивая свою креативность и логическое мышление.</p>
+
+        <h2>Создание игр в KODU GAME LAB</h2>
+        <p>Продвинутые дети на курсах Progame изучают KODU GAME LAB, где они создают собственные игры с перемещением камеры и взаимодействием объектов. Это позволяет им погрузиться в мир разработки игр и понять основы программирования через практическую деятельность.</p>
+
+        <h2>Создание анимаций в PIVOT ANIMATOR</h2>
+        <p>На курсах дети изучают PIVOT ANIMATOR и создают плавные анимации, добавляя сопроводительный звук. Это помогает им развивать свои навыки в области анимации и визуального искусства, а также понимать важность звука в создании мультимедийных проектов.</p>
+
+        <h2>Основы работы за компьютером и безопасность в интернете</h2>
+        <p>На курсах также уделяется внимание вопросам безопасности в интернете и основам работы за компьютером. Дети учатся правильно использовать ноутбук или ПК, искать информацию в интернете и соблюдать основные правила безопасности в сети.</p>
+
+        <h2>Как записаться на курсы</h2>
+        <p>Присоединиться к курсам программирования в школе Progame легко и удобно. Просто посетите официальный сайт школы, где вы найдете подробную информацию о предлагаемых курсах, расписании занятий и условиях записи.</p>
         </div>
       </DragCloseDrawer>
     </div>

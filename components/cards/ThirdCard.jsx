@@ -19,7 +19,7 @@ export function ThirdCard() {
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
         
-          BIT 5-6 лет
+        KByte 8-9 лет
         </CardItem>
         
         <CardItem
@@ -27,7 +27,7 @@ export function ThirdCard() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Little Coders — это стартовая площадка для учащихся в возрасте от 5 до 6 лет. Он предназначен для начинающих учеников, не знакомых с программированием, которые еще не готовы к самостоятельному темпу обучения.
+         Создавая собственные игры, анимации, дети познакомятся с солнечной системой, движением и перемещением объектов, физикой на примере игры Дженга. Запрограммируют свои миры в Minecraft Создадут свои проекты в SCRATH и CoSpaces, сформируют презентации и защитят их.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image

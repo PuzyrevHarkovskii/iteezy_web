@@ -19,7 +19,7 @@ export function FourthCard() {
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
         
-          BIT 5-6 лет
+        Mbyte 10-11 лет
         </CardItem>
         
         <CardItem
@@ -27,7 +27,7 @@ export function FourthCard() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Little Coders — это стартовая площадка для учащихся в возрасте от 5 до 6 лет. Он предназначен для начинающих учеников, не знакомых с программированием, которые еще не готовы к самостоятельному темпу обучения.
+          На данном уровне ребята познакомятся с платформой Roblox Studio, изучат язык Lua.Запрограммируют свои игры и поиграют в них. Начнут изучать базовые основы языка Python и перейдут к изучению Python в Minecraft. Также, здесь представлены дополнительные модули, которые могут встраиваться в основные курсы на усмотрению преподавателя, в зависимости от уровня знаний учащихся.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image

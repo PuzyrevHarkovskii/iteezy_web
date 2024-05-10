@@ -19,7 +19,7 @@ export function FifthCard() {
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
         
-          BIT 5-6 лет
+        Gbyte 13+ WEB программирование
         </CardItem>
         
         <CardItem
@@ -27,7 +27,9 @@ export function FifthCard() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Little Coders — это стартовая площадка для учащихся в возрасте от 5 до 6 лет. Он предназначен для начинающих учеников, не знакомых с программированием, которые еще не готовы к самостоятельному темпу обучения.
+         На данном курсе ребята изучат:
+языки WEB программирования HTML+ CSS для создания и разметки сайта,
+Язык JavaScript для придания интерактивности Web странице. А после изучения языка PHP учащиеся смогут наделить собственный сайт продвинутыми механизмами обработки данных, которыми обладает 80% вебсайтов мира.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image

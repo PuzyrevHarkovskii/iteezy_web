@@ -19,7 +19,7 @@ export function SixthCard() {
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
         
-          BIT 5-6 лет
+        Gbyte 13+ Прикладное программирование
         </CardItem>
         
         <CardItem
@@ -27,7 +27,7 @@ export function SixthCard() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Little Coders — это стартовая площадка для учащихся в возрасте от 5 до 6 лет. Он предназначен для начинающих учеников, не знакомых с программированием, которые еще не готовы к самостоятельному темпу обучения.
+         Программа расширит знания ребят в сфере IT-технологий. На занятиях дети изучат основы программирования на мощном высокоуровневом языке Python, создадут своего чат-бота и узнают, что такое нейросети и машинное обучение. Изучат синтаксис и научаться решать задачи по олимпиадному программированию на языке C++.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
