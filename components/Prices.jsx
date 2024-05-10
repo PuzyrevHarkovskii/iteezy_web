@@ -64,9 +64,7 @@ const PriceList = () => {
             borderTopRightRadius={0}
             borderBottomLeftRadius="lg"
             bg="white"
-            _dark={{
-              bg: "gray.700",
-            }}
+            
             my={6}
             direction="column"
           >
@@ -81,11 +79,11 @@ const PriceList = () => {
               <chakra.span fontSize="4xl" fontWeight="bold" color={"blue.300"}>
                 Хобби
               </chakra.span>
-              <HStack spacing={3}>
+              <HStack spacing={0}>
                 <chakra.span
                 
-                  fontSize="2xl"
-                  textShadow="2px 0 currentcolor"
+                  fontSize="3xl"
+                  
                 >
                   4800 ₽
                 </chakra.span>
@@ -167,11 +165,11 @@ const PriceList = () => {
               <chakra.span fontSize="4xl" fontWeight="bold" color={"blue.500"}>
                 Развитие
               </chakra.span>
-              <HStack spacing={3}>
+              <HStack spacing={0}>
                 <chakra.span
                  
-                  fontSize="2xl"
-                  textShadow="2px 0 currentcolor"
+                  fontSize="3xl"
+                  
                 >
                   8800 ₽
                 </chakra.span>
@@ -241,11 +239,11 @@ const PriceList = () => {
               <chakra.span fontSize="3xl" fontWeight="bold" color={"blue.300"}>
                 Попробовать
               </chakra.span>
-              <HStack spacing={3}>
+              <HStack spacing={1}>
                 <chakra.span
                  
-                  fontSize="2xl"
-                  textShadow="2px 0 currentcolor"
+                  fontSize="4xl"
+                  
                 >
                   500 ₽
                 </chakra.span>

@@ -21,7 +21,7 @@ export default function Questions() {
       justify={'center'}
       bg={useColorModeValue('WhiteAlpha.200', 'gray.800')}>
         
-      <Container padding="8">
+      <Container paddingTop="12" paddingBottom={0}>
        <Heading mb={6} textAlign="center">Часто задаваемые вопросы</Heading>
         <Accordion allowMultiple width="100%" maxW="2lg" rounded="lg">
           <AccordionItem>
