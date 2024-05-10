@@ -78,7 +78,7 @@ const PriceList = () => {
               w="full"
               shadow="xl"
             >
-              <chakra.span fontSize="3xl" fontWeight="bold">
+              <chakra.span fontSize="4xl" fontWeight="bold" color={"blue.300"}>
                 Хобби
               </chakra.span>
               <HStack spacing={3}>
@@ -91,7 +91,7 @@ const PriceList = () => {
                 </chakra.span>
                 <chakra.span
                   alignSelf="center"
-                  fontSize="3xl"
+                  fontSize="4xl"
                   _light={{
                     color: "gray.400",
                   }}
@@ -164,7 +164,7 @@ const PriceList = () => {
               w="full"
               shadow="xl"
             >
-              <chakra.span fontSize="3xl" fontWeight="bold">
+              <chakra.span fontSize="4xl" fontWeight="bold" color={"blue.500"}>
                 Развитие
               </chakra.span>
               <HStack spacing={3}>
@@ -238,7 +238,7 @@ const PriceList = () => {
               w="full"
               shadow="xl"
             >
-              <chakra.span fontSize="3xl" fontWeight="bold">
+              <chakra.span fontSize="3xl" fontWeight="bold" color={"blue.300"}>
                 Попробовать
               </chakra.span>
               <HStack spacing={3}>

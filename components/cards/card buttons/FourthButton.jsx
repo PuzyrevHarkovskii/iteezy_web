@@ -22,85 +22,9 @@ export const FourthButton = () => {
       <DragCloseDrawer open={open} setOpen={setOpen}>
         <div className="mx-auto max-w-2xl space-y-4 text-neutral-400">
           <h2 className="text-4xl font-bold text-neutral-200">
-            Drag the handle at the top of this modal downwards 100px to close it
+            Подробнее о курсе
           </h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-            laboriosam quos deleniti veniam est culpa quis nihil enim suscipit
-            nulla aliquid iure optio quaerat deserunt, molestias quasi facere
-            aut quidem reprehenderit maiores.
-          </p>
-          <p>
-            Laudantium corrupti neque rerum labore tempore sapiente. Quos, nobis
-            dolores. Esse fuga, cupiditate rerum soluta magni numquam nemo
-            aliquid voluptate similique deserunt!
-          </p>
-          <p>
-            Rerum inventore provident laboriosam quo facilis nisi voluptatem
-            quam maxime pariatur. Velit reiciendis quasi sit magni numquam quos
-            itaque ratione, fugit adipisci atque est, tenetur officiis explicabo
-            id molestiae aperiam? Expedita quidem inventore magni? Doloremque
-            architecto mollitia, dicta, fugit minima velit explicabo sapiente
-            beatae fugiat accusamus voluptatum, error voluptatem ab asperiores
-            quo modi possimus.
-          </p>
-          <p>
-            Sit laborum molestias ex quisquam molestiae cum fugiat praesentium!
-            Consequatur excepturi quod nemo harum laudantium accusantium nisi
-            odio?
-          </p>
-          <p>
-            Deleniti, animi maiores officiis quos eaque neque voluptas omnis
-            quia error a dolores, pariatur ad obcaecati, vitae nisi perspiciatis
-            fugiat sapiente accusantium. Magnam, a nihil soluta eos vero illo ab
-            sequi, dolores culpa, quia hic?
-          </p>
-          <p>
-            Eos in saepe dignissimos tempore. Laudantium cumque eius, et
-            distinctio illum magnam molestiae doloribus. Fugiat voluptatum
-            necessitatibus vero eligendi quae, similique non debitis qui veniam
-            praesentium rerum labore libero architecto tempore nesciunt est
-            atque animi voluptatibus. Aliquam repellendus provident tempora
-            sequi officia sint voluptates eaque minima suscipit, cum maiores
-            quos possimus. Vero ex porro asperiores voluptas voluptatibus?
-          </p>
-          <p>
-            Debitis eos aut ullam odit fuga. Numquam deleniti libero quas sunt?
-            Exercitationem earum odio aliquam necessitatibus est accusamus
-            consequuntur nisi natus dolore libero voluptatibus odit doloribus
-            laudantium iure, dicta placeat molestias porro quasi amet? Sint,
-            reiciendis tenetur distinctio eaque delectus, maiores, nihil
-            voluptas dolorem necessitatibus consequatur aliquid?
-          </p>
-          <p>
-            Sunt ex, cum culpa vel odio dicta expedita omnis amet debitis
-            inventore necessitatibus quaerat est molestias delectus. Dolorem,
-            eius? Quae, itaque ipsa incidunt nobis repellendus, sunt dolorum
-            aliquam ad culpa repudiandae impedit omnis, expedita illum voluptas
-            delectus similique ducimus saepe pariatur. Molestias similique quam
-            dolore provident doloremque maiores autem ab blanditiis voluptatum
-            dignissimos culpa sed nesciunt laboriosam, in dicta consectetur.
-          </p>
-          <p>
-            Voluptates ea, aspernatur possimus, iusto temporibus non laudantium
-            neque molestias rem tempore eligendi earum nisi dolorum asperiores
-            at rerum!
-          </p>
-          <p>
-            Eaque totam error quia, ut eius perspiciatis unde velit temporibus
-            mollitia. Aperiam ad tempora aliquam est molestias commodi
-            cupiditate quos impedit nostrum accusantium quo fugit eveniet
-            temporibus quam cumque autem porro, id ut debitis itaque et nemo
-            exercitationem voluptatibus? Aspernatur corrupti quas iusto dolores
-            nemo pariatur debitis quae dolorem! Nemo, eius? Dolorem quam nemo
-            magnam ratione deserunt aperiam. Voluptatum ipsa, molestias
-            aspernatur quas distinctio numquam qui laboriosam id ab totam
-            commodi laborum tempora error natus vitae eligendi reiciendis
-            maiores ex illo? Tempore at animi earum vitae enim sunt,
-            dignissimos, mollitia corrupti officia obcaecati error iure vero
-            repudiandae nihil magni molestias quibusdam dolorem aperiam modi.
-            Harum, fugit.
-          </p>
+          <article> <h1>Школа Progame рада предложить уникальные курсы программирования для детей в возрасте 10 и 11 лет</h1> <p>Программа курсов разработана с учетом интересов и потребностей детей этого возраста, предлагая им возможность познакомиться с различными инструментами и технологиями программирования.</p> <section> <h2>Погружение в мир разработки игр с Roblox Studio и Языком Lua</h2> <p>На курсах в школе Progame дети погружаются в мир разработки игр с помощью платформы Roblox Studio. Они изучают основы программирования на языке Lua и создают свои собственные игры, в которые затем могут играть их друзья и семья.</p> </section> <section> <h2>Изучение языка Python и программирование в Minecraft</h2> <p>Продвинутые дети начинают изучать язык программирования Python и применяют его для создания модов и дополнений в игре Minecraft. Это позволяет им расширить свои знания и навыки в области программирования и приобрести опыт работы с одним из самых популярных языков программирования в мире.</p> </section> <section> <h2>Создание приложений в MIT App Inventor</h2> <p>На курсах в школе Progame дети также знакомятся с MIT App Inventor и создают свои собственные мобильные приложения. Это позволяет им освоить основы разработки приложений и понять, как работает процесс создания мобильных приложений от идеи до реализации.</p> </section> <section> <h2>Развитие цифровой грамотности и основы работы с компьютером</h2> <p>Помимо программирования, дети на курсах в школе Progame изучают основы цифровой грамотности и основы работы с компьютером. Они учатся работать с файлами, создавать цифровые рисунки и инфографику, создавать таблицы и презентации, а также осваивают навыки безопасного использования интернета и защиты личных данных.</p> </section> <p>Программа курсов в школе Progame представляет собой уникальную возможность для детей 10-11 лет начать свой путь в мире программирования и цифровых технологий. Благодаря практическим заданиям и увлекательным проектам, они развивают не только навыки программирования, но и креативное мышление, логическое мышление и коммуникативные навыки, что станет незаменимым активом в их будущей карьере в технологическом мире.</p> <section> <h2>Запись на курсы в Progame - шаг к будущему в технологиях</h2> <p>Программа курсов в Progame представляет собой возможность для детей 10-11 лет погрузиться в захватывающий мир программирования и цифровых технологий. Благодаря инновационным методикам обучения и опытным преподавателям, дети не только развивают свои навыки программирования, но и открывают для себя новые горизонты в мире технологий.</p> <p>Сеть филиалов Progame охватывает несколько районов Санкт-Петербурга, обеспечивая доступность обучения для всех жителей города. Записаться на курсы можно легко и удобно на официальном сайте школы Progame. Присоединяйтесь к Progame сегодня и дайте вашему ребенку возможность стать частью цифрового будущего!</p> </section> <h2>Программа курса</h2> <ol> <li>Roblox Studio. 1 модуль</li> <li>Python для начинающих</li> <li>Python на Minecraft</li> <li>MIT App Inventor. Создание приложений под Android</li> <li>Цифровая грамотность</li> <li>Компьютерная грамотность</li> </ol> </article>
         </div>
       </DragCloseDrawer>
     </div>

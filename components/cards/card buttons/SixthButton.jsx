@@ -22,7 +22,7 @@ export const SixthButton = () => {
       <DragCloseDrawer open={open} setOpen={setOpen}>
         <div className="mx-auto max-w-2xl space-y-4 text-neutral-400">
           <h2 className="text-4xl font-bold text-neutral-200">
-            Drag the handle at the top of this modal downwards 100px to close it
+            Подробнее о курсе
           </h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima

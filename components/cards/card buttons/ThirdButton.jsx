@@ -20,87 +20,10 @@ export const ThirdButton = () => {
       </button>
 
       <DragCloseDrawer open={open} setOpen={setOpen}>
-        <div className="mx-auto max-w-2xl space-y-4 text-neutral-400">
-          <h2 className="text-4xl font-bold text-neutral-200">
-            Drag the handle at the top of this modal downwards 100px to close it
+        <div className="mx-auto max-w-2xl space-y-4 text-neutral-400"><h2 className="text-4xl font-bold text-neutral-200">
+            Подробнее о курсе
           </h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-            laboriosam quos deleniti veniam est culpa quis nihil enim suscipit
-            nulla aliquid iure optio quaerat deserunt, molestias quasi facere
-            aut quidem reprehenderit maiores.
-          </p>
-          <p>
-            Laudantium corrupti neque rerum labore tempore sapiente. Quos, nobis
-            dolores. Esse fuga, cupiditate rerum soluta magni numquam nemo
-            aliquid voluptate similique deserunt!
-          </p>
-          <p>
-            Rerum inventore provident laboriosam quo facilis nisi voluptatem
-            quam maxime pariatur. Velit reiciendis quasi sit magni numquam quos
-            itaque ratione, fugit adipisci atque est, tenetur officiis explicabo
-            id molestiae aperiam? Expedita quidem inventore magni? Doloremque
-            architecto mollitia, dicta, fugit minima velit explicabo sapiente
-            beatae fugiat accusamus voluptatum, error voluptatem ab asperiores
-            quo modi possimus.
-          </p>
-          <p>
-            Sit laborum molestias ex quisquam molestiae cum fugiat praesentium!
-            Consequatur excepturi quod nemo harum laudantium accusantium nisi
-            odio?
-          </p>
-          <p>
-            Deleniti, animi maiores officiis quos eaque neque voluptas omnis
-            quia error a dolores, pariatur ad obcaecati, vitae nisi perspiciatis
-            fugiat sapiente accusantium. Magnam, a nihil soluta eos vero illo ab
-            sequi, dolores culpa, quia hic?
-          </p>
-          <p>
-            Eos in saepe dignissimos tempore. Laudantium cumque eius, et
-            distinctio illum magnam molestiae doloribus. Fugiat voluptatum
-            necessitatibus vero eligendi quae, similique non debitis qui veniam
-            praesentium rerum labore libero architecto tempore nesciunt est
-            atque animi voluptatibus. Aliquam repellendus provident tempora
-            sequi officia sint voluptates eaque minima suscipit, cum maiores
-            quos possimus. Vero ex porro asperiores voluptas voluptatibus?
-          </p>
-          <p>
-            Debitis eos aut ullam odit fuga. Numquam deleniti libero quas sunt?
-            Exercitationem earum odio aliquam necessitatibus est accusamus
-            consequuntur nisi natus dolore libero voluptatibus odit doloribus
-            laudantium iure, dicta placeat molestias porro quasi amet? Sint,
-            reiciendis tenetur distinctio eaque delectus, maiores, nihil
-            voluptas dolorem necessitatibus consequatur aliquid?
-          </p>
-          <p>
-            Sunt ex, cum culpa vel odio dicta expedita omnis amet debitis
-            inventore necessitatibus quaerat est molestias delectus. Dolorem,
-            eius? Quae, itaque ipsa incidunt nobis repellendus, sunt dolorum
-            aliquam ad culpa repudiandae impedit omnis, expedita illum voluptas
-            delectus similique ducimus saepe pariatur. Molestias similique quam
-            dolore provident doloremque maiores autem ab blanditiis voluptatum
-            dignissimos culpa sed nesciunt laboriosam, in dicta consectetur.
-          </p>
-          <p>
-            Voluptates ea, aspernatur possimus, iusto temporibus non laudantium
-            neque molestias rem tempore eligendi earum nisi dolorum asperiores
-            at rerum!
-          </p>
-          <p>
-            Eaque totam error quia, ut eius perspiciatis unde velit temporibus
-            mollitia. Aperiam ad tempora aliquam est molestias commodi
-            cupiditate quos impedit nostrum accusantium quo fugit eveniet
-            temporibus quam cumque autem porro, id ut debitis itaque et nemo
-            exercitationem voluptatibus? Aspernatur corrupti quas iusto dolores
-            nemo pariatur debitis quae dolorem! Nemo, eius? Dolorem quam nemo
-            magnam ratione deserunt aperiam. Voluptatum ipsa, molestias
-            aspernatur quas distinctio numquam qui laboriosam id ab totam
-            commodi laborum tempora error natus vitae eligendi reiciendis
-            maiores ex illo? Tempore at animi earum vitae enim sunt,
-            dignissimos, mollitia corrupti officia obcaecati error iure vero
-            repudiandae nihil magni molestias quibusdam dolorem aperiam modi.
-            Harum, fugit.
-          </p>
+          <p>Школа Progame предлагает уникальные курсы программирования для детей в возрасте 8 и 9 лет, которые позволяют малышам не только изучать основы программирования, но и развивать цифровую грамотность и пространственное мышление. Программа курсов разработана с учетом возрастных особенностей детей и предлагает увлекательные занятия, насыщенные практическими заданиями и играми.</p> <p>Программирование становится все более важным элементом элементарной цифровой грамотности, необходимой в современном технологическом мире. Курсы в школе Progame не только развивают навыки программирования, но и обогащают знания детей о мире вокруг них, познакомив их с физикой, астрономией и другими науками. Эти знания и навыки станут прочным фундаментом для успешного будущего в цифровом мире.</p> <h3>Преимущества обучения в школе Progame:</h3> <ul> <li>Профессиональные преподаватели;</li> <li>Индивидуальный подход;</li> <li>Увлекательная обучающая среда.</li> </ul> <p>Преподаватели школы Progame - опытные специалисты в области образования и программирования, готовые помочь детям освоить новые навыки и концепции. Каждый ученик получает индивидуальное внимание и поддержку, что позволяет им развиваться в своем собственном темпе и находить свои сильные стороны. Занятия проводятся в увлекательной и поддерживающей атмосфере, что делает обучение интересным и приятным для детей.</p> <h2>Программирование и разработка игр</h2> <p>На курсах в школе Progame дети изучают основы создания игровой механики и алгоритмов, погружаясь в увлекательный мир программирования. С помощью интуитивно понятных инструментов они научатся проектировать игровые миры и создавать свои собственные программы с использованием системы команд исполнителя.</p> <h2>Введение в операционную систему и офисные программы</h2> <p>На занятиях в школе Progame дети также учатся основам работы с компьютером и операционной системой Windows. Они изучают офисные программы, такие как Microsoft Word, Excel и PowerPoint, а также осваивают навыки работы в интернет-браузере.</p> <h2>Изучение программирования в Minecraft и создание VR-игр в CoSpaces</h2> <p>Программа курсов также включает изучение программирования в Minecraft и создание VR-игр в CoSpaces. Дети погружаются в мир трехмерного программирования, изучая основные концепции алгоритмов, условий и переменных, а также осваивая систему координат и пространственное мышление.</p> <h2>Цифровая грамотность и защита личных данных</h2> <p>Преподаватели школы Progame уделяют особое внимание цифровой грамотности и защите личных данных. Дети изучают основные принципы безопасности в интернете, учатся искать информацию в сети и понимать важность защиты своих личных данных.</p> <h2>Как записаться на курсы</h2> <p>В современном мире, где цифровые технологии проникают во все сферы жизни, важно, чтобы дети уже с раннего возраста осваивали основы программирования и цифровой грамотности.</p> <p>Школа Progame предлагает инновационные курсы программирования для детей в возрасте 8 и 9 лет, разработанные с учетом их возрастных особенностей и способностей. Сеть филиалов Progame охватывает несколько районов Санкт-Петербурга, что делает обучение доступным для всех жителей города.</p> <p>Присоединиться к программе обучения в школе Progame легко. Просто посетите официальный сайт школы и заполните форму записи, выбрав удобное для вас время и место обучения. Команда Progame ждет вас, чтобы помочь вашему ребенку открыть двери в захватывающий мир программирования и технологий!</p> <h2>Программа курса</h2> <ol> <li>Minecraft Edu</li> <li>Scratch базовый уровень</li> <li>Scratch 3.0</li> <li>СoSpaces</li> <li>Цифровая грамотность</li> </ol>
         </div>
       </DragCloseDrawer>
     </div>
