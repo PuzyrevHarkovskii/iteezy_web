@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import { TypewriterEffectSmoothDemo } from "./TypeWriterWords";
 
 const HeroSection = () => {
   return (
@@ -8,6 +9,7 @@ const HeroSection = () => {
         <span className="block mb-2 text-ms md:text-2xl text-blue-600 font-bold">
         5-17 лет
         </span>
+        <TypewriterEffectSmoothDemo/>
         <h3 className="text-4xl md:text-6xl font-semibold" >
         IT-курсы для детей
 
