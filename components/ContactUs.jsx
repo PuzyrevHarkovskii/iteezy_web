@@ -1,6 +1,7 @@
 import React from "react";
 import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 
+
 const ContactUs = () => {
   return (
     
@@ -13,7 +14,7 @@ const ContactUs = () => {
           href="#"
           Icon={FiUser}
         />
-        <Card title="Вконтакте" subtitle="Наша группа" href="#" Icon={FiMail} />
+        <Card title="Вконтакте" subtitle="Наша группа" href="https://vk.com/iteezy" Icon={FiMail} />
         <Card title="+7 (911) 403-00-90" subtitle="Позвоните нам" href="#" Icon={FiPhone} />
         <Card
           title="Telegram"

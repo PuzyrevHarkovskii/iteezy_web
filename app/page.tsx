@@ -15,6 +15,7 @@ import "./globals.css";
 import Questions from '@/components/FAQ';
 
 import PriceList from '@/components/Prices'
+import { TypewriterEffectWords } from '@/components/TypeWriterWords';
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <>
     <FloatingNavDemo/> 
+    <TypewriterEffectWords/>
     <ChakraProvider>
     <Header/>
     <HeroSection/>

@@ -32,3 +32,12 @@ html {
   
 }
 
+@font-face {
+  font-family: 'GraphikLCG';
+  src: url('/public/fonts/GraphikLCG-SemiboldItalic.woff') format('woff');
+  src: url('/public/fonts/GraphikLCG-SemiboldItalic.woff2') format('woff2');
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
