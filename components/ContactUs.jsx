@@ -3,6 +3,7 @@ import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 
 const ContactUs = () => {
   return (
+    
     <div className="p-5 mx-3/4 w-50">
       <p className="text-4xl font-semibold mb-4 text-center">Запишитесь на занятие</p>
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 mx-10">
@@ -27,6 +28,7 @@ const ContactUs = () => {
 
 const Card = ({ title, subtitle, Icon, href }) => {
   return (
+    
     <a
       href={href}
       className="w-full p-4 rounded-xl border-[1px] border-slate-300 relative overflow-hidden group bg-white"

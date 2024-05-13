@@ -5,7 +5,9 @@ import { IoCheckmark } from "react-icons/io";
 
 const Feature = (props) => {
   return (
+    
     <Flex alignSelf="start" w="full">
+    
       <Icon
         boxSize={5}
         mt={1}
@@ -242,7 +244,7 @@ const PriceList = () => {
               <HStack spacing={1}>
                 <chakra.span
                  
-                  fontSize="4xl"
+                  fontSize="3xl"
                   
                 >
                   500 ₽
