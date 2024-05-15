@@ -2,6 +2,8 @@
 import React from "react";
 import { FloatingNav } from "../ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import {Link} from "react-scroll/modules"
+
 export function FloatingNavDemo() {
   const navItems = [
     {
@@ -16,7 +18,7 @@ export function FloatingNavDemo() {
     },
     {
       name: "Стоимость",
-      link: "/contact",
+      link: "pricelist",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),

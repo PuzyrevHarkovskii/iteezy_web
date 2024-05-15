@@ -6,7 +6,7 @@ import { IoCheckmark } from "react-icons/io";
 const Feature = (props) => {
   return (
     
-    <Flex alignSelf="start" w="full">
+    <Flex id='pricelist' alignSelf="start" w="full">
     
       <Icon
         boxSize={5}

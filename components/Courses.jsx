@@ -15,7 +15,7 @@ import {SixthButton} from '@/components/cards/card buttons/SixthButton'
 
 const Feature = (props) => {
   return (
-    <Box>
+    <Box ref={coursesRef}>
       <Flex
         alignItems="center"
         justifyContent="center"

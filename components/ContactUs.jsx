@@ -5,10 +5,10 @@ import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 const ContactUs = () => {
   return (
     
-    <div className="p-5 mx-3/4 w-50">
+    <div id="contactus" className="p-5 mx-3/4 w-50">
       <p className="text-4xl font-semibold mb-4 text-center">Запишитесь на занятие</p>
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 mx-10">
-        <Card
+        <Card id="contactus"
           title="WhatsApp"
           subtitle="Напишите в WhatsApp"
           href="#"

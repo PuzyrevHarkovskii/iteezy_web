@@ -16,11 +16,14 @@ import Questions from '@/components/FAQ';
 
 import PriceList from '@/components/Prices'
 import { TypewriterEffectSmoothDemo } from '@/components/TypeWriterWords';
+import { useRef } from 'react';
 
 
 
 
 export default function Home() {
+  const coursesRef = useRef(null);
+  
   return (
     <>
     <FloatingNavDemo/> 
@@ -36,6 +39,7 @@ export default function Home() {
     <PriceList/>
     <ContactUs/>
     <div>
+      
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1310ee24fa0e4717f56a401a049c366818ae5442e279ee96ee2a602ef6a80227&amp;source=constructor"  width="100%" height="320"></iframe>
 </div>
     <Footer/>

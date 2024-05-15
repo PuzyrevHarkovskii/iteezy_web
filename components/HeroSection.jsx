@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { TypewriterEffectSmoothDemo } from "./TypeWriterWords";
+import { Link as ScrollLink } from 'react-scroll';
 
 const HeroSection = () => {
   return (
@@ -17,9 +18,14 @@ const HeroSection = () => {
         <p className="text-base md:text-lg text-black my-4 md:my-6 font-semibold">
         Курсы для новичков и продвинутых любителей компьютерных технологий на базе ProGame.
         </p>
-        <button className="bg-black text-white font-medium py-4 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95">
-          Записаться на пробный урок
-        </button>
+        <ScrollLink
+  className="bg-black text-white font-medium py-4 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95"
+  to="contactus"
+  smooth={true}
+  duration={100}
+>
+  Записаться на пробный урок
+</ScrollLink>
       </div>
       <ShuffleGrid />
     </section>
