@@ -91,7 +91,7 @@ const PriceList = () => {
                 </chakra.span>
                 <chakra.span
                   alignSelf="center"
-                  fontSize="4xl"
+                  fontSize="3xl"
                   _light={{
                     color: "gray.400",
                   }}
