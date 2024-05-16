@@ -5,13 +5,13 @@ import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 const ContactUs = () => {
   return (
     
-    <div id="contactus" className="p-5 mx-3/4 w-50">
+    <div id="contactus" className="p-6 mx-3/4 w-50">
       <p className="text-4xl font-semibold mb-4 text-center">Запишитесь на занятие</p>
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 mx-10">
         <Card id="contactus"
           title="WhatsApp"
           subtitle="Напишите в WhatsApp"
-          href="#"
+          href="https://wa.me/7911704198"
           Icon={FiUser}
         />
         <Card title="Вконтакте" subtitle="Наша группа" href="https://vk.com/iteezy" Icon={FiMail} />
@@ -19,7 +19,7 @@ const ContactUs = () => {
         <Card
           title="Telegram"
           subtitle="Напишите в Telegram"
-          href="#"
+          href="tg://resolve?domain=zVoidspb"
           Icon={FiCreditCard}
         />
       </div>

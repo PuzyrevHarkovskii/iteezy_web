@@ -2,25 +2,26 @@
 import React from "react";
 import { FloatingNav } from "../ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import {Link} from "react-scroll/modules"
+import { FiDollarSign,FiArrowUp, FiBook  } from "react-icons/fi";
+
 
 export function FloatingNavDemo() {
   const navItems = [
     {
       name: "О нас",
       link: "/",
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <FiArrowUp className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Отзывы",
       link: "/about",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <FiBook className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Стоимость",
       link: "pricelist",
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <FiDollarSign className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
   ];

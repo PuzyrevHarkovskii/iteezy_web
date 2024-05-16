@@ -1,7 +1,7 @@
-// components/MyComponent.jsx
 
 import { Flex, Box, VStack, HStack, chakra, Icon } from "@chakra-ui/react";
-import { IoCheckmark } from "react-icons/io";
+import { FiCheck } from "react-icons/fi";
+
 
 const Feature = (props) => {
   return (
@@ -16,8 +16,8 @@ const Feature = (props) => {
           color: "blue.500",
         }}
         viewBox="0 0 20 20"
-        fill="currentColor"
-        as={IoCheckmark}
+        
+        as={FiCheck}
       />
       <chakra.p
         fontSize="lg"
