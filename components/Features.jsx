@@ -1,5 +1,4 @@
 import { Box, Flex, chakra, SimpleGrid } from "@chakra-ui/react";
-import { Icon } from "@chakra-ui/react";
 
 const Feature = (props) => {
   return (
@@ -40,7 +39,7 @@ const Features = () => {
     >
       <Box
         rounded="35px"
-        px={10}
+        px={12}
         py={10}
         mx="auto"
         bg="#093AA9"

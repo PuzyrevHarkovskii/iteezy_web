@@ -79,8 +79,7 @@ const Footer = () => {
         >
           <Flex justify="start" direction="column">
             <Link textTransform="uppercase">Курсы</Link>
-            {/* <Link textTransform="uppercase">Связаться с нами</Link>
-            <Link textTransform="uppercase">Курсы</Link> */}
+            
           </Flex>
         </HStack>
       </Stack>
@@ -96,15 +95,7 @@ const Footer = () => {
       <VStack py={3}>
         <HStack justify="center">
           <Link>
-            <Icon
-              color="white"
-              _dark={{
-                color: "white",
-              }}
-              h="20px"
-              w="20px"
-             
-            />
+            
           </Link>
         </HStack>
 

@@ -11,21 +11,28 @@ import SomeInfo from '@/components/SomeInfo'
 import Courses from '@/components/Courses'
 import ContactUs from '@/components/ContactUs'
 import "./globals.css";
-
+import ProgressBar from '@/components/ProgressBar/ProgressBar';
 import Questions from '@/components/FAQ';
-
 import PriceList from '@/components/Prices'
-import { TypewriterEffectSmoothDemo } from '@/components/TypeWriterWords';
 import { useRef } from 'react';
+import { motion, useScroll, useSpring } from "framer-motion";
 
 
 
 
 export default function Home() {
   const coursesRef = useRef(null);
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
   
   return (
     <>
+    <ProgressBar />
+    
     <FloatingNavDemo/> 
    
     <ChakraProvider>

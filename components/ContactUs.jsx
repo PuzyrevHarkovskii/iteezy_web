@@ -15,11 +15,11 @@ const ContactUs = () => {
           Icon={FiUser}
         />
         <Card title="Вконтакте" subtitle="Наша группа" href="https://vk.com/iteezy" Icon={FiMail} />
-        <Card title="+7 (911) 403-00-90" subtitle="Позвоните нам" href="#" Icon={FiPhone} />
+        <Card title="+7 (911) 403-00-90"  subtitle="Позвоните нам" href={`tel:+79114030090`} Icon={FiPhone} />
         <Card
           title="Telegram"
           subtitle="Напишите в Telegram"
-          href="tg://resolve?domain=zVoidspb"
+          href="https://t.me/zVoidspb"
           Icon={FiCreditCard}
         />
       </div>

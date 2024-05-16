@@ -54,11 +54,11 @@ const Header = () => {
                 color="brand.500"
                 
               >
-                <Button leftIcon={<MdCall />} variant="ghost" display={{
+                <Button leftIcon={<MdCall />} variant="ghost" href={`tel:+79114030090`} display={{
                   base: "none",
                   md: "inline-flex",
                 }} >+7 (911) 403-00-90</Button>
-                <Button variant="outline" borderColor="brand.500"  size={{ base: "sm", md: "md" }} >WhatsApp</Button>
+                <Button variant="outline"  borderColor="brand.500" href="https://wa.me/7911704198" size={{ base: "sm", md: "md" }} >WhatsApp</Button>
               </HStack>
               <Box
                 display={{

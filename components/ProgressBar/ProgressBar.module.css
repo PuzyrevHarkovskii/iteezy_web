@@ -1,0 +1,10 @@
+.ProgressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(to right, #0054c8, #2f71d0, #0051ff);
+    transform-origin: 0%;
+    z-index: 100;
+}

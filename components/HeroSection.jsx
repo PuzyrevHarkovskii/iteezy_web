@@ -19,7 +19,7 @@ const HeroSection = () => {
         Курсы для новичков и продвинутых любителей компьютерных технологий на базе ProGame.
         </p>
         <ScrollLink
-  className="bg-black hover:cursor-pointer text-white font-medium py-4 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95"
+  className="bg-black hover:cursor-pointer text-white  font-medium py-4 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95"
   to="contactus"
   smooth={true}
   duration={100}
