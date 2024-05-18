@@ -17,6 +17,7 @@ const Feature = (props) => {
       <chakra.p
         fontSize="lg"
         color='white'
+       
       >
         {props.children}
       </chakra.p>
@@ -25,6 +26,7 @@ const Feature = (props) => {
 };
 
 const Features = () => {
+  
   return (
     <Flex
       bg="#FFFFFF"

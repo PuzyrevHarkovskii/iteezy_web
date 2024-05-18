@@ -15,7 +15,7 @@ const HeroSection = () => {
         IT-курсы для детей
 
         </h3>
-        <p className="text-base md:text-lg text-black my-4 md:my-6 font-semibold">
+        <p className="text-base md:text-lg text-black my-4 md:my-8 font-semibold">
         Курсы для новичков и продвинутых любителей компьютерных технологий на базе ProGame.
         </p>
         <ScrollLink

@@ -98,8 +98,10 @@ const Courses = () => {
           </chakra.p>
         </Box>
         
+        
          <ThreeDCardDemo/>
          <FirstButton/>
+         
         <SecondCard/>
           <SecondButton/>
         <ThirdCard/>

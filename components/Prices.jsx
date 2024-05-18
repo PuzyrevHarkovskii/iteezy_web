@@ -20,11 +20,9 @@ const Feature = (props) => {
         as={FiCheck}
       />
       <chakra.p
-        fontSize="lg"
+        fontSize="xl"
         color="gray.600"
-        _dark={{
-          color: "gray.400",
-        }}
+        
         {...props}
       />
     </Flex>
@@ -62,10 +60,10 @@ const PriceList = () => {
             w={{
               lg: 2.3 / 7,
             }}
-            rounded="lg"
+            rounded="xl"
             borderTopRightRadius={0}
             borderBottomLeftRadius="lg"
-            bg="white"
+            bg="#093aa9"
             
             my={6}
             direction="column"
@@ -78,14 +76,14 @@ const PriceList = () => {
               w="full"
               shadow="xl"
             >
-              <chakra.span fontSize="4xl" fontWeight="bold" color={"blue.300"}>
+              <chakra.span fontSize="4xl" fontWeight="bold" color={"white"}>
                 Хобби
               </chakra.span>
               <HStack spacing={0}>
                 <chakra.span
                 
                   fontSize="3xl"
-                  
+                  color={"white"}
                 >
                   4800 ₽
                 </chakra.span>
@@ -93,7 +91,7 @@ const PriceList = () => {
                   alignSelf="center"
                   fontSize="3xl"
                   _light={{
-                    color: "gray.400",
+                    color: "white",
                   }}
                 >
                   /месяц
@@ -126,7 +124,7 @@ const PriceList = () => {
                 w="full"
                 ml={3}
                 display="inline-flex"
-                rounded="md"
+                rounded="xl"
                 shadow="md"
               >
                 
@@ -143,8 +141,8 @@ const PriceList = () => {
             w={{
               lg: 2.4 / 7,
             }}
-            rounded="lg"
-            bg="white"
+            rounded="xl"
+            bg="#093aa9"
             _dark={{
               bg: "gray.700",
             }}
@@ -164,14 +162,14 @@ const PriceList = () => {
               w="full"
               shadow="xl"
             >
-              <chakra.span fontSize="4xl" fontWeight="bold" color={"blue.500"}>
+              <chakra.span fontSize="4xl" fontWeight="bold" color={"white"}>
                 Развитие
               </chakra.span>
               <HStack spacing={0}>
                 <chakra.span
                  
                   fontSize="3xl"
-                  
+                  color={"white"}
                 >
                   8800 ₽
                 </chakra.span>
@@ -179,7 +177,7 @@ const PriceList = () => {
                   alignSelf="center"
                   fontSize="3xl"
                   _light={{
-                    color: "gray.400",
+                    color: "white",
                   }}
                 >
                   /2 месяца
@@ -189,7 +187,7 @@ const PriceList = () => {
             <VStack
               fontSize="sm"
               h="full"
-              roundedBottom="lg"
+              roundedBottom="xl"
               spacing={8}
               bg="gray.100"
               _dark={{
@@ -220,10 +218,10 @@ const PriceList = () => {
             w={{
               lg: 2.3 / 7,
             }}
-            roundedTop="lg"
-            borderBottomRightRadius="lg"
+            roundedTop="xl"
+            borderBottomRightRadius="xl"
             borderTopLeftRadius={0}
-            bg="white"
+            bg="#093aa9"
             _dark={{
               bg: "gray.700",
             }}
@@ -238,14 +236,14 @@ const PriceList = () => {
               w="full"
               shadow="xl"
             >
-              <chakra.span fontSize="3xl" fontWeight="bold" color={"blue.300"}>
+              <chakra.span fontSize="3xl" fontWeight="bold" color={"white"}>
                 Попробовать
               </chakra.span>
               <HStack spacing={1}>
                 <chakra.span
                  
                   fontSize="3xl"
-                  
+                  color={"white"}
                 >
                   500 ₽
                 </chakra.span>
@@ -253,7 +251,7 @@ const PriceList = () => {
                   alignSelf="center"
                   fontSize="3xl"
                   _light={{
-                    color: "gray.400",
+                    color: "white",
                   }}
                 >
                   /занятие
