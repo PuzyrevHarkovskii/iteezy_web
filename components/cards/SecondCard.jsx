@@ -25,12 +25,12 @@ export function SecondCard() {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
         >
-          Дети познакомятся с новыми программами и сделают:
-В ScratchJr создадут своих персонажей и сделают свои первые простые мультфильмы
-В KODU сделают игру с перемещением камеры, поймут как взаимодействуют объекты
-В PIVOT ANIMATOR сделают плавную анимацию, добавят сопроводительные звуки
+          Дети познакомятся с новыми программами:
+В ScratchJr создадут своих персонажей и сделают свои первые простые мультфильмы.
+В KODU сделают игру с перемещением камеры, поймут как взаимодействуют объекты.
+В PIVOT ANIMATOR сделают плавную покадровую анимацию.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image

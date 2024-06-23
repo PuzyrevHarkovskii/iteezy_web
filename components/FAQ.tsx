@@ -23,14 +23,15 @@ export default function Questions() {
         
       <Container paddingTop="12" paddingBottom={0}>
        <Heading mb={6} textAlign="center">Часто задаваемые вопросы</Heading>
-        <Accordion allowMultiple width="100%" maxW="2lg" rounded="lg">
+        <Accordion allowMultiple width="100%" maxW="2lg" rounded="lg" >
           <AccordionItem>
             <AccordionButton
+            
               display="flex"
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="xl" textAlign="center">Как часто проходят классные занятия?</Text>
+              <Text fontSize="xl" >Как часто проходят занятия?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
@@ -46,7 +47,7 @@ export default function Questions() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="xl">Какое максимальное количество человек в группах?</Text>
+              <Text fontSize="xl">Сколько учеников в группах?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
@@ -57,11 +58,12 @@ export default function Questions() {
           </AccordionItem>
           <AccordionItem>
             <AccordionButton
+            
               display="flex"
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="xl">Есть ли домашнее задание и срезы знаний?</Text>
+              <Text fontSize="xl" >Есть ли домашнее задание?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
@@ -76,7 +78,7 @@ export default function Questions() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="xl">Если ребенок пропустил занятие, как догнать пропущенный материал?</Text>
+              <Text fontSize="xl">Если ребенок пропустил занятие?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>

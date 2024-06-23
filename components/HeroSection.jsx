@@ -1,31 +1,31 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { TypewriterEffectSmoothDemo } from "./TypeWriterWords";
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from "react-scroll";
 
 const HeroSection = () => {
   return (
     <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <div>
         <span className="block mb-2 text-ms md:text-2xl text-blue-600 font-bold">
-        5-17 лет
+          5-17 лет
         </span>
-        <TypewriterEffectSmoothDemo/>
-        <h3 className="text-4xl md:text-6xl font-semibold" >
-        IT-курсы для детей
-
+        <TypewriterEffectSmoothDemo />
+        <h3 className="text-4xl md:text-6xl font-semibold">
+          IT-курсы для детей
         </h3>
-        <p className="text-base md:text-lg text-black my-4 md:my-8 font-semibold">
-        Курсы для новичков и продвинутых любителей компьютерных технологий на базе ProGame.
+        <p className="text-xl lg:text-xl md:text-xl text-black mt-6 mb-8 md:my-8 font-semibold">
+          Курсы для новичков и продвинутых любителей компьютерных технологий на
+          базе ProGame.
         </p>
         <ScrollLink
-  className="bg-black hover:cursor-pointer text-white  font-medium py-4 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95"
-  to="contactus"
-  smooth={true}
-  duration={100}
->
-  Записаться на пробный урок
-</ScrollLink>
+          className="bg-black hover:cursor-pointer text-white font-medium py-6 px-6 rounded-lg transition-all hover:bg-slate-600 active:scale-95"
+          to="contactus"
+          smooth={true}
+          duration={100}
+        >
+          Записаться на пробный урок
+        </ScrollLink>
       </div>
       <ShuffleGrid />
     </section>

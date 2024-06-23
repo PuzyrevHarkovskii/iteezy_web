@@ -4,8 +4,8 @@ const Feature = (props) => {
   return (
     <Box>
       <chakra.h3
-        mb={8}
-        fontSize="2xl"
+        mb={2}
+        fontSize="3xl"
         fontWeight="semibold"
         lineHeight="shorter"
         _light={{
@@ -15,7 +15,7 @@ const Feature = (props) => {
         {props.title}
       </chakra.h3>
       <chakra.p
-        fontSize="lg"
+        fontSize="xl"
         color='white'
        
       >
@@ -30,9 +30,6 @@ const Features = () => {
   return (
     <Flex
       bg="#FFFFFF"
-      _dark={{
-        bg: "#3e3e3e",
-      }}
       p={10}
       w="full"
       justifyContent="center"
@@ -41,7 +38,7 @@ const Features = () => {
     >
       <Box
         rounded="35px"
-        px={12}
+        px={10}
         py={10}
         mx="auto"
         bg="#093AA9"
@@ -72,14 +69,14 @@ const Features = () => {
           columns={{
             base: 1,
             sm: 2,
-            md: 3,
+            md: 2,
             lg: 2,
           }}
           spacingX={{
             base: 16,
             lg: 15,
           }}
-          spacingY={20}
+          spacingY={10}
           mt={10}
         >
           <Feature

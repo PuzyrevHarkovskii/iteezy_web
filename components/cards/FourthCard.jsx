@@ -25,9 +25,9 @@ export function FourthCard() {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
         >
-          На данном уровне ребята познакомятся с платформой Roblox Studio, изучат язык Lua.Запрограммируют свои игры и поиграют в них. Начнут изучать базовые основы языка Python и перейдут к изучению Python в Minecraft. Также, здесь представлены дополнительные модули, которые могут встраиваться в основные курсы на усмотрению преподавателя, в зависимости от уровня знаний учащихся.
+          Ребята познакомятся с платформой Roblox Studio, изучат язык Lua. Начнут изучать базовые основы языка Python и перейдут к изучению Python в Minecraft. 
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image

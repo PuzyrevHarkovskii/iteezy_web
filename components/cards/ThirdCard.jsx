@@ -25,9 +25,9 @@ export function ThirdCard() {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
         >
-         Создавая собственные игры, анимации, дети познакомятся с солнечной системой, движением и перемещением объектов, физикой на примере игры Дженга. Запрограммируют свои миры в Minecraft Создадут свои проекты в SCRATH и CoSpaces, сформируют презентации и защитят их.
+         Создавая собственные игры и анимации, дети познакомятся с солнечной системой, движением и перемещением объектов и физикой. Запрограммируют свои миры в Minecraft Создадут свои проекты в Scratch и CoSpaces.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
