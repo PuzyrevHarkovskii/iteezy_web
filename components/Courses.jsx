@@ -1,6 +1,6 @@
 import { Box, Flex, chakra, SimpleGrid } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
-import { FirstCard, ThreeDCardDemo } from "./cards/CardDemo";
+import { FirstCard, ThreeDCardDemo } from "./cards/FirstCard";
 import { SecondCard } from "./cards/SecondCard";
 import { ThirdCard } from "./cards/ThirdCard";
 import { FourthCard } from "./cards/FourthCard";
