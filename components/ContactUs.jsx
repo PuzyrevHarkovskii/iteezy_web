@@ -1,21 +1,32 @@
 import React from "react";
 import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 
-
 const ContactUs = () => {
   return (
-    
-    <div id="contactus" className="p-6 mx-3/4 w-50">
-      <p className="text-4xl font-semibold mb-4 text-center">Запишитесь на занятие</p>
+    <div id="contactus" className="p-6 mx-3/4 lg:mx-[17em] w-30">
+      <p className="text-4xl font-semibold mb-4 text-center">
+        Запишитесь на занятие
+      </p>
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 mx-10">
-        <Card id="contactus"
+        <Card
+          id="contactus"
           title="WhatsApp"
           subtitle="Напишите в WhatsApp"
           href="https://wa.me/7911704198"
           Icon={FiUser}
         />
-        <Card title="Вконтакте" subtitle="Наша группа" href="https://vk.com/iteezy" Icon={FiMail} />
-        <Card title="+7 (911) 403-00-90"  subtitle="Позвоните нам" href={`tel:+79114030090`} Icon={FiPhone} />
+        <Card
+          title="Вконтакте"
+          subtitle="Наша группа"
+          href="https://vk.com/iteezy"
+          Icon={FiMail}
+        />
+        <Card
+          title="+7 (911) 403-00-90"
+          subtitle="Позвоните нам"
+          href={`tel:+79114030090`}
+          Icon={FiPhone}
+        />
         <Card
           title="Telegram"
           subtitle="Напишите в Telegram"
@@ -29,10 +40,9 @@ const ContactUs = () => {
 
 const Card = ({ title, subtitle, Icon, href }) => {
   return (
-    
     <a
       href={href}
-      className="w-full p-4 rounded-xl border-[1px] border-slate-300 relative overflow-hidden group bg-white"
+      className="w-auto h-[10em] p-4 rounded-xl border-[1px] border-slate-300 relative overflow-hidden group bg-white"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-sky-600 to-blue-600 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
 

@@ -9,16 +9,12 @@ const Feature = (props) => {
         fontWeight="semibold"
         lineHeight="shorter"
         _light={{
-          color: 'white',
+          color: "white",
         }}
       >
         {props.title}
       </chakra.h3>
-      <chakra.p
-        fontSize="xl"
-        color='white'
-       
-      >
+      <chakra.p fontSize="xl" color="white">
         {props.children}
       </chakra.p>
     </Box>
@@ -26,7 +22,6 @@ const Feature = (props) => {
 };
 
 const Features = () => {
-  
   return (
     <Flex
       bg="#FFFFFF"
@@ -34,16 +29,8 @@ const Features = () => {
       w="full"
       justifyContent="center"
       alignItems="center"
-      
     >
-      <Box
-        rounded="35px"
-        px={10}
-        py={10}
-        mx="auto"
-        bg="#093AA9"
-        
-      >
+      <Box rounded="35px" px={10} py={10} mx="auto" bg="#093AA9">
         <Box
           textAlign={{
             lg: "center",
@@ -59,7 +46,7 @@ const Features = () => {
             fontWeight="extrabold"
             letterSpacing="normal"
             _light={{
-              color: 'white',
+              color: "white",
             }}
           >
             Будущее начинается уже сегодня
@@ -79,27 +66,19 @@ const Features = () => {
           spacingY={10}
           mt={10}
         >
-          <Feature
-            title="Научись новому"
-           
-          >
-            С каждым уроком повышается уровень сложности, благодаря структуре программ ребенок легко усвоит даже сложный материал
+          <Feature title="Научись новому">
+            С каждым уроком повышается уровень сложности, благодаря структуре
+            программ ребенок легко усвоит даже сложный материал
           </Feature>
-          <Feature
-            title="Найди свою профессию"
-            
-          >
-            Ребенок получит необходимые знания и практические навыки, которые сможет применить в области информационных технологий, digital и IT-предпринимательства
+          <Feature title="Найди свою профессию">
+            Ребенок получит необходимые знания и практические навыки, которые
+            сможет применить в области информационных технологий, digital и
+            IT-предпринимательства
           </Feature>
-          <Feature
-            title="Знания на всю жизнь"
-            
-          >
-            Все наши программы на 80% состоят из практических заданий, которые ребята с удовольствием делают каждый урок
+          <Feature title="Знания на всю жизнь">
+            Все наши программы на 80% состоят из практических заданий, которые
+            ребята с удовольствием делают каждый урок
           </Feature>
-          
-         
-
         </SimpleGrid>
       </Box>
     </Flex>

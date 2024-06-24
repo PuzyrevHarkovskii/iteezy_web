@@ -1,12 +1,19 @@
-import { Box, Stack, Icon, Flex, Image, HStack, VStack, Link, Text, Divider } from "@chakra-ui/react";
+import {
+  Box,
+  Stack,
+  Icon,
+  Flex,
+  Image,
+  HStack,
+  VStack,
+  Link,
+  Text,
+  Divider,
+} from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    
-    <Box
-      bg="#080624"
-    >
-    
+    <Box bg="#080624">
       <Stack
         direction={{
           base: "column",
@@ -18,7 +25,7 @@ const Footer = () => {
       >
         <Flex justify="center">
           <Image
-           src="/images/full_logo.png"
+            src="/images/full_logo.png"
             alt="Iteezy logo"
             width={{
               base: "5em",
@@ -79,7 +86,6 @@ const Footer = () => {
         >
           <Flex justify="start" direction="column">
             <Link textTransform="uppercase">Курсы</Link>
-            
           </Flex>
         </HStack>
       </Stack>
@@ -94,9 +100,7 @@ const Footer = () => {
       />
       <VStack py={3}>
         <HStack justify="center">
-          <Link>
-            
-          </Link>
+          <Link></Link>
         </HStack>
 
         <Text
@@ -108,7 +112,6 @@ const Footer = () => {
           }}
         >
           &copy;Iteezy. Витебский просп., 101, корп. 4, Санкт-Петербург.
-
         </Text>
       </VStack>
     </Box>
