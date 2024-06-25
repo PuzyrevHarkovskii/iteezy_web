@@ -64,7 +64,7 @@ const Header = () => {
                 <Button
                   leftIcon={<MdCall />}
                   variant="ghost"
-                  href={`tel:+79114030090`}
+                  onClick={() => (window.location.href = "tel:+79114030090")}
                   display={{
                     base: "none",
                     md: "inline-flex",
@@ -75,7 +75,9 @@ const Header = () => {
                 <Button
                   variant="outline"
                   borderColor="brand.500"
-                  href="https://wa.me/7911704198"
+                  onClick={() =>
+                    (window.location.href = "https://wa.me/7911704198")
+                  }
                   size={{ base: "sm", md: "md" }}
                 >
                   WhatsApp
