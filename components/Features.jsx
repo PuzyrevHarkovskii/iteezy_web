@@ -27,6 +27,7 @@ const Features = () => {
       bg="#FFFFFF"
       px={{
         sm: 20,
+
         xl: "25em",
       }}
       w="full"

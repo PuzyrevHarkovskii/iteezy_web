@@ -17,13 +17,12 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 export default function Questions() {
   return (
     <Flex
-      py={"0em"}
       minH={"10vh"}
       align={"center"}
       justify={"center"}
       bg={useColorModeValue("WhiteAlpha.200", "gray.800")}
     >
-      <Container paddingTop="5em" paddingBottom={"3em"}>
+      <Container paddingBottom={"3em"}>
         <Heading
           className="text-blue-500 "
           fontSize={"5xl"}
@@ -46,6 +45,10 @@ export default function Questions() {
                 textAlign="left"
                 fontWeight={"bold"}
                 color={"gray.500"}
+                _hover={{
+                  color: "blue.500",
+                  transition: "color 0.3s ease",
+                }}
               >
                 Как часто проходят занятия?
               </Text>
@@ -67,7 +70,15 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
+              <Text
+                fontSize="2xl"
+                fontWeight={"bold"}
+                color={"gray.500"}
+                _hover={{
+                  color: "blue.500",
+                  transition: "color 0.3s ease",
+                }}
+              >
                 Сколько учеников в группах?
               </Text>
               <ChevronDownIcon fontSize="24px" />
@@ -86,7 +97,15 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
+              <Text
+                fontSize="2xl"
+                _hover={{
+                  color: "blue.500",
+                  transition: "color 0.3s ease",
+                }}
+                fontWeight={"bold"}
+                color={"gray.500"}
+              >
                 Есть ли домашнее задание?
               </Text>
               <ChevronDownIcon fontSize="24px" />
@@ -107,6 +126,10 @@ export default function Questions() {
               p={4}
             >
               <Text
+                _hover={{
+                  color: "blue.500",
+                  transition: "color 0.3s ease",
+                }}
                 fontSize="2xl"
                 fontWeight={"bold"}
                 textAlign={"left"}
@@ -133,7 +156,15 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
+              <Text
+                _hover={{
+                  color: "blue.500",
+                  transition: "color 0.3s ease",
+                }}
+                fontSize="2xl"
+                fontWeight={"bold"}
+                color={"gray.500"}
+              >
                 Где мы находимся?
               </Text>
               <ChevronDownIcon fontSize="24px" />

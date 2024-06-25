@@ -16,6 +16,7 @@ import PriceList from "@/components/Prices";
 import { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Footer1 from "@/components/Footer1";
+import { ImagesGrid } from "@/components/ImagesCarousel";
 
 export default function Home() {
   const coursesRef = useRef(null);
@@ -38,6 +39,7 @@ export default function Home() {
         <Features />
         <SomeInfo />
         <Courses />
+        <ImagesGrid />
         <Questions />
 
         <PriceList />

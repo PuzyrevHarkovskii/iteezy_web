@@ -5,7 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const HeroSection = () => {
   return (
-    <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <section className=" w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <div>
         <span className="block mb-2 text-ms md:text-2xl sm:text-2xl  text-blue-600 font-bold">
           5-17 лет
@@ -149,7 +149,7 @@ const ShuffleGrid = () => {
   };
 
   return (
-    <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
+    <div className="grid grid-cols-4  grid-rows-4 h-[450px] gap-1">
       {squares.map((sq) => sq)}
     </div>
   );
