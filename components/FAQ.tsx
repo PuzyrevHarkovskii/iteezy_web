@@ -24,7 +24,7 @@ export default function Questions() {
       bg={useColorModeValue("WhiteAlpha.200", "gray.800")}
     >
       <Container paddingTop="5em" paddingBottom={"3em"}>
-        <Heading fontSize={"4xl"} pb={"1em"} mb={6} textAlign="center">
+        <Heading fontSize={"5xl"} pb={"1em"} mb={6} textAlign="center">
           Часто задаваемые вопросы
         </Heading>
         <Accordion allowMultiple width="100%" maxW="2lg" rounded="lg">
@@ -35,16 +35,17 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="xl" fontWeight={"bold"}>
+              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
                 Как часто проходят занятия?
               </Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="lg" color="gray.600">
-                Занятие проходит 1 раз в неделю и длится 90 минут. Времени
-                хватает на изучение теории и воплощение её в своих проектах на
-                компьютере. Обучение состоит из 80 % практики и 20 % теории.
+                Занятие проходит 1 раз в неделю и длится{" "}
+                <span style={{ color: "blue" }}>90 минут</span>. Времени хватает
+                на изучение теории и воплощение её в своих проектах на
+                компьютере. Обучение состоит из 80 % практики и 20 % теории.{" "}
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -55,7 +56,7 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="xl" fontWeight={"bold"}>
+              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
                 Сколько учеников в группах?
               </Text>
               <ChevronDownIcon fontSize="24px" />
@@ -74,7 +75,7 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="xl" fontWeight={"bold"}>
+              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
                 Есть ли домашнее задание?
               </Text>
               <ChevronDownIcon fontSize="24px" />
@@ -94,7 +95,7 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="xl" fontWeight={"bold"}>
+              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
                 Если ребенок пропустил занятие?
               </Text>
               <ChevronDownIcon fontSize="24px" />
@@ -116,7 +117,7 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="xl" fontWeight={"bold"}>
+              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
                 Где мы находимся?
               </Text>
               <ChevronDownIcon fontSize="24px" />

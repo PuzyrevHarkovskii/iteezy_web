@@ -10,7 +10,7 @@ const ContactUs = () => {
       <p className="text-4xl font-semibold mb-[1em] text-center">
         Запишитесь на занятие!
       </p>
-      <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 mx-10">
+      <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10">
         <Card
           id="contactus"
           title="WhatsApp"

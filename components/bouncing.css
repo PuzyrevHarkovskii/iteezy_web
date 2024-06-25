@@ -1,21 +1,3 @@
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-.bouncing-button {
-  animation: bouncing 2s infinite;
-}
-
 @keyframes bouncing {
   0%,
   20%,

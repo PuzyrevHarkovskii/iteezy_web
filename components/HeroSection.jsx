@@ -7,19 +7,20 @@ const HeroSection = () => {
   return (
     <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <div>
-        <span className="block mb-2 text-ms md:text-2xl text-blue-600 font-bold">
+        <span className="block mb-2 text-ms md:text-2xl  text-blue-600 font-bold">
           5-17 лет
         </span>
         <TypewriterEffectSmoothDemo />
         <h3 className="text-4xl md:text-6xl font-semibold">
           IT-курсы для детей
         </h3>
-        <p className="text-xl lg:text-xl md:text-xl text-black mt-6 mb-8 md:my-8 font-semibold">
+        <p className="text-xl lg:text-xl  md:text-xl text-black mt-6 mb-8 md:my-8 font-semibold">
           Курсы для новичков и продвинутых любителей компьютерных технологий на
           базе ProGame.
         </p>
         <ScrollLink
-          className="rounded-lg xl:text-xl sm:text-md px-6 py-4 font-medium  bg-yellow-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+          className="animate-bounce xl:text-xl text-xl sm:text-xl px-6 py-4 focus:animate-none transition-all w-fit hover:animate-none inline-flex text-md font-medium shadow-[3px_5px_0px_gray] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] bg-yellow-500 mt-3 rounded-xl tracking-wide text-white"
+          // rounded-xl xl:text-xl text-xl sm:text-xl px-6 py-4 bg-yellow-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] font-bold
           to="contactus"
           smooth={true}
           duration={300}
