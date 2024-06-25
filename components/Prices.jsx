@@ -1,13 +1,9 @@
-
 import { Flex, Box, VStack, HStack, chakra, Icon } from "@chakra-ui/react";
 import { FiCheck } from "react-icons/fi";
 
-
 const Feature = (props) => {
   return (
-    
-    <Flex id='pricelist' alignSelf="start" w="full">
-    
+    <Flex id="pricelist" alignSelf="start" w="full">
       <Icon
         boxSize={5}
         mt={1}
@@ -16,15 +12,9 @@ const Feature = (props) => {
           color: "blue.500",
         }}
         viewBox="0 0 20 20"
-        
         as={FiCheck}
       />
-      <chakra.p
-        fontSize="xl"
-        color="gray.600"
-        
-        {...props}
-      />
+      <chakra.p fontSize="xl" color="gray.600" {...props} />
     </Flex>
   );
 };
@@ -32,14 +22,13 @@ const Feature = (props) => {
 const PriceList = () => {
   return (
     <Flex
-    
       //bg="#edf1ff"
       p={5}
       w="full"
       justifyContent="center"
       alignItems="center"
     >
-      <Box w="77em" pt={8}>
+      <Box w="70em" pt={8}>
         <Flex
           direction={{
             base: "column",
@@ -64,7 +53,6 @@ const PriceList = () => {
             borderTopRightRadius={0}
             borderBottomLeftRadius="lg"
             bg="#093aa9"
-            
             my={6}
             direction="column"
           >
@@ -80,11 +68,7 @@ const PriceList = () => {
                 Хобби
               </chakra.span>
               <HStack spacing={0}>
-                <chakra.span
-                
-                  fontSize="3xl"
-                  color={"white"}
-                >
+                <chakra.span fontSize="3xl" color={"white"}>
                   4800 ₽
                 </chakra.span>
                 <chakra.span
@@ -102,7 +86,7 @@ const PriceList = () => {
               fontSize="sm"
               spacing={8}
               h="full"
-              bg="gray.100"
+              bg="gray.50"
               _dark={{
                 bg: "gray.800",
               }}
@@ -118,7 +102,6 @@ const PriceList = () => {
                 <Feature>Абонемент на 1 месяц</Feature>
                 <Feature>Регулярные занятия</Feature>
                 <Feature>Предварительная запись обязательна</Feature>
-               
               </VStack>
               <Box
                 w="full"
@@ -126,9 +109,7 @@ const PriceList = () => {
                 display="inline-flex"
                 rounded="xl"
                 shadow="md"
-              >
-                
-              </Box>
+              ></Box>
             </VStack>
           </Flex>
 
@@ -166,11 +147,7 @@ const PriceList = () => {
                 Развитие
               </chakra.span>
               <HStack spacing={0}>
-                <chakra.span
-                 
-                  fontSize="3xl"
-                  color={"white"}
-                >
+                <chakra.span fontSize="3xl" color={"white"}>
                   8800 ₽
                 </chakra.span>
                 <chakra.span
@@ -189,7 +166,7 @@ const PriceList = () => {
               h="full"
               roundedBottom="xl"
               spacing={8}
-              bg="gray.100"
+              bg="gray.50"
               _dark={{
                 bg: "gray.800",
               }}
@@ -205,7 +182,6 @@ const PriceList = () => {
                 <Feature>Регулярные занятия </Feature>
                 <Feature>Предварительная запись обязательна</Feature>
               </VStack>
-        
             </VStack>
           </Flex>
 
@@ -240,11 +216,7 @@ const PriceList = () => {
                 Попробовать
               </chakra.span>
               <HStack spacing={1}>
-                <chakra.span
-                 
-                  fontSize="3xl"
-                  color={"white"}
-                >
+                <chakra.span fontSize="3xl" color={"white"}>
                   500 ₽
                 </chakra.span>
                 <chakra.span
@@ -262,7 +234,7 @@ const PriceList = () => {
               fontSize="sm"
               spacing={8}
               h="full"
-              bg="gray.100"
+              bg="gray.50"
               _dark={{
                 bg: "gray.800",
               }}
@@ -275,8 +247,10 @@ const PriceList = () => {
                 direction="column"
                 alignItems="start"
               >
-                <Feature>Если ребенку понравилось на пробном занятии и он будет дальше учиться, то данное занятие для вас БЕСПЛАТНО.</Feature>
-               
+                <Feature>
+                  Если ребенку понравилось на пробном занятии и он будет дальше
+                  учиться, то данное занятие для вас БЕСПЛАТНО.
+                </Feature>
               </VStack>
             </VStack>
           </Flex>

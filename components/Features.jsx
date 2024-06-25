@@ -5,7 +5,7 @@ const Feature = (props) => {
     <Box>
       <chakra.h3
         mb={2}
-        fontSize="3xl"
+        fontSize="2xl"
         fontWeight="semibold"
         lineHeight="shorter"
         _light={{
@@ -25,7 +25,10 @@ const Features = () => {
   return (
     <Flex
       bg="#FFFFFF"
-      p={10}
+      px={{
+        sm: 20,
+        xl: "25em",
+      }}
       w="full"
       justifyContent="center"
       alignItems="center"

@@ -19,7 +19,7 @@ const HeroSection = () => {
           базе ProGame.
         </p>
         <ScrollLink
-          className="bg-black hover:cursor-pointer text-white text-xl font-medium py-6 px-6 rounded-xl transition-all hover:bg-slate-600 active:scale-95"
+          className="rounded-lg xl:text-xl sm:text-md px-6 py-4 font-medium  bg-yellow-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
           to="contactus"
           smooth={true}
           duration={300}

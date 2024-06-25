@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { ReactNode } from "react";
+import "./animation.css";
 
 const Logo = (props: any) => {
   return (
@@ -95,6 +96,7 @@ export default function Footer1() {
             base: 2,
             lg: 0,
           }}
+          className="animate-float"
         />
         <Stack direction={"row"} spacing={6}>
           <Box as="a" href={"#"}>
@@ -126,7 +128,8 @@ export default function Footer1() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Text>© 2024 Iteezy</Text>
+          <Text color={"gray.500"}>made by @app1e.jews</Text>
         </Container>
       </Box>
     </Box>

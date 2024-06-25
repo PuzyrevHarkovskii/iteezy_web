@@ -14,11 +14,11 @@ const Feature = (props) => {
       </Box>
       <chakra.h3
         mb={2}
-        fontSize="3xl"
+        fontSize="2xl"
         lineHeight="shorter"
         fontWeight="bold"
         _light={{
-          color: "blue.600",
+          color: "#EAB427",
         }}
       >
         {props.title}
@@ -52,9 +52,9 @@ const SomeInfo = () => {
         px={{
           base: 4,
           lg: 16,
-          xl: 24,
+          xl: "25em",
         }}
-        py={10}
+        py={14}
         mx="auto"
         bg="white"
         _dark={{
