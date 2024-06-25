@@ -24,24 +24,35 @@ export default function Questions() {
       bg={useColorModeValue("WhiteAlpha.200", "gray.800")}
     >
       <Container paddingTop="5em" paddingBottom={"3em"}>
-        <Heading fontSize={"5xl"} pb={"1em"} mb={6} textAlign="center">
+        <Heading
+          className="text-blue-500 "
+          fontSize={"5xl"}
+          pb={"1em"}
+          mb={6}
+          textAlign="center"
+        >
           Часто задаваемые вопросы
         </Heading>
         <Accordion allowMultiple width="100%" maxW="3lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
               display="flex"
-              alignItems="center"
+              alignItems="left"
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
+              <Text
+                fontSize="2xl"
+                textAlign="left"
+                fontWeight={"bold"}
+                color={"gray.500"}
+              >
                 Как часто проходят занятия?
               </Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
-              <Text fontSize="lg" color="gray.600">
+              <Text fontSize="xl" color="gray.600">
                 Занятие проходит 1 раз в неделю и длится{" "}
                 <span style={{ color: "blue" }}>90 минут</span>. Времени хватает
                 на изучение теории и воплощение её в своих проектах на
@@ -62,7 +73,7 @@ export default function Questions() {
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
-              <Text fontSize="lg" color="gray.600">
+              <Text fontSize="xl" color="gray.600">
                 Занятие проходят в группах до 8 человек. Мы не делаем больших
                 групп, чтобы уделить время каждому.
               </Text>
@@ -81,7 +92,7 @@ export default function Questions() {
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
-              <Text fontSize="lg" color="gray.600">
+              <Text fontSize="xl" color="gray.600">
                 Да, в большинстве модулей предусмотрены домашние задания и
                 контрольные работы. Это позволяет контролировать учебный процесс
                 и усвоение пройденного материала.
@@ -95,13 +106,18 @@ export default function Questions() {
               justifyContent="space-between"
               p={4}
             >
-              <Text fontSize="2xl" fontWeight={"bold"} color={"gray.500"}>
+              <Text
+                fontSize="2xl"
+                fontWeight={"bold"}
+                textAlign={"left"}
+                color={"gray.500"}
+              >
                 Если ребенок пропустил занятие?
               </Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
-              <Text fontSize="lg" color="gray.600">
+              <Text fontSize="xl" color="gray.600">
                 К пропускам ребят каждый раз подходим индивидуально: в некоторых
                 случаях достаточно решить дополнительное домашнее задание или
                 самостоятельную работу, а в некоторых назначаем дополнительную
@@ -123,7 +139,7 @@ export default function Questions() {
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
-              <Text fontSize="lg" color="gray.600">
+              <Text fontSize="xl" color="gray.600">
                 Витебский просп., 101, корп. 4, Санкт-Петербург, метро Купчино
               </Text>
             </AccordionPanel>

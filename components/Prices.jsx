@@ -1,5 +1,6 @@
 import { Flex, Box, VStack, HStack, chakra, Icon } from "@chakra-ui/react";
 import { FiCheck } from "react-icons/fi";
+import { Text } from "@chakra-ui/react";
 
 const Feature = (props) => {
   return (
@@ -49,12 +50,11 @@ const PriceList = () => {
             w={{
               lg: 2.3 / 7,
             }}
-            rounded="xl"
-            borderTopRightRadius={0}
-            borderBottomLeftRadius="lg"
+            rounded="35px"
             bg="#093aa9"
             my={6}
             direction="column"
+            className="shadow-md hover:shadow-lg hover:translate-x-2 hover:scale-105 transition-all duration-300"
           >
             <VStack
               spacing={1}
@@ -90,7 +90,6 @@ const PriceList = () => {
               _dark={{
                 bg: "gray.800",
               }}
-              borderBottomLeftRadius="lg"
               p={12}
             >
               <VStack
@@ -107,13 +106,12 @@ const PriceList = () => {
                 w="full"
                 ml={3}
                 display="inline-flex"
-                rounded="xl"
+                rounded="35px"
                 shadow="md"
               ></Box>
             </VStack>
           </Flex>
 
-          {/* Growth Plan */}
           <Flex
             flex={{
               base: 1,
@@ -122,18 +120,16 @@ const PriceList = () => {
             w={{
               lg: 2.4 / 7,
             }}
-            rounded="xl"
+            rounded="35px"
             bg="#093aa9"
-            _dark={{
-              bg: "gray.700",
-            }}
             mt={{
               base: 4,
               sm: -4,
             }}
-            shadow="xl"
+            shadow="md"
             zIndex={30}
             direction="column"
+            className="shadow-md hover:shadow-lg hover:translate-x-2 hover:scale-105 transition-all duration-300"
           >
             <VStack
               spacing={1}
@@ -164,7 +160,6 @@ const PriceList = () => {
             <VStack
               fontSize="sm"
               h="full"
-              roundedBottom="xl"
               spacing={8}
               bg="gray.50"
               _dark={{
@@ -194,15 +189,15 @@ const PriceList = () => {
             w={{
               lg: 2.3 / 7,
             }}
-            roundedTop="xl"
-            borderBottomRightRadius="xl"
-            borderTopLeftRadius={0}
+            roundedTop="35px"
+            borderBottomRightRadius="35px"
             bg="#093aa9"
             _dark={{
               bg: "gray.700",
             }}
             my={6}
             direction="column"
+            className="shadow-md hover:shadow-lg hover:translate-x-2 hover:scale-105 transition-all duration-300"
           >
             <VStack
               spacing={1}
