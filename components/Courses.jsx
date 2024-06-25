@@ -49,21 +49,20 @@ const Courses = () => {
   return (
     <Flex
       bg="#FFFFFF"
-      p={15}
+      px={{
+        sm: 20,
+        xl: "25em",
+      }}
       w="full"
       justifyContent="center"
       alignItems="center"
     >
       <Box
-        rounded="35px"
-        // Ширина бокса
+        rounded={{ xl: "35px", sm: "0", md: "35px", lg: "35px" }}
         px={50}
         py={25}
         mx="auto"
         bg="#093AA9"
-        _dark={{
-          bg: "white",
-        }}
       >
         <Box
           textAlign={{

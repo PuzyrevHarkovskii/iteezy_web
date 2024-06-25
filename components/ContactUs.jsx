@@ -3,12 +3,14 @@ import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaVk } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import "./animation.css";
 
 const ContactUs = () => {
   return (
     <div id="contactus" className="p-[5em] mx-3/4 lg:mx-[17em] w-30">
-      <p className="text-4xl font-semibold mb-[1em] text-center">
-        Запишитесь на занятие!
+      <p className="bouncing-button text-blue-500 text-4xl font-semibold mb-[1em] text-center">
+        {" "}
+        Запишитесь на занятие!{" "}
       </p>
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10">
         <Card

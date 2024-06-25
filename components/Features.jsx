@@ -33,7 +33,13 @@ const Features = () => {
       justifyContent="center"
       alignItems="center"
     >
-      <Box rounded="35px" px={10} py={10} mx="auto" bg="#093AA9">
+      <Box
+        rounded={{ base: "0", md: "35px", lg: "35px" }}
+        px={10}
+        py={10}
+        mx="auto"
+        bg="#093AA9"
+      >
         <Box
           textAlign={{
             lg: "center",
@@ -52,7 +58,7 @@ const Features = () => {
               color: "white",
             }}
           >
-            Будущее начинается уже сегодня
+            Будущее начинается уже сегодня!
           </chakra.p>
         </Box>
         <SimpleGrid

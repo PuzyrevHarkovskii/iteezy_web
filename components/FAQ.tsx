@@ -27,7 +27,7 @@ export default function Questions() {
         <Heading fontSize={"5xl"} pb={"1em"} mb={6} textAlign="center">
           Часто задаваемые вопросы
         </Heading>
-        <Accordion allowMultiple width="100%" maxW="2lg" rounded="lg">
+        <Accordion allowMultiple width="100%" maxW="3lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
               display="flex"
