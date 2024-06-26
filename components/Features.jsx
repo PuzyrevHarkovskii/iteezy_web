@@ -25,12 +25,12 @@ const Features = () => {
   return (
     <Flex
       bg="#FFFFFF"
+      mx-auto
       px={{
+        lg: 0,
         sm: 20,
-
         xl: "25em",
       }}
-      w="full"
       justifyContent="center"
       alignItems="center"
     >

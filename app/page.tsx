@@ -5,7 +5,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Features from "@/components/Features";
-import Footer from "@/components/Footer";
 import SomeInfo from "@/components/SomeInfo";
 import Courses from "@/components/Courses";
 import ContactUs from "@/components/ContactUs";
@@ -39,7 +38,7 @@ export default function Home() {
         <Features />
         <SomeInfo />
         <Courses />
-        <ImagesGrid />
+        {/* <ImagesGrid /> */}
         <Questions />
 
         <PriceList />

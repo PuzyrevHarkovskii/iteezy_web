@@ -17,32 +17,29 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 export default function Questions() {
   return (
     <Flex
+      pt={8}
       minH={"10vh"}
-      align={"center"}
-      justify={"center"}
       bg={useColorModeValue("WhiteAlpha.200", "gray.800")}
     >
       <Container paddingBottom={"3em"}>
         <Heading
-          className="text-blue-500 "
+          className="text-blue-500"
           fontSize={"5xl"}
+          pt={"1em"}
           pb={"1em"}
-          mb={6}
-          textAlign="center"
+          mb={3}
         >
           Часто задаваемые вопросы
         </Heading>
-        <Accordion allowMultiple width="100%" maxW="3lg" rounded="lg">
+        <Accordion allowMultiple width="100%" rounded="lg">
           <AccordionItem>
             <AccordionButton
               display="flex"
-              alignItems="left"
               justifyContent="space-between"
               p={4}
             >
               <Text
                 fontSize="2xl"
-                textAlign="left"
                 fontWeight={"bold"}
                 color={"gray.500"}
                 _hover={{
@@ -52,21 +49,23 @@ export default function Questions() {
               >
                 Как часто проходят занятия?
               </Text>
-              <ChevronDownIcon fontSize="24px" />
+              <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
+                {" "}
                 Занятие проходит 1 раз в неделю и длится{" "}
                 <span style={{ color: "blue" }}>90 минут</span>. Времени хватает
                 на изучение теории и воплощение её в своих проектах на
-                компьютере. Обучение состоит из 80 % практики и 20 % теории.{" "}
+                компьютере. Обучение состоит из{" "}
+                <span style={{ color: "blue" }}>80% практики</span> и{" "}
+                <span style={{ color: "blue" }}>20% теории</span>.{" "}
               </Text>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <AccordionButton
               display="flex"
-              alignItems="center"
               justifyContent="space-between"
               p={4}
             >
@@ -81,19 +80,19 @@ export default function Questions() {
               >
                 Сколько учеников в группах?
               </Text>
-              <ChevronDownIcon fontSize="24px" />
+              <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
-                Занятие проходят в группах до 8 человек. Мы не делаем больших
-                групп, чтобы уделить время каждому.
+                Занятие проходят в группах{" "}
+                <span style={{ color: "blue" }}>до 8 человек</span>. Мы не
+                делаем больших групп, чтобы уделить время каждому.
               </Text>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <AccordionButton
               display="flex"
-              alignItems="center"
               justifyContent="space-between"
               p={4}
             >
@@ -108,20 +107,21 @@ export default function Questions() {
               >
                 Есть ли домашнее задание?
               </Text>
-              <ChevronDownIcon fontSize="24px" />
+              <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
-                Да, в большинстве модулей предусмотрены домашние задания и
-                контрольные работы. Это позволяет контролировать учебный процесс
-                и усвоение пройденного материала.
+                Да, в большинстве модулей предусмотрены{" "}
+                <span style={{ color: "blue" }}>домашние задания</span> и{" "}
+                <span style={{ color: "green" }}>контрольные работы</span>. Это
+                позволяет контролировать учебный процесс и усвоение пройденного
+                материала.
               </Text>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <AccordionButton
               display="flex"
-              alignItems="center"
               justifyContent="space-between"
               p={4}
             >
@@ -132,12 +132,11 @@ export default function Questions() {
                 }}
                 fontSize="2xl"
                 fontWeight={"bold"}
-                textAlign={"left"}
                 color={"gray.500"}
               >
                 Если ребенок пропустил занятие?
               </Text>
-              <ChevronDownIcon fontSize="24px" />
+              <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
@@ -152,7 +151,6 @@ export default function Questions() {
           <AccordionItem>
             <AccordionButton
               display="flex"
-              alignItems="center"
               justifyContent="space-between"
               p={4}
             >
@@ -167,7 +165,7 @@ export default function Questions() {
               >
                 Где мы находимся?
               </Text>
-              <ChevronDownIcon fontSize="24px" />
+              <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
