@@ -67,20 +67,19 @@ const PriceList = () => {
               <chakra.span fontSize="4xl" fontWeight="bold" color={"white"}>
                 Хобби
               </chakra.span>
-              <HStack spacing={0}>
-                <chakra.span fontSize="3xl" color={"white"}>
-                  4800 ₽
-                </chakra.span>
-                <chakra.span
-                  alignSelf="center"
-                  fontSize="3xl"
-                  _light={{
-                    color: "white",
-                  }}
-                >
-                  /месяц
-                </chakra.span>
-              </HStack>
+
+              <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
+                4800 ₽
+              </chakra.span>
+              <chakra.span
+                alignSelf="center"
+                fontSize="2xl"
+                _light={{
+                  color: "white",
+                }}
+              >
+                /месяц
+              </chakra.span>
             </VStack>
             <VStack
               fontSize="sm"
@@ -142,20 +141,19 @@ const PriceList = () => {
               <chakra.span fontSize="4xl" fontWeight="bold" color={"white"}>
                 Развитие
               </chakra.span>
-              <HStack spacing={0}>
-                <chakra.span fontSize="3xl" color={"white"}>
-                  8800 ₽
-                </chakra.span>
-                <chakra.span
-                  alignSelf="center"
-                  fontSize="3xl"
-                  _light={{
-                    color: "white",
-                  }}
-                >
-                  /2 месяца
-                </chakra.span>
-              </HStack>
+
+              <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
+                8800 ₽
+              </chakra.span>
+              <chakra.span
+                alignSelf="center"
+                fontSize="2xl"
+                _light={{
+                  color: "white",
+                }}
+              >
+                /2 месяца
+              </chakra.span>
             </VStack>
             <VStack
               fontSize="sm"
@@ -210,20 +208,19 @@ const PriceList = () => {
               <chakra.span fontSize="3xl" fontWeight="bold" color={"white"}>
                 Попробовать
               </chakra.span>
-              <HStack spacing={1}>
-                <chakra.span fontSize="3xl" color={"white"}>
-                  500 ₽
-                </chakra.span>
-                <chakra.span
-                  alignSelf="center"
-                  fontSize="3xl"
-                  _light={{
-                    color: "white",
-                  }}
-                >
-                  /занятие
-                </chakra.span>
-              </HStack>
+
+              <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
+                500 ₽
+              </chakra.span>
+              <chakra.span
+                alignSelf="center"
+                fontSize="2xl"
+                _light={{
+                  color: "white",
+                }}
+              >
+                /занятие
+              </chakra.span>
             </VStack>
             <VStack
               fontSize="sm"

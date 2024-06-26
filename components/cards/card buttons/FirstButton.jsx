@@ -14,7 +14,7 @@ export const FirstButton = () => {
       <button
         onClick={() => setOpen(true)}
         className="rounded-xl  bg-indigo-500  px-14 py-2 text-white transition-colors hover:bg-blue-950"
-        style={{ fontSize: "1em", fontWeight: "bold" }}
+        style={{ fontSize: "xl", fontWeight: "bold" }}
       >
         Подробнее о курсе
       </button>
