@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: #1D1D1D;
-  --background-start-rgb: #1D1D1D;
-  --background-end-rgb: #1D1D1D;
+  --foreground-rgb: #1d1d1d;
+  --background-start-rgb: #1d1d1d;
+  --background-end-rgb: #1d1d1d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,11 +16,6 @@
   }
 }
 
-body {
-  color: #ff0000;
-  background: #ff0000;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -29,15 +24,14 @@ body {
 
 html {
   scroll-behavior: smooth;
-  
 }
 
 @font-face {
-  font-family: 'GraphikLCG';
-  src: url('/public/fonts/GraphikLCG-SemiboldItalic.woff') format('woff');
-  src: url('/public/fonts/GraphikLCG-SemiboldItalic.woff2') format('woff2');
+  font-family: "GraphikLCG";
+  src: url("/public/fonts/GraphikLCG-SemiboldItalic.woff") format("woff");
+  src: url("/public/fonts/GraphikLCG-SemiboldItalic.woff2") format("woff2");
 }
 
 body {
-  font-family: 'MyCustomFont', sans-serif;
+  font-family: "MyCustomFont", sans-serif;
 }

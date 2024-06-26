@@ -7,12 +7,12 @@ import "./animation.css";
 
 const ContactUs = () => {
   return (
-    <div id="contactus" className="py-12 xl:mx-80 lg:mx-50">
+    <div id="contactus" className="py-12 xl:mx-80 lg:mx-50 border-1px ">
       <p className="bouncing-button text-blue-500 text-4xl font-semibold mb-[1em] text-center">
         {" "}
         Запишитесь на занятие!{" "}
       </p>
-      <div className="grid gap-4 grid-cols-1 lg:grid-cols-2  sm:grid-cols-2 ">
+      <div className=" grid gap-4 grid-cols-1 lg:grid-cols-2  sm:grid-cols-2 ">
         <Card
           title="+7 (911) 403-00-90"
           subtitle="Позвоните нам"
