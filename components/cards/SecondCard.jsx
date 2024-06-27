@@ -23,12 +23,11 @@ export function SecondCard() {
           className="text-neutral-500 text-left text-md max-w-sm mt-2 dark:text-neutral-300"
         >
           Дети познакомятся с новыми программами: В ScratchJr создадут
-          персонажей и мультфильмы. В KODU сделают игру с перемещением камеры и
-          объектами.
+          персонажей и мультфильмы. В KODU создадут собственную игру.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="/images/header_logo3.png"
+            src="/images/2_card.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

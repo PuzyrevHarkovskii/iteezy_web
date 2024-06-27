@@ -29,7 +29,7 @@ export function SixthCard() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="/images/header_logo3.png"
+            src="/images/6_card.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

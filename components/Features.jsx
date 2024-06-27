@@ -29,7 +29,7 @@ const Features = () => {
       px={{
         lg: 0,
         sm: 20,
-        xl: 80,
+        xl: "25em",
       }}
       justifyContent="center"
       alignItems="center"
@@ -38,8 +38,10 @@ const Features = () => {
         rounded={{ base: "0", md: "35px", lg: "35px" }}
         px={10}
         py={10}
-        mx={10}
+        mx="auto"
         bg="#093AA9"
+        border=" 1px solid rgba(255, 255, 255, 0.18);"
+        boxShadow="5px 5px 10px 0px rgba(128, 128, 128, )"
       >
         <Box
           textAlign={{

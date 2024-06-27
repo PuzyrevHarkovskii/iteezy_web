@@ -82,6 +82,8 @@ const PriceList = () => {
               </chakra.span>
             </VStack>
             <VStack
+              borderBottomLeftRadius="35px"
+              borderBottomRightRadius="35px"
               fontSize="sm"
               spacing={8}
               h="full"
@@ -156,6 +158,8 @@ const PriceList = () => {
               </chakra.span>
             </VStack>
             <VStack
+              borderBottomLeftRadius="35px"
+              borderBottomRightRadius="35px"
               fontSize="sm"
               h="full"
               spacing={8}
@@ -188,7 +192,6 @@ const PriceList = () => {
               lg: 2.3 / 7,
             }}
             roundedTop="35px"
-            borderBottomRightRadius="35px"
             bg="#093aa9"
             _dark={{
               bg: "gray.700",
@@ -196,6 +199,8 @@ const PriceList = () => {
             my={6}
             direction="column"
             className="shadow-md hover:shadow-lg hover:translate-x-2 hover:scale-105 transition-all duration-300"
+            borderBottomLeftRadius="35px"
+            borderBottomRightRadius="35px"
           >
             <VStack
               spacing={1}
@@ -230,7 +235,8 @@ const PriceList = () => {
               _dark={{
                 bg: "gray.800",
               }}
-              borderBottomRightRadius="lg"
+              borderBottomLeftRadius="35px"
+              borderBottomRightRadius="35px"
               p={12}
             >
               <VStack
