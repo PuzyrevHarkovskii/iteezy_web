@@ -48,7 +48,7 @@ const Card = ({ title, subtitle, Icon, href }) => {
   return (
     <a
       href={href}
-      className="w-auto xl:h-[12em]  sm:h-[12em] p-5 rounded-xl shadow-md border-[1px] border-slate-100 relative overflow-hidden group bg-white"
+      className="w-auto xl:h-[12em]  sm:h-[12em] p-5 rounded-[35px] shadow-md border-[1px] border-slate-100 relative overflow-hidden group bg-white"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-sky-600 to-blue-600 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
 

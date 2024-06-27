@@ -16,6 +16,7 @@ import { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Footer1 from "@/components/Footer1";
 import { ImagesGrid } from "@/components/ImagesCarousel";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   const coursesRef = useRef(null);
@@ -42,6 +43,7 @@ export default function Home() {
         <Questions />
 
         <PriceList />
+        <ContactForm />
         <ContactUs />
         <div>
           <iframe

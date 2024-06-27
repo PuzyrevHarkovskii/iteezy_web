@@ -65,7 +65,7 @@ const PriceList = () => {
               shadow="xl"
             >
               <chakra.span fontSize="4xl" fontWeight="bold" color={"white"}>
-                Хобби
+                🎨 Хобби
               </chakra.span>
 
               <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
@@ -141,7 +141,7 @@ const PriceList = () => {
               shadow="xl"
             >
               <chakra.span fontSize="4xl" fontWeight="bold" color={"white"}>
-                Развитие
+                🚀 Развитие
               </chakra.span>
 
               <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
@@ -211,7 +211,7 @@ const PriceList = () => {
               shadow="xl"
             >
               <chakra.span fontSize="3xl" fontWeight="bold" color={"white"}>
-                Попробовать
+                😉 Попробовать
               </chakra.span>
 
               <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
