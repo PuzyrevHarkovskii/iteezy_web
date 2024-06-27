@@ -23,17 +23,6 @@ import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import React, { useState } from "react";
 
-const confetti = {
-  light: {
-    primary: "4299E1", // blue.400
-    secondary: "BEE3F8", // blue.100
-  },
-  dark: {
-    primary: "1A365D", // blue.900
-    secondary: "2A4365", // blue.800
-  },
-};
-
 export default function ContactFormWithSocialButtons() {
   const { hasCopied, onCopy } = useClipboard("example@example.com");
   const [formData, setFormData] = useState({
@@ -56,7 +45,8 @@ export default function ContactFormWithSocialButtons() {
     const { name, email, message } = formData;
     const telegramBotId = "7258287597:AAFEFe40A4zoCi12cNTdv0qzkIecwhLKEwA";
     const chatId = 702020795;
-    const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    const text = `
+    Новая заявка!\nРодитель: ${name}\nEmail: ${email}\nMessage: ${message}`;
 
     try {
       const response = await fetch(
@@ -86,14 +76,11 @@ export default function ContactFormWithSocialButtons() {
 
   return (
     <Flex align="center" justify="center" id="contact">
-      <Box
-        borderRadius="35px"
-        m={{ base: 5, md: 8, lg: 8 }}
-        p={{ base: 5, lg: 8 }}
-      >
+      <Box width={"35em"} borderRadius="35px" m={0} bg={"blue"}>
         <Box>
-          <VStack spacing={{ base: 4, md: 8, lg: 20 }}>
+          <VStack spacing={{ base: 4, md: 8, lg: 10 }}>
             <Heading
+              className="bouncing-button"
               fontSize={{
                 base: "4xl",
                 md: "5xl",
@@ -103,13 +90,13 @@ export default function ContactFormWithSocialButtons() {
             </Heading>
 
             <Stack
-              spacing={{ base: 4, md: 8, lg: 20 }}
+              spacing={{ base: 10, md: 8, lg: 30 }}
               direction={{ base: "column", md: "row" }}
             >
               <Box
                 bg={useColorModeValue("white", "gray.700")}
                 borderRadius="35px"
-                p={10}
+                p={8}
                 color={useColorModeValue("gray.700", "whiteAlpha.900")}
                 shadow="base"
               >

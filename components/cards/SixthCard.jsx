@@ -9,7 +9,7 @@ import { FirstButton } from "@/components/cards/card buttons/FirstButton";
 export function SixthCard() {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50  relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] lg:w-[30em] lg:h-[32rem] h-auto rounded-[35px] p-6">
+      <CardBody className="bg-gray-50  relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] lg:w-[30em] lg:h-[34rem] h-auto rounded-[35px] p-6">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -32,7 +32,7 @@ export function SixthCard() {
             src="/images/6_card.png"
             height="1000"
             width="1000"
-            className="h-50 w-full object-cover rounded-[35px] group-hover/card:shadow-xl"
+            className="h-80 w-full object-cover rounded-[35px] group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>
