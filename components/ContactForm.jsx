@@ -1,7 +1,41 @@
-import { Flex } from "@chakra-ui/react";
+"use client";
+
+import {
+  Box,
+  Button,
+  Flex,
+  FormControl,
+  FormLabel,
+  Heading,
+  IconButton,
+  Input,
+  InputGroup,
+  InputLeftElement,
+  Text,
+  Stack,
+  Textarea,
+  Tooltip,
+  useClipboard,
+  useColorModeValue,
+  VStack,
+} from "@chakra-ui/react";
+import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from "react-icons/bs";
+import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import React, { useState } from "react";
 
-const ContactForm = () => {
+const confetti = {
+  light: {
+    primary: "4299E1", // blue.400
+    secondary: "BEE3F8", // blue.100
+  },
+  dark: {
+    primary: "1A365D", // blue.900
+    secondary: "2A4365", // blue.800
+  },
+};
+
+export default function ContactFormWithSocialButtons() {
+  const { hasCopied, onCopy } = useClipboard("example@example.com");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -51,51 +85,102 @@ const ContactForm = () => {
   };
 
   return (
-    <Flex
-      bg="#FFFFFF"
-      px={{
-        sm: 20,
-        xl: "25em",
-      }}
-      w="full"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <div className="form">
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Your name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Your email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Enter message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-          <input type="submit" value="Send" id="btn" />
-        </form>
-      </div>
+    <Flex align="center" justify="center" id="contact">
+      <Box
+        borderRadius="35px"
+        m={{ base: 5, md: 8, lg: 8 }}
+        p={{ base: 5, lg: 8 }}
+      >
+        <Box>
+          <VStack spacing={{ base: 4, md: 8, lg: 20 }}>
+            <Heading
+              fontSize={{
+                base: "4xl",
+                md: "5xl",
+              }}
+            >
+              Оставьте заявку!
+            </Heading>
+
+            <Stack
+              spacing={{ base: 4, md: 8, lg: 20 }}
+              direction={{ base: "column", md: "row" }}
+            >
+              <Box
+                bg={useColorModeValue("white", "gray.700")}
+                borderRadius="35px"
+                p={10}
+                color={useColorModeValue("gray.700", "whiteAlpha.900")}
+                shadow="base"
+              >
+                <VStack spacing={5}>
+                  <FormControl isRequired>
+                    <FormLabel>Name</FormLabel>
+
+                    <InputGroup>
+                      <InputLeftElement>
+                        <BsPerson />
+                      </InputLeftElement>
+                      <Input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        value={formData.name}
+                        onChange={handleChange}
+                      />
+                    </InputGroup>
+                  </FormControl>
+
+                  <FormControl isRequired>
+                    <FormLabel>Email</FormLabel>
+
+                    <InputGroup>
+                      <InputLeftElement>
+                        <Text>🤓</Text>
+                      </InputLeftElement>
+                      <Input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        value={formData.email}
+                        onChange={handleChange}
+                      />
+                    </InputGroup>
+                  </FormControl>
+
+                  <FormControl isRequired>
+                    <FormLabel>Message</FormLabel>
+
+                    <Textarea
+                      name="message"
+                      placeholder="Your Message"
+                      rows={1}
+                      resize="none"
+                      value={formData.message}
+                      onChange={handleChange}
+                    />
+                  </FormControl>
+
+                  <Button
+                    colorScheme="blue"
+                    rounded={"full"}
+                    bg="blue.400"
+                    color="white"
+                    _hover={{
+                      bg: "blue.500",
+                    }}
+                    width="full"
+                    onClick={handleSubmit}
+                    value={"Send"}
+                  >
+                    Send Message
+                  </Button>
+                </VStack>
+              </Box>
+            </Stack>
+          </VStack>
+        </Box>
+      </Box>
     </Flex>
   );
-};
-
-export default ContactForm;
+}

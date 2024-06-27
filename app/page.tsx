@@ -16,7 +16,8 @@ import { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Footer1 from "@/components/Footer1";
 import { ImagesGrid } from "@/components/ImagesCarousel";
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "@/components/ContactForm.jsx";
+import ContactFormWithSocialButtons from "@/components/ContactForm.jsx";
 
 export default function Home() {
   const coursesRef = useRef(null);
@@ -44,7 +45,9 @@ export default function Home() {
 
         <PriceList />
         <ContactForm />
+        {/* <ContactFormWithSocialButtons /> */}
         <ContactUs />
+
         <div>
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A1310ee24fa0e4717f56a401a049c366818ae5442e279ee96ee2a602ef6a80227&amp;source=constructor"
