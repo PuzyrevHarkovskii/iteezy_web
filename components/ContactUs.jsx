@@ -7,7 +7,7 @@ import "./animation.css";
 
 const ContactUs = () => {
   return (
-    <div id="contactus" className="py-12 xl:mx-80 lg:mx-50 border-1px ">
+    <div className="py-12 xl:mx-80 lg:mx-50 border-1px ">
       <p className=" text-blue-500 text-4xl font-semibold mb-[1em] text-center">
         {" "}
         Наши контакты{" "}

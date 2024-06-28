@@ -18,6 +18,7 @@ import Footer1 from "@/components/Footer1";
 import { ImagesGrid } from "@/components/ImagesCarousel";
 import ContactForm from "@/components/ContactForm.jsx";
 import ContactFormWithSocialButtons from "@/components/ContactForm.jsx";
+import AnotherTry from "@/components/AnotherTry";
 
 export default function Home() {
   const coursesRef = useRef(null);
@@ -44,7 +45,8 @@ export default function Home() {
         <Questions />
 
         <PriceList />
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <AnotherTry />
         {/* <ContactFormWithSocialButtons /> */}
         <ContactUs />
 

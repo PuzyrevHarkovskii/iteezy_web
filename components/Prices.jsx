@@ -15,7 +15,7 @@ const Feature = (props) => {
         viewBox="0 0 20 20"
         as={FiCheck}
       />
-      <chakra.p fontSize="xl" color="gray.600" {...props} />
+      <chakra.p fontSize="2xl" color="gray.600" {...props} />
     </Flex>
   );
 };

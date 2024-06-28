@@ -52,7 +52,7 @@ const SomeInfo = () => {
         px={{
           base: 4,
           lg: 16,
-          xl: "25em",
+          xl: "15em",
         }}
         py={14}
         mx="auto"

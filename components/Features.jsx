@@ -27,9 +27,11 @@ const Features = () => {
       bg="#FFFFFF"
       mx-auto
       px={{
-        lg: 0,
-        sm: 20,
-        xl: "25em",
+        base: "1em", // Базовый отступ для всех экранов
+        sm: "0em", // Отступ для маленьких экранов
+        md: "2em", // Отступ для средних экранов
+        lg: "2.5em", // Отступ для больших экранов
+        xl: "14em", // Отступ для очень больших экранов
       }}
       justifyContent="center"
       alignItems="center"
@@ -38,7 +40,6 @@ const Features = () => {
         rounded={{ base: "0", md: "35px", lg: "35px" }}
         px={10}
         py={10}
-        mx="auto"
         bg="#093AA9"
         border=" 1px solid rgba(255, 255, 255, 0.18);"
         boxShadow="5px 5px 10px 0px rgba(128, 128, 128, )"

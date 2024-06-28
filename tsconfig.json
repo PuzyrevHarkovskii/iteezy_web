@@ -32,7 +32,8 @@
     "components/MyComponent/HeroSection.jsx",
     "components/ui/infinite-moving-cards.jsx",
     "tailwind.config.js",
-    "components/ContactForm.jsx"
+    "components/ContactForm.jsx",
+    "components/AnotherTry.jsx"
   ],
   "exclude": ["node_modules"]
 }
