@@ -92,14 +92,14 @@ export default function Footer1() {
           <Box as="a" href={"https://vk.com/iteezy"}>
             Вконтакте
           </Box>
-          <Box
+          {/* <Box
             as="a"
             href={
               "https://spb.flamp.ru/firm/iteezy_shkola_programmirovaniya-70000001084298698"
             }
           >
             Flamp
-          </Box>
+          </Box> */}
         </Stack>
       </Container>
 

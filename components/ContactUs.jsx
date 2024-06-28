@@ -8,7 +8,7 @@ import "./animation.css";
 
 const ContactUs = () => {
   return (
-    <div className="py-8 xl:mx-80 lg:mx-50 border-1px ">
+    <div className="py-4 px-5 xl:mx-80 lg:mx-50 border-1px ">
       <chakra.h1
         mb={8}
         pt={8}
@@ -61,7 +61,7 @@ const Card = ({ title, subtitle, Icon, href }) => {
   return (
     <a
       href={href}
-      className="w-auto xl:h-[12em]  sm:h-[12em] p-5 rounded-[35px] shadow-md border-[1px] border-slate-100 relative overflow-hidden group bg-white"
+      className="w-auto xl:h-[12em] sm:h-[12em] p-5 rounded-[35px] shadow-md border-[1px] border-slate-100 relative overflow-hidden group bg-white"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-sky-600 to-blue-600 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
 

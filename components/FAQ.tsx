@@ -23,7 +23,7 @@ export default function Questions() {
     >
       <Container paddingBottom={"3em"}>
         <Heading
-          className="text-blue-500"
+          className="text-black"
           fontSize={"5xl"}
           pt={"1em"}
           pb={"1em"}
@@ -39,6 +39,8 @@ export default function Questions() {
               p={4}
             >
               <Text
+                flex="1"
+                textAlign="left"
                 fontSize="2xl"
                 fontWeight={"bold"}
                 color={"gray.500"}
@@ -53,13 +55,12 @@ export default function Questions() {
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
-                {" "}
                 Занятие проходит 1 раз в неделю и длится{" "}
                 <span style={{ color: "blue" }}>90 минут</span>. Времени хватает
                 на изучение теории и воплощение её в своих проектах на
                 компьютере. Обучение состоит из{" "}
                 <span style={{ color: "blue" }}>80% практики</span> и{" "}
-                <span style={{ color: "blue" }}>20% теории</span>.{" "}
+                <span style={{ color: "blue" }}>20% теории</span>.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -70,6 +71,8 @@ export default function Questions() {
               p={4}
             >
               <Text
+                flex="1"
+                textAlign="left"
                 fontSize="2xl"
                 fontWeight={"bold"}
                 color={"gray.500"}
@@ -97,13 +100,15 @@ export default function Questions() {
               p={4}
             >
               <Text
+                flex="1"
+                textAlign="left"
                 fontSize="2xl"
+                fontWeight={"bold"}
+                color={"gray.500"}
                 _hover={{
                   color: "blue.500",
                   transition: "color 0.3s ease",
                 }}
-                fontWeight={"bold"}
-                color={"gray.500"}
               >
                 Есть ли домашнее задание?
               </Text>
@@ -126,13 +131,15 @@ export default function Questions() {
               p={4}
             >
               <Text
+                flex="1"
+                textAlign="left"
+                fontSize="2xl"
+                fontWeight={"bold"}
+                color={"gray.500"}
                 _hover={{
                   color: "blue.500",
                   transition: "color 0.3s ease",
                 }}
-                fontSize="2xl"
-                fontWeight={"bold"}
-                color={"gray.500"}
               >
                 Если ребенок пропустил занятие?
               </Text>
@@ -155,13 +162,15 @@ export default function Questions() {
               p={4}
             >
               <Text
+                flex="1"
+                textAlign="left"
+                fontSize="2xl"
+                fontWeight={"bold"}
+                color={"gray.500"}
                 _hover={{
                   color: "blue.500",
                   transition: "color 0.3s ease",
                 }}
-                fontSize="2xl"
-                fontWeight={"bold"}
-                color={"gray.500"}
               >
                 Где мы находимся?
               </Text>
