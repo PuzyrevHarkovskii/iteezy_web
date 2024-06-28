@@ -13,7 +13,7 @@ export const FirstButton = () => {
     <div className="grid place-content-center pb-6">
       <button
         onClick={() => setOpen(true)}
-        className="rounded-xl  bg-indigo-500  px-14 py-2 text-white transition-colors hover:bg-blue-950"
+        className="rounded-full  bg-indigo-500  px-14 py-2 text-white transition-colors hover:bg-blue-950"
         style={{ fontSize: "xl", fontWeight: "bold" }}
       >
         Подробнее о курсе

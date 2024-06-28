@@ -1,4 +1,4 @@
-import { Flex, SimpleGrid, Box, chakra, Icon } from "@chakra-ui/react";
+import { Flex, SimpleGrid, Text, Box, chakra, Icon } from "@chakra-ui/react";
 
 const Feature = (props) => {
   return (
@@ -86,9 +86,9 @@ const SomeInfo = () => {
             />
           }
         >
-          Обучение построено по принципу «обучение через практику», все
-          программы на 80% состоят из практических заданий с использованием
-          техники.
+          Обучение построено по принципу{" "}
+          <Text as="u">«обучение через практику»</Text>, все программы на 80%
+          состоят из практических заданий с использованием техники.
         </Feature>
 
         <Feature

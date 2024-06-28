@@ -36,7 +36,7 @@ const ContactUs = () => {
           id="contactus"
           title="WhatsApp"
           subtitle="Напишите в WhatsApp"
-          href="https://wa.me/7911704198"
+          href="https://wa.me/79114030090"
           Icon={FaWhatsapp}
         />
 

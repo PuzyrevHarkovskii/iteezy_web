@@ -131,16 +131,7 @@ const AnotherTry = () => {
           Наши администраторы свяжутся с Вами и помогут подобрать подходящую
           программу.
         </chakra.p>
-        <chakra.p
-          mb={6}
-          mt={-4}
-          fontSize="sm"
-          color="gray.600"
-          lineHeight="base"
-        >
-          Мы заботимся о Ваших персональных данных, подробный текст политики
-          конфиденциальности доступен здесь.
-        </chakra.p>
+
         <SimpleGrid
           as="form"
           w={{
@@ -167,8 +158,8 @@ const AnotherTry = () => {
             <Heading className="text-left">Имя родителя</Heading>
             <Input
               rounded={"35px"}
-              mt={8}
-              mb={4}
+              mt={3}
+              mb={8}
               borderColor={"black"}
               size="lg"
               type="text"
@@ -183,9 +174,9 @@ const AnotherTry = () => {
             <Input
               rounded={"35px"}
               borderColor={"black"}
-              mt={8}
+              mt={3}
               name="child"
-              mb={4}
+              mb={8}
               size="lg"
               type="text"
               placeholder="Имя и возраст ребенка..."
@@ -199,8 +190,8 @@ const AnotherTry = () => {
               rounded={"35px"}
               borderColor={"black"}
               name="contact"
-              mt={8}
-              mb={4}
+              mt={3}
+              mb={8}
               size="lg"
               type="tel"
               placeholder="Номер телефона для связи..."
@@ -238,7 +229,7 @@ const AnotherTry = () => {
               base: "auto",
               lg: 2,
             }}
-            mb={10}
+            mb={2}
             px={10}
             size="lg"
             rounded={"full"}
@@ -253,6 +244,16 @@ const AnotherTry = () => {
             Отправить заявку
           </Button>
         </Stack>
+        <chakra.p
+          mb={4}
+          pb={6}
+          fontSize="sm"
+          color="gray.600"
+          lineHeight="base"
+        >
+          Мы заботимся о Ваших персональных данных, подробный текст политики
+          конфиденциальности доступен здесь.
+        </chakra.p>
       </Box>
     </Box>
   );

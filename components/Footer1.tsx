@@ -78,17 +78,27 @@ export default function Footer1() {
           className="animate-float"
         />
         <Stack direction={"row"} spacing={6}>
-          <Box as="a" href={"#"}>
-            Home
+          <Box
+            as="a"
+            href={
+              "https://yandex.ru/maps/org/iteezy/55155813438/?ll=30.368662%2C59.829070&z=17"
+            }
+          >
+            Яндекс
           </Box>
-          <Box as="a" href={"#"}>
-            About
+          <Box as="a" href={"https://go.2gis.com/lbyeb"}>
+            2ГИС
           </Box>
-          <Box as="a" href={"#"}>
-            Blog
+          <Box as="a" href={"https://vk.com/iteezy"}>
+            Вконтакте
           </Box>
-          <Box as="a" href={"#"}>
-            Contact
+          <Box
+            as="a"
+            href={
+              "https://spb.flamp.ru/firm/iteezy_shkola_programmirovaniya-70000001084298698"
+            }
+          >
+            Flamp
           </Box>
         </Stack>
       </Container>
