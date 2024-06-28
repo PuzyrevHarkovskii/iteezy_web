@@ -41,7 +41,7 @@ const Feature = (props) => (
 
 const AnotherTry = () => {
   return (
-    <Box px={10} py={32}>
+    <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }} py={32}>
       <Box
         id="contactus"
         shadow={"md"}
@@ -57,6 +57,7 @@ const AnotherTry = () => {
           base: "left",
           md: "center",
         }}
+        px={10}
         mx="auto"
       >
         <chakra.h1
