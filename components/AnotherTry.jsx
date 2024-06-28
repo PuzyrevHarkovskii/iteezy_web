@@ -12,8 +12,9 @@ import {
   Stack,
   VisuallyHidden,
   Heading,
+  useClipboard,
 } from "@chakra-ui/react";
-
+import { useState } from "react";
 const Feature = (props) => (
   <Flex
     alignItems="center"
@@ -40,6 +41,55 @@ const Feature = (props) => (
 );
 
 const AnotherTry = () => {
+  const { hasCopied, onCopy } = useClipboard("example@example.com");
+  const [formData, setFormData] = useState({
+    name: "",
+    child: "",
+    contact: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const { name, child, contact } = formData;
+    const telegramBotId = "7258287597:AAFEFe40A4zoCi12cNTdv0qzkIecwhLKEwA";
+    const chatId = 702020795;
+    const text = `
+    Новая заявка!\nРодитель: ${name}\nИмя ребенка и возраст: ${child}\nНомер для связи: ${contact}`;
+
+    try {
+      const response = await fetch(
+        `https://api.telegram.org/bot${telegramBotId}/sendMessage`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: text,
+          }),
+        }
+      );
+      const result = await response.json();
+      console.log(result);
+      setFormData({
+        name: "",
+        child: "",
+        contact: "",
+      });
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
   return (
     <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }} py={30}>
       <Box
@@ -121,31 +171,43 @@ const AnotherTry = () => {
               mb={4}
               borderColor={"black"}
               size="lg"
-              type="email"
+              type="text"
               placeholder="Как к вам обращаться..."
               required
+              name="name"
+              id="name"
+              value={formData.name}
+              onChange={handleChange}
             />
             <Heading className="text-left">Имя и возраст ребенка</Heading>
             <Input
               rounded={"35px"}
               borderColor={"black"}
               mt={8}
+              name="child"
               mb={4}
               size="lg"
-              type="email"
+              type="text"
               placeholder="Имя и возраст ребенка..."
               required
+              id="child"
+              value={formData.child}
+              onChange={handleChange}
             />
             <Heading className="text-left">Номер телефона</Heading>
             <Input
               rounded={"35px"}
               borderColor={"black"}
+              name="contact"
               mt={8}
               mb={4}
               size="lg"
-              type="email"
+              type="tel"
               placeholder="Номер телефона для связи..."
               required
+              id="contact"
+              value={formData.contact}
+              onChange={handleChange}
             />
           </GridItem>
         </SimpleGrid>
@@ -184,6 +246,9 @@ const AnotherTry = () => {
             color={"black"}
             bg={"pink"}
             cursor="pointer"
+            id="btn"
+            onClick={handleSubmit}
+            value={"Send"}
           >
             Отправить заявку
           </Button>

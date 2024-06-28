@@ -47,7 +47,7 @@ export default function Home() {
         <PriceList />
         {/* <ContactForm /> */}
         <AnotherTry />
-        {/* <ContactFormWithSocialButtons /> */}
+
         <ContactUs />
 
         <div>
