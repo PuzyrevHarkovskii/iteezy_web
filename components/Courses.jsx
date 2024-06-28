@@ -59,7 +59,7 @@ const Courses = () => {
     >
       <Box
         rounded={{ xl: "35px", sm: "0", md: "35px", lg: "35px" }}
-        px={50}
+        px={{ base: 0, sm: 50, md: 50, lg: 50 }}
         py={25}
         mx="auto"
         bg="#093AA9"
@@ -109,11 +109,11 @@ const Courses = () => {
           alignItems="center"
           mb={4}
         >
-          <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
+          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <ThirdCard />
             <ThirdButton />
           </Box>
-          <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
+          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <FourthCard />
             <FourthButton />
           </Box>
@@ -124,11 +124,11 @@ const Courses = () => {
           alignItems="center"
           mb={4}
         >
-          <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
+          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <FifthCard />
             <FifthButton />
           </Box>
-          <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
+          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <SixthCard />
             <SixthButton />
           </Box>
