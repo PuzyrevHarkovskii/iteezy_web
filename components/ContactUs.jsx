@@ -1,4 +1,5 @@
 import React from "react";
+import { chakra } from "@chakra-ui/react";
 import { FiCreditCard, FiMail, FiPhone, FiUser, FiUsers } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaVk } from "react-icons/fa";
@@ -7,11 +8,23 @@ import "./animation.css";
 
 const ContactUs = () => {
   return (
-    <div className="py-12 xl:mx-80 lg:mx-50 border-1px ">
-      <p className=" text-blue-500 text-4xl font-semibold mb-[1em] text-center">
-        {" "}
-        Наши контакты{" "}
-      </p>
+    <div className="py-8 xl:mx-80 lg:mx-50 border-1px ">
+      <chakra.h1
+        mb={8}
+        pt={8}
+        fontSize={{
+          base: "4xl",
+          md: "5xl",
+        }}
+        fontWeight={{
+          base: "bold",
+          md: "extrabold",
+        }}
+        color="gray.900"
+        lineHeight="shorter"
+      >
+        Наши контакты
+      </chakra.h1>
       <div className=" grid gap-4 grid-cols-1 lg:grid-cols-2  sm:grid-cols-2 ">
         <Card
           title="+7 (911) 403-00-90"

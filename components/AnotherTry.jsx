@@ -41,11 +41,11 @@ const Feature = (props) => (
 
 const AnotherTry = () => {
   return (
-    <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }} py={32}>
+    <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }} py={30}>
       <Box
         id="contactus"
         shadow={"md"}
-        rounded={"35px"}
+        rounded={{ base: "0", md: "35px", lg: "35px" }}
         bgColor={"#F7FAFC"}
         w={{
           base: "full",
@@ -149,25 +149,7 @@ const AnotherTry = () => {
             />
           </GridItem>
         </SimpleGrid>
-        <Button
-          as={GridItem}
-          w="3/4"
-          variant="solid"
-          colSpan={{
-            base: "auto",
-            lg: 2,
-          }}
-          mb={10}
-          px={10}
-          size="lg"
-          rounded={"full"}
-          type="submit"
-          color={"black"}
-          bg={"pink"}
-          cursor="pointer"
-        >
-          Отправить заявку
-        </Button>
+
         <Stack
           display="flex"
           direction={{
@@ -185,7 +167,27 @@ const AnotherTry = () => {
           }}
           fontSize="xs"
           color="gray.600"
-        ></Stack>
+        >
+          <Button
+            as={GridItem}
+            w="3/4"
+            variant="solid"
+            colSpan={{
+              base: "auto",
+              lg: 2,
+            }}
+            mb={10}
+            px={10}
+            size="lg"
+            rounded={"full"}
+            type="submit"
+            color={"black"}
+            bg={"pink"}
+            cursor="pointer"
+          >
+            Отправить заявку
+          </Button>
+        </Stack>
       </Box>
     </Box>
   );
