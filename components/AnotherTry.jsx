@@ -154,7 +154,6 @@ const AnotherTry = () => {
               lg: 4,
             }}
           >
-            <VisuallyHidden>Your Email</VisuallyHidden>
             <Heading className="text-left">Имя родителя</Heading>
             <Input
               rounded={"35px"}

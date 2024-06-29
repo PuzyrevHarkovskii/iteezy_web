@@ -118,7 +118,7 @@ export default function Questions() {
               <Text fontSize="xl" color="gray.600">
                 Да, в большинстве модулей предусмотрены{" "}
                 <span style={{ color: "blue" }}>домашние задания</span> и{" "}
-                <span style={{ color: "green" }}>контрольные работы</span>. Это
+                <span style={{ color: "purple" }}>контрольные работы</span>. Это
                 позволяет контролировать учебный процесс и усвоение пройденного
                 материала.
               </Text>

@@ -76,7 +76,7 @@ const Header = () => {
                   variant="outline"
                   borderColor="brand.500"
                   onClick={() =>
-                    (window.location.href = "https://wa.me/7911704198")
+                    (window.location.href = "https://wa.me/79114030090")
                   }
                   size={{ base: "sm", md: "md" }}
                 >
