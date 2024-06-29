@@ -12,7 +12,9 @@ import {
   Stack,
   VisuallyHidden,
   Heading,
+  InputLeftAddon,
   useClipboard,
+  InputGroup,
 } from "@chakra-ui/react";
 import { useState } from "react";
 const Feature = (props) => (
@@ -63,7 +65,7 @@ const AnotherTry = () => {
     const telegramBotId = "7258287597:AAFEFe40A4zoCi12cNTdv0qzkIecwhLKEwA";
     const chatId = 702020795;
     const text = `
-    Новая заявка!\nРодитель: ${name}\nИмя ребенка и возраст: ${child}\nНомер для связи: ${contact}`;
+    Новая заявка!\nРодитель: ${name}\nИмя ребенка и возраст: ${child}\nНомер для связи: +7${contact}`;
 
     try {
       const response = await fetch(
@@ -185,20 +187,32 @@ const AnotherTry = () => {
               onChange={handleChange}
             />
             <Heading className="text-left">Номер телефона</Heading>
-            <Input
-              rounded={"35px"}
-              borderColor={"black"}
-              name="contact"
-              mt={3}
-              mb={8}
-              size="lg"
-              type="tel"
-              placeholder="Номер телефона для связи..."
-              required
-              id="contact"
-              value={formData.contact}
-              onChange={handleChange}
-            />
+            <InputGroup>
+              <InputLeftAddon
+                rounded={"35px"}
+                mt={3}
+                borderColor={"black"}
+                size="lg"
+                h="12" // Установите одинаковую высоту
+              >
+                +7
+              </InputLeftAddon>
+              <Input
+                rounded={"35px"}
+                borderColor={"black"}
+                name="contact"
+                mt={3}
+                mb={8}
+                size="lg"
+                type="tel"
+                placeholder="Номер телефона для связи..."
+                required
+                id="contact"
+                value={formData.contact}
+                onChange={handleChange}
+                h="12" // Установите одинаковую высоту
+              />
+            </InputGroup>
           </GridItem>
         </SimpleGrid>
 
