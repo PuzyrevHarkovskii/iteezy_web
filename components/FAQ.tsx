@@ -18,10 +18,20 @@ export default function Questions() {
   return (
     <Flex
       pt={8}
+      px={{
+        base: 2,
+        lg: 16,
+        xl: "20em",
+      }}
       minH={"10vh"}
       bg={useColorModeValue("WhiteAlpha.200", "gray.800")}
     >
-      <Container paddingBottom={"3em"} bgColor={"#F2F6FD"} rounded={"35px"}>
+      <Container
+        maxWidth="100%"
+        paddingBottom={"3em"}
+        bgColor={"#F2F6FD"}
+        rounded={"35px"}
+      >
         <Heading
           className="text-black"
           fontSize={"5xl"}
@@ -50,6 +60,12 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
+                <Text
+                  as="span"
+                  className="rounded-full inline-block w-10 h-10 leading-10 text-center bg-pink-200"
+                >
+                  1.{" "}
+                </Text>
                 Как часто проходят занятия?
               </Text>
               <ChevronDownIcon fontSize="40px" />
@@ -82,6 +98,9 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
+                <Text as="span" className="rounded-full bg-pink-200">
+                  2.{" "}
+                </Text>
                 Сколько учеников в группах?
               </Text>
               <ChevronDownIcon fontSize="40px" />
@@ -113,6 +132,9 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
+                <Text as="span" className="rounded-full bg-pink-200">
+                  3.{" "}
+                </Text>{" "}
                 Есть ли домашнее задание?
               </Text>
               <ChevronDownIcon fontSize="40px" />
@@ -149,6 +171,9 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
+                <Text as="span" className="rounded-full bg-pink-200">
+                  4.{" "}
+                </Text>{" "}
                 Если ребенок пропустил занятие?
               </Text>
               <ChevronDownIcon fontSize="40px" />
@@ -180,6 +205,9 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
+                <Text as="span" className="rounded-full bg-pink-200">
+                  5.{" "}
+                </Text>{" "}
                 Где мы находимся?
               </Text>
               <ChevronDownIcon fontSize="40px" />
