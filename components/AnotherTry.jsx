@@ -10,11 +10,11 @@ import {
   Input,
   SimpleGrid,
   Stack,
-  VisuallyHidden,
   Heading,
   InputLeftAddon,
   useClipboard,
   InputGroup,
+  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 const Feature = (props) => (
@@ -91,6 +91,14 @@ const AnotherTry = () => {
     } catch (error) {
       console.error("Error:", error);
     }
+  };
+
+  //toast
+  const toast = useToast();
+
+  const handleButtonClick = () => {
+    handleSubmit();
+    showToast(toast);
   };
   return (
     <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }} py={30}>

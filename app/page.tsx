@@ -19,6 +19,7 @@ import ContactForm from "@/components/ContactForm.jsx";
 import ContactFormWithSocialButtons from "@/components/ContactForm.jsx";
 import AnotherTry from "@/components/AnotherTry";
 import Carousel from "@/components/ImagesCarousel";
+import { Rubik_Mono_One } from "next/font/google";
 
 export default function Home() {
   const coursesRef = useRef(null);

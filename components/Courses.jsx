@@ -12,7 +12,8 @@ import { ThirdButton } from "@/components/cards/card buttons/ThirdButton";
 import { FourthButton } from "@/components/cards/card buttons/FourthButton";
 import { FifthButton } from "@/components/cards/card buttons/FifthButton";
 import { SixthButton } from "@/components/cards/card buttons/SixthButton";
-
+import { Rubik_Mono_One } from "next/font/google";
+const rubik_mono = Rubik_Mono_One({ subsets: ["cyrillic"], weight: ["400"] });
 const Feature = (props) => {
   return (
     <Box ref={coursesRef}>
@@ -76,6 +77,7 @@ const Courses = () => {
               base: "4xl",
               sm: "5xl",
             }}
+            fontFamily={rubik_mono}
             lineHeight="10"
             textAlign={"center"}
             fontWeight="extrabold"

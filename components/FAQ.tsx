@@ -21,13 +21,14 @@ export default function Questions() {
       minH={"10vh"}
       bg={useColorModeValue("WhiteAlpha.200", "gray.800")}
     >
-      <Container paddingBottom={"3em"}>
+      <Container paddingBottom={"3em"} bgColor={"#F2F6FD"} rounded={"35px"}>
         <Heading
           className="text-black"
           fontSize={"5xl"}
           pt={"1em"}
           pb={"1em"}
           mb={3}
+          px={"4"}
         >
           Часто задаваемые вопросы
         </Heading>
@@ -88,8 +89,10 @@ export default function Questions() {
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
                 Занятие проходят в группах{" "}
-                <span style={{ color: "blue" }}>до 8 человек</span>. Мы не
-                делаем больших групп, чтобы уделить время каждому.
+                <Text as="mark" bgColor={"blue.100"}>
+                  до 8 человек
+                </Text>
+                . Мы не делаем больших групп, чтобы уделить время каждому.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -117,10 +120,15 @@ export default function Questions() {
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
                 Да, в большинстве модулей предусмотрены{" "}
-                <span style={{ color: "blue" }}>домашние задания</span> и{" "}
-                <span style={{ color: "purple" }}>контрольные работы</span>. Это
-                позволяет контролировать учебный процесс и усвоение пройденного
-                материала.
+                <Text as="mark" bgColor={"pink"}>
+                  домашние задания
+                </Text>{" "}
+                и{" "}
+                <Text as="mark" bgColor={"blue.100"}>
+                  контрольные работы
+                </Text>
+                . Это позволяет контролировать учебный процесс и усвоение
+                пройденного материала.
               </Text>
             </AccordionPanel>
           </AccordionItem>
