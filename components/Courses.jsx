@@ -98,7 +98,6 @@ const Courses = () => {
         >
           <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
             <FirstCard />
-            <FirstButton />
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
             <SecondCard />
