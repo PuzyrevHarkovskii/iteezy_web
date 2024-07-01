@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { CardBody, CardContainer, CardItem } from "../ui/cards/3d-card";
-
+import { Link as ScrollLink } from "react-scroll";
 export function FirstCard() {
   return (
     <CardContainer className="inter-var">
@@ -43,13 +43,16 @@ export function FirstCard() {
           >
             Подробнее ↗
           </CardItem>
-          <CardItem
+          <ScrollLink
             translateZ={20}
             as="button"
-            className="px-4 py-2  rounded-xl bg-black dark:bg-white dark:text-black text-white text-lg font-bold"
+            to="contactus"
+            smooth={true}
+            duration={300}
+            className="px-4 py-2  rounded-full bg-black dark:bg-white dark:text-black text-white text-lg font-bold"
           >
             Оставить заявку
-          </CardItem>
+          </ScrollLink>
         </div>
       </CardBody>
     </CardContainer>

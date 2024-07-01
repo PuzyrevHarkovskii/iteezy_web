@@ -293,8 +293,15 @@ const AnotherTry = () => {
 
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
-          <ModalContent>
-            <ModalHeader>Modal Title</ModalHeader>
+          <ModalContent rounded={"35px"}>
+            <ModalHeader
+              bgColor={"pink"}
+              rounded={"full"}
+              m={"5"}
+              textAlign={"center"}
+            >
+              Политика конфиденциальности
+            </ModalHeader>
             <ModalCloseButton />
             <ModalBody>
               <Box p={5} color="gray.600">
