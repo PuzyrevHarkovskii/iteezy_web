@@ -72,12 +72,9 @@ export default function Questions() {
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
-                Занятие проходит 1 раз в неделю и длится{" "}
-                <span style={{ color: "blue" }}>90 минут</span>. Времени хватает
-                на изучение теории и воплощение её в своих проектах на
-                компьютере. Обучение состоит из{" "}
-                <span style={{ color: "blue" }}>80% практики</span> и{" "}
-                <span style={{ color: "blue" }}>20% теории</span>.
+                Занятие проходит 1 раз в неделю и длится 90 минут. Времени
+                хватает на изучение теории и воплощение её в своих проектах на
+                компьютере. Обучение состоит из 80% практики и 20% теории.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -148,11 +145,11 @@ export default function Questions() {
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
                 Да, в большинстве модулей предусмотрены{" "}
-                <Text as="mark" bgColor={"pink"}>
+                <Text as="mark" color="gray.600" bgColor={"pink"}>
                   домашние задания
                 </Text>{" "}
                 и{" "}
-                <Text as="mark" bgColor={"blue.100"}>
+                <Text as="mark" color="gray.600" bgColor={"blue.100"}>
                   контрольные работы
                 </Text>
                 . Это позволяет контролировать учебный процесс и усвоение
