@@ -145,7 +145,13 @@ export default function Questions() {
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
                 Да, в большинстве модулей предусмотрены{" "}
-                <Text as="mark" color="gray.600" bgColor={"pink"}>
+                <Text
+                  as="mark"
+                  color="#F7FAFC"
+                  rounded={"full"}
+                  bgColor={"pink"}
+                  className="inline-block w-27 h-6 leading-6"
+                >
                   домашние задания
                 </Text>{" "}
                 и{" "}

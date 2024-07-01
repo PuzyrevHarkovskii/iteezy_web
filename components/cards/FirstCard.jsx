@@ -21,7 +21,7 @@ export function FirstCard() {
       <CardBody className="bg-gray-50  relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[31rem] lg:w-[30em] lg:h-[35rem] h-auto rounded-[35px] p-6">
         <CardItem
           translateZ="50"
-          className="text-xl p-2 rounded-full border-[2px] border-pink-300 font-bold text-pink-300 dark:text-white"
+          className="text-xl p-2 rounded-full border-[3px] border-pink-300 font-bold text-pink-300 dark:text-white"
         >
           BIT 5-6 лет
         </CardItem>
@@ -367,7 +367,7 @@ export function FirstCard() {
             to="contactus"
             smooth={true}
             duration={300}
-            className="px-4 py-2  rounded-full bg-black dark:bg-white dark:text-black text-white text-lg font-bold"
+            className="px-4 py-4 mt-5 rounded-full bg-pink-400 dark:bg-white dark:text-black text-white text-lg font-bold"
           >
             Оставить заявку
           </ScrollLink>
