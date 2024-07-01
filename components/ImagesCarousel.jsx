@@ -24,17 +24,17 @@ const arrowStyles = {
 
 const slides = [
   {
-    img: "https://images.pexels.com/photos/2599537/pexels-photo-2599537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "/images/1_card.png",
     label: "First Slide",
     description: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
   },
   {
-    img: "https://images.pexels.com/photos/2714581/pexels-photo-2714581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "/images/1_card.png",
     label: "Second Slide",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    img: "https://images.pexels.com/photos/2878019/pexels-photo-2878019.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+    img: "/images/1_card.png",
     label: "Third Slide",
     description:
       "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
@@ -43,11 +43,6 @@ const slides = [
     img: "https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     label: "Fourth Slide",
     description: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-  },
-  {
-    img: "https://images.pexels.com/photos/3124111/pexels-photo-3124111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    label: "Fifth Slide",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
 

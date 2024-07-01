@@ -42,7 +42,7 @@ export default function Home() {
         <Features />
         <SomeInfo />
         <Courses />
-
+        <Carousel />
         <Questions />
 
         <PriceList />
