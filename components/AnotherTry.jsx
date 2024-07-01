@@ -588,7 +588,12 @@ const AnotherTry = () => {
             </ModalBody>
 
             <ModalFooter>
-              <Button colorScheme="pink" mr={3} onClick={onClose}>
+              <Button
+                colorScheme="pink"
+                rounded={"full"}
+                mr={3}
+                onClick={onClose}
+              >
                 Закрыть
               </Button>
             </ModalFooter>
