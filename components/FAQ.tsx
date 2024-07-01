@@ -62,7 +62,7 @@ export default function Questions() {
               >
                 <Text
                   as="span"
-                  className="rounded-full inline-block w-10 h-10 leading-10 text-center bg-pink-200"
+                  className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
                 >
                   1.{" "}
                 </Text>
@@ -98,7 +98,10 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
-                <Text as="span" className="rounded-full bg-pink-200">
+                <Text
+                  as="span"
+                  className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
+                >
                   2.{" "}
                 </Text>
                 Сколько учеников в группах?
@@ -132,7 +135,10 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
-                <Text as="span" className="rounded-full bg-pink-200">
+                <Text
+                  as="span"
+                  className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
+                >
                   3.{" "}
                 </Text>{" "}
                 Есть ли домашнее задание?
@@ -171,7 +177,10 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
-                <Text as="span" className="rounded-full bg-pink-200">
+                <Text
+                  as="span"
+                  className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
+                >
                   4.{" "}
                 </Text>{" "}
                 Если ребенок пропустил занятие?
@@ -205,7 +214,10 @@ export default function Questions() {
                   transition: "color 0.3s ease",
                 }}
               >
-                <Text as="span" className="rounded-full bg-pink-200">
+                <Text
+                  as="span"
+                  className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
+                >
                   5.{" "}
                 </Text>{" "}
                 Где мы находимся?
