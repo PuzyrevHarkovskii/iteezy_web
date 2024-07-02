@@ -369,7 +369,7 @@ export function SecondCard() {
             to="contactus"
             smooth={true}
             duration={300}
-            className="px-3 py-3 mt-2 rounded-full bg-pink-400 dark:bg-white text-white text-lg font-bold"
+            className="px-3 py-3 mt-2 rounded-full bg-blue-400 dark:bg-white text-white text-lg font-bold"
           >
             Оставить заявку
           </ScrollLink>
