@@ -144,7 +144,12 @@ const PriceList = () => {
                 🚀 Развитие
               </chakra.span>
 
-              <chakra.span fontSize="5xl" fontWeight={"bold"} color={"white"}>
+              <chakra.span
+                fontSize="5xl"
+                px={4}
+                fontWeight={"bold"}
+                color={"white"}
+              >
                 8800 ₽
               </chakra.span>
               <chakra.span

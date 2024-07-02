@@ -101,14 +101,14 @@ export default function Questions() {
                 >
                   2.{" "}
                 </Text>
-                Сколько учеников в группах?
+                Какое максимальное количество учеников в группах?
               </Text>
               <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
                 Занятие проходят в группах{" "}
-                <Text as="mark" bgColor={"blue.100"}>
+                <Text color={"gray.600"} as="mark" bgColor={"blue.100"}>
                   до 8 человек
                 </Text>
                 . Мы не делаем больших групп, чтобы уделить время каждому.
@@ -138,7 +138,7 @@ export default function Questions() {
                 >
                   3.{" "}
                 </Text>{" "}
-                Есть ли домашнее задание?
+                Есть ли домашние задания?
               </Text>
               <ChevronDownIcon fontSize="40px" />
             </AccordionButton>
@@ -147,8 +147,7 @@ export default function Questions() {
                 Да, в большинстве модулей предусмотрены{" "}
                 <Text
                   as="mark"
-                  color="#F7FAFC"
-                  rounded={"full"}
+                  color="gray.600"
                   bgColor={"pink"}
                   className="inline-block w-27 h-6 leading-6"
                 >
@@ -229,7 +228,8 @@ export default function Questions() {
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
-                Витебский просп., 101, корп. 4, Санкт-Петербург, метро Купчино
+                Мы находимся на Витебском проспекте 101, корпус. 4,
+                Санкт-Петербург, 5 минут от метро Купчино
               </Text>
             </AccordionPanel>
           </AccordionItem>
