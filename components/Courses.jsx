@@ -111,11 +111,9 @@ const Courses = () => {
         >
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <ThirdCard />
-            <ThirdButton />
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <FourthCard />
-            <FourthButton />
           </Box>
         </Flex>
         <Flex
@@ -126,11 +124,9 @@ const Courses = () => {
         >
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <FifthCard />
-            <FifthButton />
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <SixthCard />
-            <SixthButton />
           </Box>
         </Flex>
       </Box>
