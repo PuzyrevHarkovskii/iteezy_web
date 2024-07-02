@@ -101,7 +101,6 @@ const Courses = () => {
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
             <SecondCard />
-            <SecondButton />
           </Box>
         </Flex>
         <Flex

@@ -64,7 +64,7 @@ export default function Questions() {
                   as="span"
                   className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
                 >
-                  1.{" "}
+                  1{" "}
                 </Text>
                 Как часто проходят занятия?
               </Text>
@@ -72,9 +72,17 @@ export default function Questions() {
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text fontSize="xl" color="gray.600">
-                Занятие проходит 1 раз в неделю и длится 90 минут. Времени
-                хватает на изучение теории и воплощение её в своих проектах на
-                компьютере. Обучение состоит из 80% практики и 20% теории.
+                Занятие проходит{" "}
+                <Text color={"gray.600"} as="mark" bgColor={"pink.100"}>
+                  1 раз в неделю
+                </Text>{" "}
+                и длится{" "}
+                <Text color={"gray.600"} as="mark" bgColor={"pink.100"}>
+                  90 минут
+                </Text>
+                . Времени хватает на изучение теории и воплощение её в своих
+                проектах на компьютере. Обучение состоит из 80% практики и 20%
+                теории.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -99,7 +107,7 @@ export default function Questions() {
                   as="span"
                   className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
                 >
-                  2.{" "}
+                  2{" "}
                 </Text>
                 Какое максимальное количество учеников в группах?
               </Text>
@@ -136,7 +144,7 @@ export default function Questions() {
                   as="span"
                   className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
                 >
-                  3.{" "}
+                  3{" "}
                 </Text>{" "}
                 Есть ли домашние задания?
               </Text>
@@ -183,7 +191,7 @@ export default function Questions() {
                   as="span"
                   className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
                 >
-                  4.{" "}
+                  4{" "}
                 </Text>{" "}
                 Если ребенок пропустил занятие?
               </Text>
@@ -194,8 +202,7 @@ export default function Questions() {
                 К пропускам ребят каждый раз подходим индивидуально: в некоторых
                 случаях достаточно решить дополнительное домашнее задание или
                 самостоятельную работу, а в некоторых назначаем дополнительную
-                отработку с преподавателем. Также, мы можем предложить
-                подключиться по скайпу к занятию в группе.
+                отработку с преподавателем.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -220,7 +227,7 @@ export default function Questions() {
                   as="span"
                   className="rounded-full inline-block w-10 h-10 leading-10 mr-4 text-center bg-pink-200"
                 >
-                  5.{" "}
+                  5{" "}
                 </Text>{" "}
                 Где мы находимся?
               </Text>

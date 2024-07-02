@@ -14,6 +14,7 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
+
 export function FirstCard() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -50,7 +51,7 @@ export function FirstCard() {
             translateZ={20}
             className="px-4 mt-4 py-4 text-lg font-normal "
           >
-            Подробнее <span>&#8599;</span>
+            Подробнее
           </Text>
           <Modal isOpen={isOpen} onClose={onClose}>
             <ModalOverlay />
