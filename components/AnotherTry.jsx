@@ -167,7 +167,7 @@ const AnotherTry = () => {
           >
             Оставьте заявку!
           </chakra.h1>
-          <chakra.p mb={6} fontSize="2xl" color="gray.500" lineHeight="base">
+          <chakra.p mb={6} fontSize="xl" color="gray.500" lineHeight="base">
             Наши администраторы свяжутся с Вами и помогут подобрать подходящую
             программу.
           </chakra.p>
