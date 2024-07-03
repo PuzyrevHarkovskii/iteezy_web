@@ -34,7 +34,7 @@ export default function Questions() {
       }}
     >
       <Flex
-        pt={8}
+        pt={2}
         px={{
           base: 2,
           lg: 16,
