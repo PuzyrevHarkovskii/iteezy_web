@@ -28,7 +28,7 @@ const Features = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.6 1"],
+    offset: ["0 1", "1.1 1"],
   });
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
@@ -46,20 +46,20 @@ const Features = () => {
       justifyContent="center"
       alignItems="center"
     >
-      <motion.div
-        ref={ref}
-        style={{
-          scale: scaleProgress,
-          opacity: opacityProgress,
-        }}
+      <Box
+        rounded={{ base: "0", md: "35px", lg: "35px" }}
+        px={10}
+        py={10}
+        bg="#093AA9"
+        border=" 1px solid rgba(255, 255, 255, 0.18);"
+        boxShadow="5px 5px 10px 0px rgba(128, 128, 128, )"
       >
-        <Box
-          rounded={{ base: "0", md: "35px", lg: "35px" }}
-          px={10}
-          py={10}
-          bg="#093AA9"
-          border=" 1px solid rgba(255, 255, 255, 0.18);"
-          boxShadow="5px 5px 10px 0px rgba(128, 128, 128, )"
+        <motion.div
+          ref={ref}
+          style={{
+            scale: scaleProgress,
+            opacity: opacityProgress,
+          }}
         >
           <Box
             textAlign={{
@@ -110,8 +110,8 @@ const Features = () => {
               ребята с удовольствием делают каждый урок
             </Feature>
           </SimpleGrid>
-        </Box>
-      </motion.div>
+        </motion.div>
+      </Box>
     </Flex>
   );
 };

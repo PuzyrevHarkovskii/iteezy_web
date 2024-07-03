@@ -111,9 +111,17 @@ const Courses = () => {
               <FirstCard />
             </Box>
           </motion.div>
-          <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
-            <SecondCard />
-          </Box>
+          <motion.div
+            ref={ref}
+            style={{
+              scale: scaleProgress,
+              opacity: opacityProgress,
+            }}
+          >
+            <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
+              <SecondCard />
+            </Box>
+          </motion.div>
         </Flex>
         <Flex
           direction={{ base: "column", md: "row" }}
@@ -121,9 +129,18 @@ const Courses = () => {
           alignItems="center"
           mb={4}
         >
-          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <ThirdCard />
-          </Box>
+          {" "}
+          <motion.div
+            ref={ref}
+            style={{
+              scale: scaleProgress,
+              opacity: opacityProgress,
+            }}
+          >
+            <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
+              <ThirdCard />
+            </Box>
+          </motion.div>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
             <FourthCard />
           </Box>
