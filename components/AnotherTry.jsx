@@ -113,7 +113,7 @@ const AnotherTry = () => {
     showToast(toast);
   };
   return (
-    <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }} py={30}>
+    <Box py={30}>
       <Box
         id="contactus"
         shadow={"md"}

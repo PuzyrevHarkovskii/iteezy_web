@@ -146,6 +146,7 @@ const PriceList = () => {
 
               <chakra.span
                 fontSize="5xl"
+                as="u"
                 px={4}
                 fontWeight={"bold"}
                 color={"white"}
