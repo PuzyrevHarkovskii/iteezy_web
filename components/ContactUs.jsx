@@ -5,55 +5,72 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaVk } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import "./animation.css";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 const ContactUs = () => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
-    <div className="pt-4 pb-8 px-5 xl:mx-80 lg:mx-50 border-1px ">
-      <chakra.h1
-        mb={8}
-        pt={8}
-        fontSize={{
-          base: "4xl",
-          md: "5xl",
-        }}
-        fontWeight={{
-          base: "bold",
-          md: "extrabold",
-        }}
-        color="gray.900"
-        lineHeight="shorter"
-      >
-        Наши контакты
-      </chakra.h1>
-      <div className=" grid gap-4 grid-cols-1 lg:grid-cols-2  sm:grid-cols-2 ">
-        <Card
-          title="+7 (911) 403-00-90"
-          subtitle="Позвоните нам"
-          href={`tel:+79114030090`}
-          Icon={FiPhone}
-        />
-        <Card
-          id="contactus"
-          title="WhatsApp"
-          subtitle="Напишите в WhatsApp"
-          href="https://wa.me/79114030090"
-          Icon={FaWhatsapp}
-        />
+    <motion.div
+      ref={ref}
+      style={{
+        scale: scaleProgress,
+        opacity: opacityProgress,
+      }}
+    >
+      <div className="pt-4 pb-8 px-5 xl:mx-80 lg:mx-50 border-1px ">
+        <chakra.h1
+          mb={8}
+          pt={8}
+          fontSize={{
+            base: "4xl",
+            md: "5xl",
+          }}
+          fontWeight={{
+            base: "bold",
+            md: "extrabold",
+          }}
+          color="gray.900"
+          lineHeight="shorter"
+        >
+          Наши контакты
+        </chakra.h1>
+        <div className=" grid gap-4 grid-cols-1 lg:grid-cols-2  sm:grid-cols-2 ">
+          <Card
+            title="+7 (911) 403-00-90"
+            subtitle="Позвоните нам"
+            href={`tel:+79114030090`}
+            Icon={FiPhone}
+          />
+          <Card
+            id="contactus"
+            title="WhatsApp"
+            subtitle="Напишите в WhatsApp"
+            href="https://wa.me/79114030090"
+            Icon={FaWhatsapp}
+          />
 
-        <Card
-          title="Telegram"
-          subtitle="Напишите в Telegram"
-          href="https://t.me/zVoidspb"
-          Icon={FaTelegramPlane}
-        />
-        <Card
-          title="Вконтакте"
-          subtitle="Наша группа"
-          href="https://vk.com/iteezy"
-          Icon={FaVk}
-        />
+          <Card
+            title="Telegram"
+            subtitle="Напишите в Telegram"
+            href="https://t.me/zVoidspb"
+            Icon={FaTelegramPlane}
+          />
+          <Card
+            title="Вконтакте"
+            subtitle="Наша группа"
+            href="https://vk.com/iteezy"
+            Icon={FaVk}
+          />
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
