@@ -4,7 +4,7 @@ import { LayoutGrid } from "./ui/layout-grid";
 
 export function GridPhotos() {
   return (
-    <div className="h-screen py-8 w-full sm: px-2">
+    <div className="h-screen py-8 w-full sm:px-2">
       <LayoutGrid cards={cards} />
     </div>
   );

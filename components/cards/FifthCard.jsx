@@ -26,7 +26,7 @@ export function FifthCard() {
           translateZ="50"
           className="text-xl p-2 rounded-full border-[3px] border-pink-300 font-bold text-pink-300 dark:text-white"
         >
-          Gbyte 13+ WEB программирование
+          Gbyte 13+ WEB
         </CardItem>
 
         <CardItem

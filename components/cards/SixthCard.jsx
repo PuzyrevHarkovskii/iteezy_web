@@ -26,7 +26,7 @@ export function SixthCard() {
           translateZ="50"
           className="text-xl p-2 rounded-full border-[3px] border-pink-300 font-bold text-pink-300 dark:text-white"
         >
-          Gbyte 13+ WEB программирование
+          Gbyte 13+ WEB
         </CardItem>
 
         <CardItem
@@ -279,7 +279,7 @@ export function SixthCard() {
             to="contactus"
             smooth={true}
             duration={300}
-            className="px-3 py-3 mt-2 rounded-full bg-purple-600 dark:bg-white text-white text-lg font-bold"
+            className="px-3 py-3 mt-2 rounded-full bg-indigo-400 dark:bg-white text-white text-lg font-bold"
           >
             Оставить заявку
           </ScrollLink>
