@@ -49,7 +49,7 @@ const Courses = () => {
     target: ref,
     offset: ["0 1", "1.6 1"],
   });
-  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [1, 1]);
   return (
     <Flex
@@ -62,103 +62,86 @@ const Courses = () => {
       justifyContent="center"
       alignItems="center"
     >
-      <Box
-        rounded={{ xl: "35px", sm: "0", md: "35px", lg: "35px" }}
-        px={{ base: 0, sm: 50, md: 50, lg: 50 }}
-        py={25}
-        mx="auto"
-        bg="#093AA9"
+      <motion.div
+        ref={ref}
+        style={{
+          scale: scaleProgress,
+          opacity: opacityProgress,
+        }}
       >
         <Box
-          textAlign={{
-            lg: "center",
-          }}
+          rounded={{ xl: "35px", sm: "0", md: "35px", lg: "35px" }}
+          px={{ base: 0, sm: 50, md: 50, lg: 50 }}
+          py={25}
+          mx="auto"
+          bg="#093AA9"
         >
-          <chakra.p
-            mt={6}
-            mb={6}
-            fontSize={{
-              base: "4xl",
-              sm: "5xl",
-            }}
-            fontFamily={rubik_mono}
-            lineHeight="10"
-            textAlign={"center"}
-            fontWeight="extrabold"
-            letterSpacing="tight"
-            _light={{
-              color: "white",
+          <Box
+            textAlign={{
+              lg: "center",
             }}
           >
-            Наши программы
-          </chakra.p>
-        </Box>
+            <chakra.p
+              mt={6}
+              mb={6}
+              fontSize={{
+                base: "4xl",
+                sm: "5xl",
+              }}
+              fontFamily={rubik_mono}
+              lineHeight="10"
+              textAlign={"center"}
+              fontWeight="extrabold"
+              letterSpacing="tight"
+              _light={{
+                color: "white",
+              }}
+            >
+              Наши программы
+            </chakra.p>
+          </Box>
 
-        <Flex
-          direction={{ base: "column", md: "row" }}
-          justifyContent="space-between"
-          alignItems="center"
-          mb={4}
-        >
-          <motion.div
-            ref={ref}
-            style={{
-              scale: scaleProgress,
-              opacity: opacityProgress,
-            }}
+          <Flex
+            direction={{ base: "column", md: "row" }}
+            justifyContent="space-between"
+            alignItems="center"
+            mb={4}
           >
             <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
               <FirstCard />
             </Box>
-          </motion.div>
-          <motion.div
-            ref={ref}
-            style={{
-              scale: scaleProgress,
-              opacity: opacityProgress,
-            }}
-          >
             <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
               <SecondCard />
             </Box>
-          </motion.div>
-        </Flex>
-        <Flex
-          direction={{ base: "column", md: "row" }}
-          justifyContent="space-between"
-          alignItems="center"
-          mb={4}
-        >
-          {" "}
-          <motion.div
-            ref={ref}
-            style={{
-              scale: scaleProgress,
-              opacity: opacityProgress,
-            }}
+          </Flex>
+          <Flex
+            direction={{ base: "column", md: "row" }}
+            justifyContent="space-between"
+            alignItems="center"
+            mb={4}
           >
             <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
               <ThirdCard />
             </Box>
-          </motion.div>
-          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <FourthCard />
-          </Box>
-        </Flex>
-        <Flex
-          direction={{ base: "column", md: "row" }}
-          justifyContent="space-between"
-          alignItems="center"
-          mb={4}
-        >
-          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <FifthCard />
-          </Box>
-          <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <SixthCard />
-          </Box>
-        </Flex>
-      </Box>
+            <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
+              <FourthCard />
+            </Box>
+          </Flex>
+          <Flex
+            direction={{ base: "column", md: "row" }}
+            justifyContent="space-between"
+            alignItems="center"
+            mb={4}
+          >
+            <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
+              <FifthCard />
+            </Box>
+            <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
+              <SixthCard />
+            </Box>
+          </Flex>
+        </Box>
+      </motion.div>
     </Flex>
   );
 };
