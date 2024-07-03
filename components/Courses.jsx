@@ -6,13 +6,10 @@ import { ThirdCard } from "./cards/ThirdCard";
 import { FourthCard } from "./cards/FourthCard";
 import { FifthCard } from "./cards/FifthCard";
 import { SixthCard } from "./cards/SixthCard";
-import { FirstButton } from "@/components/cards/card buttons/FirstButton";
-import { SecondButton } from "@/components/cards/card buttons/SecondButton";
-import { ThirdButton } from "@/components/cards/card buttons/ThirdButton";
-import { FourthButton } from "@/components/cards/card buttons/FourthButton";
-import { FifthButton } from "@/components/cards/card buttons/FifthButton";
-import { SixthButton } from "@/components/cards/card buttons/SixthButton";
+
 import { Rubik_Mono_One } from "next/font/google";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 const rubik_mono = Rubik_Mono_One({ subsets: ["cyrillic"], weight: ["400"] });
 const Feature = (props) => {
   return (

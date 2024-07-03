@@ -8,14 +8,6 @@
   --background-end-rgb: #1d1d1d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -24,20 +16,4 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-@font-face {
-  font-family: "GraphikLCG";
-  src: url("/public/fonts/GraphikLCG-SemiboldItalic.woff") format("woff");
-  src: url("/public/fonts/GraphikLCG-SemiboldItalic.woff2") format("woff2");
-}
-
-body {
-  font-family: "MyCustomFont", sans-serif;
-}
-
-.container {
-  max-width: 1200px; /* Установите желаемую ширину контейнера */
-  margin: 0 auto;
-  padding: 0 20px; /* Установите желаемые отступы от краев */
 }
