@@ -51,7 +51,7 @@ const PriceList = () => {
               lg: 2.3 / 7,
             }}
             rounded="35px"
-            bg="#093aa9"
+            bg="#818CF8"
             my={6}
             direction="column"
             className="shadow-md hover:shadow-lg hover:translate-x-2 hover:scale-105 transition-all duration-300"
@@ -122,7 +122,7 @@ const PriceList = () => {
               lg: 2.4 / 7,
             }}
             rounded="35px"
-            bg="#093aa9"
+            bg="#698CF8"
             mt={{
               base: 4,
               sm: -4,
@@ -198,7 +198,7 @@ const PriceList = () => {
               lg: 2.3 / 7,
             }}
             roundedTop="35px"
-            bg="#093aa9"
+            bg="#818CF8"
             _dark={{
               bg: "gray.700",
             }}
