@@ -20,7 +20,7 @@ export function GridPhotos() {
         opacity: opacityProgress,
       }}
     >
-      <div className="h-screen py-12 w-full sm:px-2">
+      <div className="h-screen w-full sm:px-2">
         <LayoutGrid cards={cards} />
       </div>
     </motion.div>
