@@ -138,7 +138,7 @@ const PriceList = () => {
                 lg: 2.4 / 7,
               }}
               rounded="35px"
-              bg="#198CF8"
+              bg="cyan.800"
               mt={{
                 base: 4,
                 sm: -4,
