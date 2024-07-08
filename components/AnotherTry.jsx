@@ -128,7 +128,6 @@ const AnotherTry = () => {
       ref={ref}
       style={{
         scale: scaleProgress,
-        opacity: opacityProgress,
       }}
     >
       <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }}>

@@ -49,7 +49,7 @@ const Courses = () => {
     target: ref,
     offset: ["0 1", "1.6 1"],
   });
-  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [1, 1]);
   return (
     <Flex
@@ -101,12 +101,22 @@ const Courses = () => {
           mb={4}
         >
           <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
-            <FirstCard />
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: opacityProgress,
+              }}
+            >
+              {" "}
+              <FirstCard />
+            </motion.div>
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
             <SecondCard />
           </Box>
         </Flex>
+
         <Flex
           direction={{ base: "column", md: "row" }}
           justifyContent="space-between"
