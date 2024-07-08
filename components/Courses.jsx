@@ -132,28 +132,12 @@ const Courses = () => {
           mb={4}
         >
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <motion.div
-              ref={ref}
-              style={{
-                scale: scaleProgress,
-                opacity: opacityProgress,
-              }}
-            >
-              {" "}
-              <ThirdCard />{" "}
-            </motion.div>
+            {" "}
+            <ThirdCard />{" "}
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <motion.div
-              ref={ref}
-              style={{
-                scale: scaleProgress,
-                opacity: opacityProgress,
-              }}
-            >
-              {" "}
-              <FourthCard />
-            </motion.div>
+            {" "}
+            <FourthCard />
           </Box>
         </Flex>
         <Flex
@@ -163,28 +147,12 @@ const Courses = () => {
           mb={4}
         >
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <motion.div
-              ref={ref}
-              style={{
-                scale: scaleProgress,
-                opacity: opacityProgress,
-              }}
-            >
-              {" "}
-              <FifthCard />{" "}
-            </motion.div>
+            {" "}
+            <FifthCard />{" "}
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <motion.div
-              ref={ref}
-              style={{
-                scale: scaleProgress,
-                opacity: opacityProgress,
-              }}
-            >
-              {" "}
-              <SixthCard />{" "}
-            </motion.div>
+            {" "}
+            <SixthCard />{" "}
           </Box>
         </Flex>
       </Box>
