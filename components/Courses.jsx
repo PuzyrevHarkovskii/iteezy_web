@@ -113,7 +113,15 @@ const Courses = () => {
             </motion.div>
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 4, md: 0 }}>
-            <SecondCard />
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: opacityProgress,
+              }}
+            >
+              <SecondCard />
+            </motion.div>
           </Box>
         </Flex>
 
@@ -124,10 +132,28 @@ const Courses = () => {
           mb={4}
         >
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <ThirdCard />
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: opacityProgress,
+              }}
+            >
+              {" "}
+              <ThirdCard />{" "}
+            </motion.div>
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <FourthCard />
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: opacityProgress,
+              }}
+            >
+              {" "}
+              <FourthCard />
+            </motion.div>
           </Box>
         </Flex>
         <Flex
@@ -137,10 +163,28 @@ const Courses = () => {
           mb={4}
         >
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <FifthCard />
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: opacityProgress,
+              }}
+            >
+              {" "}
+              <FifthCard />{" "}
+            </motion.div>
           </Box>
           <Box textAlign="center" mx={2} my={{ base: 3, md: 0 }}>
-            <SixthCard />
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: opacityProgress,
+              }}
+            >
+              {" "}
+              <SixthCard />{" "}
+            </motion.div>
           </Box>
         </Flex>
       </Box>
