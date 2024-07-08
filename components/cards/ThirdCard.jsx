@@ -52,7 +52,7 @@ export function ThirdCard() {
             color={"gray.500"}
             onClick={onOpen}
             translateZ={20}
-            className="px-4 mt-4 py-4 text-lg font-normal "
+            className="px-4 mt-4 py-4 hover:text-pink-500 duration-300 ease-in-out text-lg font-normal "
           >
             Подробнее
           </Text>
@@ -372,7 +372,7 @@ export function ThirdCard() {
             to="contactus"
             smooth={true}
             duration={300}
-            className="px-3 py-3 mt-2 rounded-full bg-yellow-500 dark:bg-white text-white text-lg font-bold"
+            className="px-3 py-3 mt-2 duration-300 active:bg-yellow-600 hover:bg-gray-300 ease-in-out rounded-full bg-yellow-500 dark:bg-white text-white text-lg font-bold"
           >
             Оставить заявку
           </ScrollLink>

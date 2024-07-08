@@ -53,7 +53,7 @@ export function FifthCard() {
             color={"gray.500"}
             onClick={onOpen}
             translateZ={20}
-            className="px-4 mt-4 py-4 text-lg font-normal "
+            className="px-4 mt-4 py-4 duration-300 ease-in-out hover:text-pink-500 text-lg font-normal "
           >
             Подробнее
           </Text>
@@ -279,7 +279,7 @@ export function FifthCard() {
             to="contactus"
             smooth={true}
             duration={300}
-            className="px-3 py-3 mt-2 rounded-full bg-green-600 dark:bg-white text-white text-lg font-bold"
+            className="px-3 py-3 mt-2 hover:bg-gray-300 ease-in-out duration-300 active:bg-green-700 rounded-full bg-green-600 dark:bg-white text-white text-lg font-bold"
           >
             Оставить заявку
           </ScrollLink>
