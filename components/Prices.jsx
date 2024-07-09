@@ -60,7 +60,7 @@ const PriceList = () => {
               lg: 2.3 / 7,
             }}
             rounded="35px"
-            bg="#193CF9"
+            bg="#093AA9"
             my={6}
             direction="column"
             className="shadow-md hover:shadow-lg hover:translate-x-2 hover:scale-105 transition-all duration-300"
@@ -130,7 +130,7 @@ const PriceList = () => {
               lg: 2.4 / 7,
             }}
             rounded="35px"
-            bg="blue.800"
+            bg="#093AA9"
             mt={{
               base: 4,
               sm: -4,
@@ -205,7 +205,7 @@ const PriceList = () => {
               lg: 2.3 / 7,
             }}
             roundedTop="35px"
-            bg="#115CF2"
+            bg="#093AA9"
             _dark={{
               bg: "gray.700",
             }}
@@ -245,9 +245,6 @@ const PriceList = () => {
               spacing={8}
               h="full"
               bg="gray.50"
-              _dark={{
-                bg: "gray.800",
-              }}
               borderBottomLeftRadius="35px"
               borderBottomRightRadius="35px"
               p={12}
