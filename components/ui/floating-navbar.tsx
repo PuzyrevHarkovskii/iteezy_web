@@ -74,7 +74,7 @@ export const FloatingNav = ({
           </Link>
         ))}
         <ScrollLink
-          className="border hover:cursor-pointer to='contactus'  text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
+          className="border hover:cursor-pointer to='contactus'  text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hover:border-blue-500 hover:text-blue-500 transition duration-300 ease-in-out"
           to="contactus"
           smooth={true}
           duration={100}
