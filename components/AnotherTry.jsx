@@ -32,13 +32,7 @@ import {
 import { useState } from "react";
 
 const Feature = (props) => (
-  <Flex
-    alignItems="center"
-    color={null}
-    _dark={{
-      color: "white",
-    }}
-  >
+  <Flex alignItems="center" color={null}>
     <Icon
       boxSize={4}
       mr={1}
@@ -130,9 +124,8 @@ const AnotherTry = () => {
         scale: scaleProgress,
       }}
     >
-      <Box px={{ base: 0, sm: 50, md: 50, lg: 50 }}>
+      <Box id="contactus" px={{ base: 0, sm: 50, md: 50, lg: 50 }}>
         <Box
-          id="contactus"
           shadow={"md"}
           rounded={{ base: "0", md: "35px", lg: "35px" }}
           bgColor={"#F7FAFC"}

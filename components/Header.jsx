@@ -13,7 +13,7 @@ import { VisuallyHidden, VisuallyHiddenInput, Box } from "@chakra-ui/react";
 import Link from "next/link"; // Импортируем Link из Next.js
 import React from "react";
 import logo from "@/public/images/header_logo.png";
-import { FaWhatsapp, MdCall } from "react-icons/md";
+import { MdCall } from "react-icons/md";
 import "./animation.css";
 
 //Доделать
@@ -33,14 +33,13 @@ const Header = () => {
             base: 2,
             sm: 4,
           }}
-          py={2}
+          py={4}
           shadow="0px 1px 0px rgba(0, 0, 0, 0.2)"
         >
           <Flex alignItems="center" justifyContent="space-between" mx="auto">
             <Flex>
               <Link href="/" passHref>
                 {" "}
-                {/* Заменяем a на Link из Next.js */}
                 <chakra.a
                   title="Home page"
                   display="flex"
@@ -50,7 +49,7 @@ const Header = () => {
               <Flex alignItems="center">
                 <Image
                   h="auto"
-                  w="2.5em"
+                  w="3em"
                   src="/images/header_logo3.png"
                   className="animate-float"
                 />

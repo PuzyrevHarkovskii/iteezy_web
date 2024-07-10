@@ -20,7 +20,6 @@ const HeroSection = () => {
         </p>
         <ScrollLink
           className="animate-bounce font-bold text-center text-xl  px-6 py-4 focus:animate-none transition-all w-fit hover:animate-none inline-flex shadow-xl hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] bg-yellow-500 mt-3 rounded-full tracking-wide text-white"
-          // rounded-xl xl:text-xl text-xl sm:text-xl px-6 py-4 bg-yellow-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] font-bold
           to="contactus"
           smooth={true}
           duration={300}
