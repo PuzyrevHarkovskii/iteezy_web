@@ -67,10 +67,10 @@ const Features = () => {
             }}
           >
             <chakra.p
-              my={0}
+              pb={3}
               fontSize={{
-                base: "3xl",
-                sm: "4xl",
+                base: "4xl",
+                sm: "5xl",
               }}
               lineHeight="8"
               fontWeight="extrabold"
@@ -93,7 +93,7 @@ const Features = () => {
               base: 16,
               lg: 15,
             }}
-            spacingY={10}
+            spacingY={14}
             mt={10}
           >
             <Feature title="🧠 Научись новому">

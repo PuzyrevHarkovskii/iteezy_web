@@ -255,10 +255,7 @@ const PriceList = () => {
                 direction="column"
                 alignItems="start"
               >
-                <Feature>
-                  Если ребенку понравилось на пробном занятии и он будет дальше
-                  учиться, то данное занятие для вас БЕСПЛАТНО.
-                </Feature>
+                <Feature>Бесплатно если ребенок продолжит заниматься.</Feature>
               </VStack>
             </VStack>
           </Flex>
