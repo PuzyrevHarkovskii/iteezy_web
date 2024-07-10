@@ -23,7 +23,7 @@ const HeroSection = () => {
           to="contactus"
           smooth={true}
           duration={300}
-          offset={-110}
+          offset={-100}
         >
           Записаться на пробный урок
         </ScrollLink>
