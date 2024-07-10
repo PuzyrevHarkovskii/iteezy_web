@@ -8,7 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import {Link as ScrollLink} from "react-scroll/modules"
+import { Link as ScrollLink } from "react-scroll/modules";
 
 export const FloatingNav = ({
   navItems,
@@ -74,15 +74,15 @@ export const FloatingNav = ({
           </Link>
         ))}
         <ScrollLink
-  className="border hover:cursor-pointer to='contactus' text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
-  to="contactus"
-  smooth={true}
-  duration={100}
-  
->
-  <span>Оставить заявку</span>
-  <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-</ScrollLink>
+          className="border hover:cursor-pointer to='contactus'  text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
+          to="contactus"
+          smooth={true}
+          duration={100}
+          offset={-100}
+        >
+          <span>Оставить заявку</span>
+          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
+        </ScrollLink>
       </motion.div>
     </AnimatePresence>
   );
