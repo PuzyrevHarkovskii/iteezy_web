@@ -49,7 +49,7 @@ export function FirstCard() {
             color={"gray.500"}
             onClick={onOpen}
             translateZ={20}
-            className="px-4 hover:text-pink-500 duration-300 ease-in-out mt-4 py-4 text-lg font-normal "
+            className="px-4 cursor-pointer hover:text-pink-500 duration-300 ease-in-out mt-4 py-4 text-lg font-normal "
           >
             Подробнее
           </Text>
@@ -92,7 +92,7 @@ export function FirstCard() {
             to="contactus"
             smooth={true}
             duration={300}
-            className="px-3 py-3 mt-2 duration-300 ease-in-out rounded-full bg-pink-400 dark:bg-white text-white text-lg active:bg-pink-600 hover:bg-gray-300  font-bold"
+            className="px-3 cursor-pointer py-3 mt-2 duration-300 ease-in-out rounded-full bg-pink-400 dark:bg-white text-white text-lg active:bg-pink-600 hover:bg-gray-300  font-bold"
           >
             Оставить заявку
           </ScrollLink>
