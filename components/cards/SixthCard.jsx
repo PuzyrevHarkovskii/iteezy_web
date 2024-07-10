@@ -5,7 +5,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/cards/3d-card";
 import Link from "next/link";
-import { FirstButton } from "@/components/cards/card buttons/FirstButton";
+
 import { Link as ScrollLink } from "react-scroll";
 import {
   Modal,
