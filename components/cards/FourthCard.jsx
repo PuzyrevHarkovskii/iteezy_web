@@ -26,7 +26,7 @@ export function FourthCard() {
           translateZ="50"
           className="text-xl p-2 rounded-full border-[3px] border-pink-300 font-bold text-pink-300 dark:text-white"
         >
-          Mbyte 10-11 лет
+          Mbyte 10-12 лет
         </CardItem>
 
         <CardItem
