@@ -1,5 +1,13 @@
 "use client";
-import { useDisclosure, Button, Box, Heading, Text } from "@chakra-ui/react";
+import {
+  useDisclosure,
+  Button,
+  Box,
+  Heading,
+  Text,
+  UnorderedList,
+  ListItem,
+} from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
@@ -67,10 +75,46 @@ export function SecondCard() {
               <ModalCloseButton />
               <ModalBody>
                 <Box p={5} color="gray.600">
-                  <Heading as="h1" size="lg" mb={4}>
-                    Подробная информация про курс
+                  <Heading as="h2" size="lg" mb={4}>
+                    Курс для детей 6-8 лет
                   </Heading>
-                  <Text mb={2}>Текст</Text>
+                  <Text mb={4}>
+                    Это увлекательное путешествие в мир программирования и
+                    компьютерных технологий. На этом этапе ребята познакомятся с
+                    новыми программами и расширят свои навыки.
+                  </Text>
+                  <Text mb={4}>На курсе дети будут:</Text>
+                  <UnorderedList mb={4} spacing={2}>
+                    <ListItem>
+                      Создавать персонажей и мультфильмы в{" "}
+                      <strong>ScratchJr</strong>, развивая навыки анимации и
+                      творчества;
+                    </ListItem>
+                    <ListItem>
+                      Работать в <strong>KODU</strong>, где они создадут игру с
+                      перемещением камеры и научатся взаимодействию объектов в
+                      виртуальном мире;
+                    </ListItem>
+                    <ListItem>
+                      Осваивать плавную анимацию в{" "}
+                      <strong>PIVOT ANIMATOR</strong>, добавляя звуковое
+                      сопровождение для своих проектов.
+                    </ListItem>
+                  </UnorderedList>
+                  <Text mb={4}>
+                    Также дети изучат основы компьютерной грамотности: они
+                    познакомятся с правилами безопасности в интернете и базовыми
+                    принципами работы за компьютером. После курса ребенок сможет
+                    уверенно пользоваться ноутбуком или ПК, а также искать
+                    информацию в сети.
+                  </Text>
+                  <Text>
+                    Занятия по визуальному программированию стимулируют
+                    воображение и помогают развивать логическое мышление. Ребята
+                    решают игровые задачи, рисуют и работают в команде, что
+                    помогает им не только освоить программирование, но и стать
+                    более креативными и самостоятельными.
+                  </Text>
                 </Box>
               </ModalBody>
 

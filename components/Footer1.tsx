@@ -118,7 +118,7 @@ export default function Footer1() {
           align={{ base: "center", md: "center" }}
         >
           <Text>© 2024 Iteezy</Text>
-          <Text color={"gray.500"}>made by @app1e.jews</Text>
+          <Text color={"gray.500"}>made by @app1e.jews ✡</Text>
         </Container>
       </Box>
     </Box>

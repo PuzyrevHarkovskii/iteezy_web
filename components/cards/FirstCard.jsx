@@ -1,5 +1,13 @@
 "use client";
-import { useDisclosure, Button, Box, Heading, Text } from "@chakra-ui/react";
+import {
+  useDisclosure,
+  Button,
+  Box,
+  Heading,
+  Text,
+  UnorderedList,
+  ListItem,
+} from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
@@ -67,10 +75,41 @@ export function FirstCard() {
               <ModalCloseButton />
               <ModalBody>
                 <Box p={5} color="gray.600">
-                  <Heading as="h1" size="lg" mb={4}>
-                    Подробная информация про курс
+                  <Heading as="h2" size="lg" mb={4}>
+                    Курс для детей 5-6 лет
                   </Heading>
-                  <Text mb={2}>Текст</Text>
+                  <Text mb={4}>
+                    Это идеальная стартовая площадка для малышей, которые только
+                    начинают знакомиться с программированием. Мы создаем
+                    увлекательную и доступную среду, в которой дети учатся через
+                    игру и творчество.
+                  </Text>
+                  <Text mb={4}>На курсе ребята будут:</Text>
+                  <UnorderedList mb={4} spacing={2}>
+                    <ListItem>
+                      Изучать основы анимации и программирования в{" "}
+                      <strong>Scratch Junior</strong>, создавая свои первые
+                      мультфильмы;
+                    </ListItem>
+                    <ListItem>
+                      Осваивать азы алгоритмов и логики с помощью{" "}
+                      <strong>Lightbot</strong>, решая интересные задачи;
+                    </ListItem>
+                    <ListItem>
+                      Работать с визуальной программой <strong>Пиктомир</strong>
+                      , знакомясь с базовыми принципами кода.
+                    </ListItem>
+                  </UnorderedList>
+                  <Text mb={4}>
+                    Дети учатся в небольших группах по 8 человек, что позволяет
+                    преподавателю уделять достаточно внимания каждому ученику.
+                    Это помогает лучше понять материал и закрепить полученные
+                    знания.
+                  </Text>
+                  <Text>
+                    Этот курс развивает мышление, воображение и закладывает
+                    фундамент для дальнейшего изучения программирования.
+                  </Text>
                 </Box>
               </ModalBody>
 
