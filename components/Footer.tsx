@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Box,
   chakra,
@@ -10,7 +8,6 @@ import {
   VisuallyHidden,
   Image,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { ReactNode } from "react";
 import "./animation.css";
 
@@ -92,14 +89,6 @@ export default function Footer1() {
           <Box as="a" href={"https://vk.com/iteezy"}>
             Вконтакте
           </Box>
-          {/* <Box
-            as="a"
-            href={
-              "https://spb.flamp.ru/firm/iteezy_shkola_programmirovaniya-70000001084298698"
-            }
-          >
-            Flamp
-          </Box> */}
         </Stack>
       </Container>
 
@@ -117,7 +106,7 @@ export default function Footer1() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>© 2024 Iteezy</Text>
+          <Text>© {new Date().getFullYear()} Iteezy</Text>
           <Text color={"gray.500"}>made by @app1e.jews ✡</Text>
         </Container>
       </Box>

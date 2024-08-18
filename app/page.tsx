@@ -14,8 +14,8 @@ import Questions from "@/components/FAQ";
 import PriceList from "@/components/Prices";
 import { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
-import Footer1 from "@/components/Footer1";
-import AnotherTry from "@/components/AnotherTry";
+import Footer1 from "@/components/Footer";
+import AnotherTry from "@/components/Form";
 import { GridPhotos } from "@/components/ImagesCarousel";
 
 export default function Home() {

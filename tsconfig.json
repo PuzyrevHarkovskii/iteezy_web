@@ -33,7 +33,7 @@
     "components/ui/infinite-moving-cards.jsx",
     "tailwind.config.js",
     "components/ContactForm.jsx",
-    "components/AnotherTry.jsx",
+    "components/Form.jsx",
     "components/ImagesCarousel.jsx"
   ],
   "exclude": ["node_modules"]

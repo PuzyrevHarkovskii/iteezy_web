@@ -288,8 +288,7 @@ const AnotherTry = () => {
             </Button>
           </Stack>
           <Text fontSize="sm" pb={5} color="gray.600">
-            Нажимая кнопку `&quot;`Отправить заявку`&quot;`, вы соглашаетесь с
-            нашей{" "}
+            Нажимая кнопку &quot;Отправить заявку&quot;, вы соглашаетесь с нашей{" "}
             <Link onClick={onOpen} color="pink.500">
               политикой конфиденциальности
             </Link>
