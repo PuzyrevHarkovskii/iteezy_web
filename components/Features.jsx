@@ -72,7 +72,7 @@ const Features = () => {
                 base: "4xl",
                 sm: "5xl",
               }}
-              lineHeight="8"
+              lineHeight="10"
               fontWeight="extrabold"
               letterSpacing="normal"
               _light={{

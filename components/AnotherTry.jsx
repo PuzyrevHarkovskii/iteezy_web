@@ -272,7 +272,7 @@ const AnotherTry = () => {
                 base: "auto",
                 lg: 2,
               }}
-              mb={2}
+              mb={4}
               px={10}
               size="lg"
               rounded={"full"}
@@ -287,19 +287,14 @@ const AnotherTry = () => {
               Отправить заявку
             </Button>
           </Stack>
-          <chakra.p
-            mb={4}
-            pb={6}
-            fontSize="sm"
-            color="gray.600"
-            lineHeight="base"
-          >
-            Мы заботимся о Ваших персональных данных, подробный текст политики
-            конфиденциальности доступен{" "}
-            <Link onClick={onOpen} color={"pink.500"}>
-              здесь.
+          <Text fontSize="sm" pb={5} color="gray.600">
+            Нажимая кнопку `&quot;`Отправить заявку`&quot;`, вы соглашаетесь с
+            нашей{" "}
+            <Link onClick={onOpen} color="pink.500">
+              политикой конфиденциальности
             </Link>
-          </chakra.p>
+            .
+          </Text>
 
           <Modal isOpen={isOpen} onClose={onClose}>
             <ModalOverlay />
@@ -333,7 +328,7 @@ const AnotherTry = () => {
                   <Text>
                     <b>Сайт</b> – сайт, расположенный в сети Интернет по адресу{" "}
                     <Link href="#" color="blue.500">
-                      [сайт]
+                      iteezy.ru
                     </Link>
                   </Text>
                   <Text>
@@ -391,7 +386,7 @@ const AnotherTry = () => {
                     пользователей путем размещения новой редакции Положения на
                     Сайте по постоянному адресу:{" "}
                     <Link href="#" color="blue.500">
-                      [адрес сайта]
+                      iteezy.ru
                     </Link>
                     . Предыдущие редакции Положения хранятся в архиве
                     документации Администрации Сайта.
